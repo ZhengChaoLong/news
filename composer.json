@@ -1,0 +1,50 @@
+{
+    "name": "yiisoft/yii2-cms",
+    "description": "基于 Yii 2 的高度可定制化 CMS",
+    "keywords": ["yii2", "framework", "cms", "yiichina"],
+    "homepage": "http://www.yiichina.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiichina/yii2-cms/issues?state=open",
+        "source": "https://github.com/yiichina/yii2-cms"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "~2.0.6",
+        "yiisoft/yii2-swiftmailer": "~2.0.0",
+        "yiichina/yii2-adminlte": "*",
+        "yiichina/yii2-icons": "*",
+        "yiichina/yii2-auth": "*",
+        "yiichina/yii2-comments": "*",
+        "yiichina/yii2-treegrid": "*",
+        "yiichina/yii2-ckeditor": "*",
+        "yiichina/yii2-select2": "*",
+        "yiichina/yii2-icheck": "*",
+        "yiichina/yii2-chart": "*",
+        "yiichina/yii2-switch": "*",
+        "dektrium/yii2-rbac": "1.0.0-alpha@dev"
+    },
+    "require-dev": {
+        "yiisoft/yii2-debug": "~2.0.0",
+        "yiisoft/yii2-gii": "~2.0.0",
+        "yiisoft/yii2-faker": "~2.0.0",
+        "codeception/base": "^2.2.3",
+        "codeception/verify": "~0.3.1"
+    },
+    "config": {
+        "process-timeout": 1800,
+        "fxp-asset":{
+            "installer-paths": {
+                "npm-asset-library": "vendor/npm",
+                "bower-asset-library": "vendor/bower"
+            },
+            "vcs-driver-options": {
+                "github-no-api": true
+            },
+            "pattern-skip-version": "(-build|-patch)"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+.main-header .logo { padding: 0; }
+.grid-tool { padding-bottom: 10px; }
+.grid-tool div { display: inline-block; }
+.grid-tool .summary { padding-right: 10px; line-height: 30px; }
+.pagination { margin: 0; }
+.summary { display: inline-block; }
+.btn-search.active .fa-search-plus:before { content: "\f010"; }
+.search { display: none; background: #f4f4f4; margin-bottom: 10px; padding: 10px 10px 0 10px; }
+.search .form-group { margin-bottom: 10px; }
+
+.grid-view tr td:last-child a { margin: 0 2px; }
+.icheck label { margin-right: 20px; font-weight: normal; }
+.icheck label div { margin-right: 5px; }
