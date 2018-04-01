@@ -27,7 +27,7 @@ class Adminuser extends ActiveRecord implements IdentityInterface
     public $_role;
     public static function tableName()
     {
-        return 'adminuser';
+        return 'Adminuser';
     }
 
     public function rules()
