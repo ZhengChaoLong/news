@@ -3,49 +3,34 @@
 namespace common\models;
 
 use Yii;
-use yii\behaviors\TimestampBehavior;
+use yii\helpers\Html;
 
 /**
  * This is the model class for table "post".
  *
  * @property integer $id
- * @property integer $type
- * @property integer $user_id
- * @property integer $node_id
  * @property string $title
- * @property string $summary
- * @property string $source
- * @property string $image
+ * @property string $content
+ * @property string $tags
  * @property integer $status
- * @property integer $created_at
- * @property integer $updated_at
+ * @property integer $create_time
+ * @property integer $update_time
+ * @property integer $author_id
+ *
+ * @property Comment[] $comments
+ * @property Adminuser $author
+ * @property Poststatus $status0
  */
 class Post extends \yii\db\ActiveRecord
 {
-    const STATUS_TRASH = -1;
-    const STATUS_DRAFT = 0;
-    const STATUS_PENDING = 1;
-	const STATUS_PUBLISHED = 2;
-    const STATUS_FEATURED = 3;
-
-    public $tags;
-
+	private $_oldTags;
+	
     /**
      * @inheritdoc
      */
     public static function tableName()
     {
-        return '{{%post}}';
-    }
-
-    /**
-     * @inheritdoc
-     */
-    public function behaviors()
-    {
-        return [
-            TimestampBehavior::className(),
-        ];
+        return 'post';
     }
 
     /**
@@ -54,13 +39,12 @@ class Post extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['title', 'node_id'], 'required'],
-            [['title', 'source'], 'string', 'max' => 255],
-            ['title', 'checkWords'],
-            ['summary', 'string', 'max' => 1024],
-            ['title', 'unique', 'targetClass' => '\common\models\Post'],
-            [['type', 'node_id', 'status'], 'integer'],
-            [['summary', 'source', 'image', 'tags'], 'safe'],
+            [['title', 'content', 'status', 'author_id'], 'required'],
+            [['content', 'tags'], 'string'],
+            [['status', 'create_time', 'update_time', 'author_id'], 'integer'],
+            [['title'], 'string', 'max' => 128],
+            [['author_id'], 'exist', 'skipOnError' => true, 'targetClass' => Adminuser::className(), 'targetAttribute' => ['author_id' => 'id']],
+            [['status'], 'exist', 'skipOnError' => true, 'targetClass' => Poststatus::className(), 'targetAttribute' => ['status' => 'id']],
         ];
     }
 
@@ -71,59 +55,133 @@ class Post extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'type' => Yii::t('app', 'Type'),
-            'user_id' => Yii::t('app', 'User ID'),
-            'node_id' => Yii::t('app', 'Node ID'),
-            'title' => Yii::t('app', 'Title'),
-            'summary' => Yii::t('app', 'Summary'),
-            'source' => Yii::t('app', 'Source'),
-            'image' => Yii::t('app', 'Image'),
-            'status' => Yii::t('app', 'Status'),
-            'tags' => Yii::t('app', 'Tags'),
-            'created_at' => Yii::t('app', 'Created At'),
-            'updated_at' => Yii::t('app', 'Updated At'),
+            'title' => '标题',
+            'content' => '内容',
+            'tags' => '标签',
+            'status' => '状态',
+            'create_time' => '创建时间',
+            'update_time' => '修改时间',
+            'author_id' => '作者',
         ];
     }
 
-    public function checkWords()
-    {}
-
-    public function getArticle()
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getComments()
     {
-        return $this->hasOne(Article::className(), ['post_id' => 'id']);
+        return $this->hasMany(Comment::className(), ['post_id' => 'id']);
     }
 
-    public function getPicture()
+    public function getActiveComments()
     {
-        return $this->hasMany(Picture::className(), ['post_id' => 'id']);
+    	return $this->hasMany(Comment::className(), ['post_id' => 'id'])
+    	->where('status=:status',[':status'=>2])->orderBy('id DESC');
     }
-
-    public function getVideo()
+    
+    /**
+     * @return \yii\db\ActiveQuery
+     */
+    public function getAuthor()
     {
-        return $this->hasOne(Video::className(), ['post_id' => 'id']);
-    }
-    public function getUser()
-    {
-        return $this->hasOne(User::className(), ['id' => 'user_id']);
-    }
-
-    public function getNode()
-    {
-        return $this->hasOne(Node::className(), ['id' => 'node_id']);
+        return $this->hasOne(Adminuser::className(), ['id' => 'author_id']);
     }
 
     /**
-     * @inheritdoc
+     * @return \yii\db\ActiveQuery
      */
+    public function getStatus0()
+    {
+        return $this->hasOne(Poststatus::className(), ['id' => 'status']);
+    }
+    
     public function beforeSave($insert)
     {
-        if(parent::beforeSave($insert)) {
-            if($insert) {
-                $this->user_id = Yii::$app->user->id;
-            }
-            return true;
-        } else {
-            return false;
-        }
+    	if(parent::beforeSave($insert))
+    	{
+    		if($insert)
+    		{
+    			$this->create_time = time();
+    			$this->update_time = time();
+    		}
+    		else 
+    		{
+    			$this->update_time = time();
+    		}
+    		
+    		return true;
+    			
+    	}
+    	else 
+    	{
+    		return false;
+    	}
+    } 
+    
+    public function afterFind()
+    {
+    	parent::afterFind();
+    	$this->_oldTags = $this->tags;
     }
+    
+    public function afterSave($insert, $changedAttributes)
+    {
+    	parent::afterSave($insert, $changedAttributes);
+    	Tag::updateFrequency($this->_oldTags, $this->tags);
+    }
+    
+    public function afterDelete()
+    {
+    	parent::afterDelete();
+    	Tag::updateFrequency($this->tags, '');
+    }
+    
+    public function getUrl()
+    {
+    	return Yii::$app->urlManager->createUrl(
+    			['post/detail','id'=>$this->id,'title'=>$this->title]);
+    }
+    
+    public function getBeginning($length=288)
+    {
+    	$tmpStr = strip_tags($this->content);
+    	$tmpLen = mb_strlen($tmpStr);
+    	 
+    	$tmpStr = mb_substr($tmpStr,0,$length,'utf-8');
+    	return $tmpStr.($tmpLen>$length?'...':'');
+    }
+    
+    public function  getTagLinks()
+    {
+    	$links=array();
+    	foreach(Tag::string2array($this->tags) as $tag)
+    	{
+    		$links[]=Html::a(Html::encode($tag),array('post/index','PostSearch[tags]'=>$tag));
+    	}
+    	return $links;
+    }
+
+    public function getCommentCount()
+    {
+    	return Comment::find()->where(['post_id'=>$this->id,'status'=>2])->count();
+    }
+    
+    
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }

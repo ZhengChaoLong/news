@@ -1,65 +1,63 @@
 <?php
 
 use yii\helpers\Html;
-use backend\widgets\GridView;
-use yii\widgets\Pjax;
-use yiichina\adminlte\Box;
-use yiichina\icons\Icon;
+use yii\grid\GridView;
+use common\models\Poststatus;
+
+
 /* @var $this yii\web\View */
 /* @var $searchModel common\models\PostSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$mainTitle = '内容管理';
-$subTitle = '内容列表';
-$this->title = $subTitle . ' - ' . $mainTitle . ' - ' . Yii::$app->name;
-$breadcrumbs[] = ['label' => $mainTitle, 'url' => ['index']];
-$breadcrumbs[] = $subTitle;
-$this->params = array_merge($this->params, compact('mainTitle', 'subTitle', 'breadcrumbs'));
+$this->title = '文章管理';
+$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="post-index">
-    <?php Box::begin([
-        'options' => ['class' => 'box-primary'],
-        'title' => $subTitle,
-        'tools' => Html::a(Icon::show('search-plus', 'fa') . '高级搜索', 'javascript:void(0);', ['class' => 'btn btn-sm btn-flat btn-primary btn-search']),
-    ]); ?>
 
-    <?php Pjax::begin(); ?>
-    <div class="search">
-        <?php echo $this->render('_search', ['model' => $searchModel]); ?>
-    </div>
+    <h1><?= Html::encode($this->title) ?></h1>
+    <?php  //echo $this->render('_search', ['model' => $searchModel]); ?>
+
+    <p>
+        <?= Html::a('创建文章', ['create'], ['class' => 'btn btn-success']) ?>
+    </p>
+   
+   <?php //$searchModel = new common\models\Tag();?>
 
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
-        'batchItems' => [
-            ['label' => '禁用', 'url' => ['disable']],
-            ['label' => '启用', 'url' => ['enable']],
-        ],
-        'button' => Html::a(Icon::show('plus', 'fa') . '新建文章', ['create', 'node_id' => $node_id], ['class' => 'btn btn-sm btn-flat btn-success']),
+        'filterModel' => $searchModel,
         'columns' => [
-            [
-                'class' => 'yii\grid\CheckboxColumn',
-                'options' => ['width' => 40],
-            ],
-            [
-                'attribute' => 'id',
-                'options' => ['width' => 60],
+           // ['class' => 'yii\grid\SerialColumn'],
+
+            //'id',
+            ['attribute'=>'id',
+            'contentOptions'=>['width'=>'30px'],
             ],
             'title',
-            [
-                'attribute' => 'user_id',
-                'options' => ['width' => 100],
-            ],
-            [
-                'attribute' => 'status',
-                'options' => ['width' => 100],
-            ],
-            [
-                'class' => 'yii\grid\ActionColumn',
-                'header' => '操作',
-                'options' => ['width' => 80],
-            ],
+        	//'author_id',
+        	['attribute'=>'authorName',
+        	'label'=>'作者',
+        	'value'=>'author.nickname',
+    		],
+           // 'content:ntext',
+            'tags:ntext',
+            //'status',
+            ['attribute'=>'status',
+            'value'=>'status0.name',
+            'filter'=>Poststatus::find()
+            		->select(['name','id'])
+            		->orderBy('position')
+            		->indexBy('id')
+            		->column(),
+   			 ],
+            // 'create_time:datetime',
+             //'update_time:datetime',
+             ['attribute'=>'update_time',
+             'format'=>['date','php:Y-m-d H:i:s'],
+        	],
+             
+
+            ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
-    <?php Pjax::end(); ?>
-    <?php Box::end(); ?>
 </div>

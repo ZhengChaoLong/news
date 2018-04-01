@@ -1,0 +1,206 @@
+2017-06-11 01:27:30 [-][-][-][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'createPost' for key 'PRIMARY' in E:\MyProject\yii_blog\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 E:\MyProject\yii_blog\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 E:\MyProject\yii_blog\vendor\yiisoft\yii2\rbac\DbManager.php(273): yii\db\Command->execute()
+#2 E:\MyProject\yii_blog\vendor\yiisoft\yii2\rbac\BaseManager.php(123): yii\rbac\DbManager->addItem(Object(yii\rbac\Permission))
+#3 E:\MyProject\yii_blog\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(yii\rbac\Permission))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 E:\MyProject\yii_blog\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('init', Array)
+#8 E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 E:\MyProject\yii_blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('rbac/init', Array)
+#10 E:\MyProject\yii_blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 E:\MyProject\yii_blog\yii(27): yii\base\Application->run()
+#13 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'createPost' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('createPost', 2, 'æ–°å¢žæ–‡ç« ', NULL, NULL, 1497144449, 1497144449) in E:\MyProject\yii_blog\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 E:\MyProject\yii_blog\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `au...')
+#1 E:\MyProject\yii_blog\vendor\yiisoft\yii2\rbac\DbManager.php(273): yii\db\Command->execute()
+#2 E:\MyProject\yii_blog\vendor\yiisoft\yii2\rbac\BaseManager.php(123): yii\rbac\DbManager->addItem(Object(yii\rbac\Permission))
+#3 E:\MyProject\yii_blog\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(yii\rbac\Permission))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 E:\MyProject\yii_blog\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('init', Array)
+#8 E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 E:\MyProject\yii_blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('rbac/init', Array)
+#10 E:\MyProject\yii_blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 E:\MyProject\yii_blog\yii(27): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'createPost' for key 'PRIMARY'
+)
+
+2017-06-11 01:27:29 [-][-][-][info][application] $_SERVER = [
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-3U34KBO'
+    'LOCALAPPDATA' => 'C:\\Users\\bluce³¬Áú\\AppData\\Local'
+    'PROCESSOR_LEVEL' => '6'
+    'oracle_home' => 'D:\\app\\Administrator\\product\\12.1.0\\dbhome_1\\bin'
+    'PT5HOME' => 'E:\\Cisco Packet Tracer 6.0'
+    'USERDOMAIN' => 'DESKTOP-3U34KBO'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'LOGONSERVER' => '\\\\DESKTOP-3U34KBO'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\;D:\\VisualSVN Server\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'OneDrive' => 'C:\\Users\\bluce³¬Áú\\OneDrive'
+    'APPDATA' => 'C:\\Users\\bluce³¬Áú\\AppData\\Roaming'
+    'PHP_HOME' => 'E:\\PHP5.6'
+    'USERNAME' => 'Zhengchaolong'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'D:\\VisualSVN Server\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\app\\Administrator\\product\\12.1.0\\dbhome_1\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\VisualSVN Server\\bin;D:\\TortoiseSVN\\bin;E:\\PHP5.6;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\nodejs_install\\nodejs\\;D:\\nodejs_install\\nodejs\\node_modules;E:\\phpStudy\\php55n;E:\\phpStudy\\php70n;E:\\phpStudy\\MySQL\\bin;C:\\Users\\bluce³¬Áú\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\bluce³¬Áú\\AppData\\Roaming\\npm;C:\\Users\\bluce³¬Áú\\AppData\\Local\\Microsoft\\WindowsApps;D:\\app\\Administrator\\product\\12.1.0\\dbhome_1\\bin'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'http_proxy' => 'localhost'
+    'no_proxy' => '*'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'COMPUTERNAME' => 'DESKTOP-3U34KBO'
+    'PROCESSOR_REVISION' => '3d04'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\bluce³¬Áú'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\BLUCE~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 61 Stepping 4, GenuineIntel'
+    'PT6HOME' => 'E:\\Cisco Packet Tracer 6.0'
+    'USERPROFILE' => 'C:\\Users\\bluce³¬Áú'
+    'TMP' => 'C:\\Users\\BLUCE~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497144449.7234
+    'REQUEST_TIME' => 1497144449
+    'argv' => [
+        0 => 'yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]
+2017-06-11 01:35:46 [-][-][-][error][yii\db\IntegrityException] PDOException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'createPost' for key 'PRIMARY' in E:\MyProject\yii_blog\vendor\yiisoft\yii2\db\Command.php:844
+Stack trace:
+#0 E:\MyProject\yii_blog\vendor\yiisoft\yii2\db\Command.php(844): PDOStatement->execute()
+#1 E:\MyProject\yii_blog\vendor\yiisoft\yii2\rbac\DbManager.php(273): yii\db\Command->execute()
+#2 E:\MyProject\yii_blog\vendor\yiisoft\yii2\rbac\BaseManager.php(123): yii\rbac\DbManager->addItem(Object(yii\rbac\Permission))
+#3 E:\MyProject\yii_blog\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(yii\rbac\Permission))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 E:\MyProject\yii_blog\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('init', Array)
+#8 E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 E:\MyProject\yii_blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('rbac/init', Array)
+#10 E:\MyProject\yii_blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 E:\MyProject\yii_blog\yii(27): yii\base\Application->run()
+#13 {main}
+
+Next yii\db\IntegrityException: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'createPost' for key 'PRIMARY'
+The SQL being executed was: INSERT INTO `auth_item` (`name`, `type`, `description`, `rule_name`, `data`, `created_at`, `updated_at`) VALUES ('createPost', 2, 'æ–°å¢žæ–‡ç« ', NULL, NULL, 1497144945, 1497144945) in E:\MyProject\yii_blog\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 E:\MyProject\yii_blog\vendor\yiisoft\yii2\db\Command.php(854): yii\db\Schema->convertException(Object(PDOException), 'INSERT INTO `au...')
+#1 E:\MyProject\yii_blog\vendor\yiisoft\yii2\rbac\DbManager.php(273): yii\db\Command->execute()
+#2 E:\MyProject\yii_blog\vendor\yiisoft\yii2\rbac\BaseManager.php(123): yii\rbac\DbManager->addItem(Object(yii\rbac\Permission))
+#3 E:\MyProject\yii_blog\console\controllers\RbacController.php(16): yii\rbac\BaseManager->add(Object(yii\rbac\Permission))
+#4 [internal function]: console\controllers\RbacController->actionInit()
+#5 E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#6 E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#7 E:\MyProject\yii_blog\vendor\yiisoft\yii2\console\Controller.php(119): yii\base\Controller->runAction('init', Array)
+#8 E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\Module.php(454): yii\console\Controller->runAction('init', Array)
+#9 E:\MyProject\yii_blog\vendor\yiisoft\yii2\console\Application.php(176): yii\base\Module->runAction('rbac/init', Array)
+#10 E:\MyProject\yii_blog\vendor\yiisoft\yii2\console\Application.php(143): yii\console\Application->runAction('rbac/init', Array)
+#11 E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\Application.php(375): yii\console\Application->handleRequest(Object(yii\console\Request))
+#12 E:\MyProject\yii_blog\yii(27): yii\base\Application->run()
+#13 {main}
+Additional Information:
+Array
+(
+    [0] => 23000
+    [1] => 1062
+    [2] => Duplicate entry 'createPost' for key 'PRIMARY'
+)
+
+2017-06-11 01:35:45 [-][-][-][info][application] $_SERVER = [
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROMPT' => '$P$G'
+    'USERDOMAIN_ROAMINGPROFILE' => 'DESKTOP-3U34KBO'
+    'LOCALAPPDATA' => 'C:\\Users\\bluce³¬Áú\\AppData\\Local'
+    'PROCESSOR_LEVEL' => '6'
+    'oracle_home' => 'D:\\app\\Administrator\\product\\12.1.0\\dbhome_1\\bin'
+    'PT5HOME' => 'E:\\Cisco Packet Tracer 6.0'
+    'USERDOMAIN' => 'DESKTOP-3U34KBO'
+    'FPS_BROWSER_APP_PROFILE_STRING' => 'Internet Explorer'
+    'LOGONSERVER' => '\\\\DESKTOP-3U34KBO'
+    'SESSIONNAME' => 'Console'
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\;D:\\VisualSVN Server\\PowerShellModules'
+    'SystemDrive' => 'C:'
+    'OneDrive' => 'C:\\Users\\bluce³¬Áú\\OneDrive'
+    'APPDATA' => 'C:\\Users\\bluce³¬Áú\\AppData\\Roaming'
+    'PHP_HOME' => 'E:\\PHP5.6'
+    'USERNAME' => 'Zhengchaolong'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'VISUALSVN_SERVER' => 'D:\\VisualSVN Server\\'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\app\\Administrator\\product\\12.1.0\\dbhome_1\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\VisualSVN Server\\bin;D:\\TortoiseSVN\\bin;E:\\PHP5.6;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\nodejs_install\\nodejs\\;D:\\nodejs_install\\nodejs\\node_modules;E:\\phpStudy\\php55n;E:\\phpStudy\\php70n;E:\\phpStudy\\MySQL\\bin;C:\\Users\\bluce³¬Áú\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\bluce³¬Áú\\AppData\\Roaming\\npm;C:\\Users\\bluce³¬Áú\\AppData\\Local\\Microsoft\\WindowsApps;D:\\app\\Administrator\\product\\12.1.0\\dbhome_1\\bin'
+    'FPS_BROWSER_USER_PROFILE_STRING' => 'Default'
+    'http_proxy' => 'localhost'
+    'no_proxy' => '*'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'OS' => 'Windows_NT'
+    'COMPUTERNAME' => 'DESKTOP-3U34KBO'
+    'PROCESSOR_REVISION' => '3d04'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramW6432' => 'C:\\Program Files'
+    'HOMEPATH' => '\\Users\\bluce³¬Áú'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\BLUCE~1\\AppData\\Local\\Temp'
+    'HOMEDRIVE' => 'C:'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 61 Stepping 4, GenuineIntel'
+    'PT6HOME' => 'E:\\Cisco Packet Tracer 6.0'
+    'USERPROFILE' => 'C:\\Users\\bluce³¬Áú'
+    'TMP' => 'C:\\Users\\BLUCE~1\\AppData\\Local\\Temp'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'windir' => 'C:\\WINDOWS'
+    'PHP_SELF' => 'yii'
+    'SCRIPT_NAME' => 'yii'
+    'SCRIPT_FILENAME' => 'yii'
+    'PATH_TRANSLATED' => 'yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1497144945.1197
+    'REQUEST_TIME' => 1497144945
+    'argv' => [
+        0 => 'yii'
+        1 => 'rbac/init'
+    ]
+    'argc' => 2
+]

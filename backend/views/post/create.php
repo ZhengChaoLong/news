@@ -1,26 +1,21 @@
 <?php
 
-use yiichina\adminlte\Box;
+use yii\helpers\Html;
+
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Post */
 
-$mainTitle = '内容管理';
-$subTitle = '新建文章';
-$this->title = $subTitle . ' - ' . $mainTitle . ' - ' . Yii::$app->name;
-$breadcrumbs[] = ['label' => $mainTitle, 'url' => ['index']];
-$breadcrumbs[] = $subTitle;
-$this->params = array_merge($this->params, compact('mainTitle', 'subTitle', 'breadcrumbs'));
+$this->title = '新增文章';
+$this->params['breadcrumbs'][] = ['label' => '文章管理', 'url' => ['index']];
+$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="post-create">
-    <?php Box::begin([
-        'options' => ['class' => 'box-primary'],
-        'title' => $subTitle,
-    ]); ?>
 
-    <?= $this->render('_' . $post->node->typeName, [
-        'post' => $post,
+    <h1><?= Html::encode($this->title) ?></h1>
+
+    <?= $this->render('_form', [
         'model' => $model,
     ]) ?>
-    <?php Box::end(); ?>
+
 </div>

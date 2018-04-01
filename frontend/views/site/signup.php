@@ -7,42 +7,29 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 
-$this->title = Yii::t('app', 'Signup');
+$this->title = 'Signup';
+$this->params['breadcrumbs'][] = $this->title;
 ?>
+<div class="site-signup">
+    <h1><?= Html::encode($this->title) ?></h1>
 
-<div class="register-box">
-    <div class="register-logo"><b>会员注册</b></a></div>
+    <p>Please fill out the following fields to signup:</p>
 
-    <div class="register-box-body">
-        <p class="login-box-msg"><?= Yii::t('app', 'Please fill out the following fields to signup:') ?></p>
+    <div class="row">
+        <div class="col-lg-5">
+            <?php $form = ActiveForm::begin(['id' => 'form-signup']); ?>
 
-        <?php $form = ActiveForm::begin(['id' => 'login-form']); ?>
+                <?= $form->field($model, 'username')->textInput(['autofocus' => true]) ?>
 
-        <?= $form->field($model, 'username', ['template' => '{input}', 'inputOptions' => ['placeholder' => 'Username']])->textInput(['autofocus' => true]) ?>
+                <?= $form->field($model, 'email') ?>
 
-        <?= $form->field($model, 'email', ['template' => '{input}', 'inputOptions' => ['placeholder' => 'Email']])->textInput() ?>
+                <?= $form->field($model, 'password')->passwordInput() ?>
 
-        <?= $form->field($model, 'password', ['template' => '{input}', 'inputOptions' => ['placeholder' => 'Password']])->passwordInput() ?>
+                <div class="form-group">
+                    <?= Html::submitButton('Signup', ['class' => 'btn btn-primary', 'name' => 'signup-button']) ?>
+                </div>
 
-        <?= $form->field($model, 'password_repeat', ['template' => '{input}', 'inputOptions' => ['placeholder' => 'Retype password']])->passwordInput() ?>
-
-        <div class="row">
-            <div class="col-xs-8">
-                <?= Html::checkbox('term', false, ['label' => Yii::t('app', '我同意此 <a href="#">条款</a>')]) ?>
-            </div>
-            <div class="col-xs-4">
-                <?= Html::submitButton(Yii::t('app', 'Signup'), ['class' => 'btn btn-primary btn-block btn-flat']) ?>
-            </div>
+            <?php ActiveForm::end(); ?>
         </div>
-        <?php ActiveForm::end(); ?>
-
-        <div class="social-auth-links text-center">
-            <p>- OR -</p>
-            <?= \yii\authclient\widgets\AuthChoice::widget([
-                'baseAuthUrl' => ['site/auth'],
-                'popupMode' => false,
-            ]) ?>
-        </div>
-        <a href="login.html" class="text-center"><?= Yii::t('app', 'I already have a membership') ?></a>
     </div>
 </div>

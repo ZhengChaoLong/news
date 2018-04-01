@@ -1,28 +1,21 @@
 <?php
 
-use yiichina\adminlte\Box;
+use yii\helpers\Html;
+
 
 /* @var $this yii\web\View */
 /* @var $model common\models\User */
 
-$mainTitle = '用户管理';
-$subTitle = '新建用户';
-$this->title = $subTitle . ' - ' . $mainTitle . ' - ' . Yii::$app->name;
-$breadcrumbs[] = ['label' => $mainTitle, 'url' => ['index']];
-$breadcrumbs[] = $subTitle;
-$this->params = array_merge($this->params, compact('mainTitle', 'subTitle', 'breadcrumbs'));
+$this->title = 'Create User';
+$this->params['breadcrumbs'][] = ['label' => 'Users', 'url' => ['index']];
+$this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="user-create">
 
-    <?php Box::begin([
-        'options' => ['class' => 'box-primary'],
-        'title' => $subTitle,
-    ]); ?>
+    <h1><?= Html::encode($this->title) ?></h1>
 
     <?= $this->render('_form', [
         'model' => $model,
     ]) ?>
-
-    <?php Box::end(); ?>
 
 </div>

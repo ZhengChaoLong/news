@@ -6,9 +6,6 @@ use yii\base\NotSupportedException;
 use yii\behaviors\TimestampBehavior;
 use yii\db\ActiveRecord;
 use yii\web\IdentityInterface;
-use yii\bootstrap\Html;
-use yii\helpers\ArrayHelper;
-use yiichina\icons\Icon;
 
 /**
  * User model
@@ -23,26 +20,20 @@ use yiichina\icons\Icon;
  * @property integer $created_at
  * @property integer $updated_at
  * @property string $password write-only password
+ * 
+ * @property Comment[] $comments
  */
 class User extends ActiveRecord implements IdentityInterface
 {
     const STATUS_DELETED = 0;
     const STATUS_ACTIVE = 10;
 
-    public $roles;
-    public $group;
 
-    /**
-     * @inheritdoc
-     */
     public static function tableName()
     {
         return '{{%user}}';
     }
 
-    /**
-     * @inheritdoc
-     */
     public function behaviors()
     {
         return [
@@ -50,34 +41,32 @@ class User extends ActiveRecord implements IdentityInterface
         ];
     }
 
-    /**
-     * @inheritdoc
-     */
     public function rules()
     {
         return [
             ['status', 'default', 'value' => self::STATUS_ACTIVE],
             ['status', 'in', 'range' => [self::STATUS_ACTIVE, self::STATUS_DELETED]],
+        	[['email'], 'unique'],
+        	[['email', 'username'], 'required'],
+        	[['email'], 'email'],
         ];
     }
 
-    /**
-     * @inheritdoc
-     */
     public function attributeLabels()
     {
-        return [
-            'id' => 'ID',
-            'username' => Yii::t('app', 'Username'),
-            'email' => Yii::t('app', 'Email'),
-            'created_at' => Yii::t('app', 'Created At'),
-            'status' => Yii::t('app', 'Status'),
-        ];
+    	return [
+    			'id' => 'ID',
+    			'username' => '用户名',
+    			'auth_key' => 'Auth Key',
+    			'password_hash' => 'Password Hash',
+    			'password_reset_token' => 'Password Reset Token',
+    			'email' => 'Email',
+    			'status' => '状态',
+    			'created_at' => '创建时间',
+    			'updated_at' => '修改时间',
+    	];
     }
 
-    /**
-     * @inheritdoc
-     */
     public static function findIdentity($id)
     {
         return static::findOne(['id' => $id, 'status' => self::STATUS_ACTIVE]);
@@ -113,7 +102,6 @@ class User extends ActiveRecord implements IdentityInterface
         if (!static::isPasswordResetTokenValid($token)) {
             return null;
         }
-
         return static::findOne([
             'password_reset_token' => $token,
             'status' => self::STATUS_ACTIVE,
@@ -124,14 +112,13 @@ class User extends ActiveRecord implements IdentityInterface
      * Finds out if password reset token is valid
      *
      * @param string $token password reset token
-     * @return bool
+     * @return boolean
      */
     public static function isPasswordResetTokenValid($token)
     {
         if (empty($token)) {
             return false;
         }
-
         $timestamp = (int) substr($token, strrpos($token, '_') + 1);
         $expire = Yii::$app->params['user.passwordResetTokenExpire'];
         return $timestamp + $expire >= time();
@@ -165,7 +152,7 @@ class User extends ActiveRecord implements IdentityInterface
      * Validates password
      *
      * @param string $password password to validate
-     * @return bool if password provided is valid for current user
+     * @return boolean if password provided is valid for current user
      */
     public function validatePassword($password)
     {
@@ -205,45 +192,15 @@ class User extends ActiveRecord implements IdentityInterface
     {
         $this->password_reset_token = null;
     }
-
-    public function getRoleItems()
+    
+    public static function allStatus()
     {
-        return ArrayHelper::map(Yii::$app->authManager->getRoles(), 'name', 'name');
+    	return [self::STATUS_ACTIVE=>'正常',self::STATUS_DELETED=>'已删除'];
     }
-
-    public function getGroupItems()
+    
+    public  function getStatusStr()
     {
-        return ArrayHelper::map(Yii::$app->authManager->getRoles(), 'name', 'name');
+    	return $this->status==self::STATUS_ACTIVE?'正常':'已删除'; 
     }
-
-    public function getStatusList()
-    {
-        return [
-            self::STATUS_ACTIVE => '正常',
-            self::STATUS_DELETED => '禁用',
-        ];
-    }
-
-    public function getStatusLabel()
-    {
-        return [
-            self::STATUS_DELETED => Html::tag('small', Icon::show('delete') . Yii::t('app', 'Deleted'), ['class' => 'label label-danger']),
-            self::STATUS_ACTIVE => Html::tag('small', Icon::show('check') . Yii::t('app', 'Active'), ['class' => 'label label-success']),
-        ][$this->status];
-    }
-
-    public function getRoles()
-    {
-        return ArrayHelper::map(Yii::$app->authManager->getRolesByUser($this->id), 'name', 'name');
-    }
-
-    public function getRoleLabels()
-    {
-        $roles = Yii::$app->authManager->getRolesByUser($this->id);
-        $labels = [];
-        foreach($roles as $key => $value) {
-            $labels[] = Html::tag('small', Icon::show('user') . $key, ['class' => 'label label-info']);
-        }
-        return implode(' ', $labels);
-    }
+ 
 }

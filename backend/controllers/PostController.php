@@ -4,16 +4,15 @@ namespace backend\controllers;
 
 use Yii;
 use common\models\Post;
-use backend\models\PostSearch;
-use yii\web\Controller;
+use common\models\PostSearch;
 use yii\web\NotFoundHttpException;
-use yii\filters\AccessControl;
 use yii\filters\VerbFilter;
+use yii\filters\AccessControl;
 
 /**
  * PostController implements the CRUD actions for Post model.
  */
-class PostController extends Controller
+class PostController extends CommonController
 {
     /**
      * @inheritdoc
@@ -21,21 +20,29 @@ class PostController extends Controller
     public function behaviors()
     {
         return [
-            'access' => [
-                'class' => AccessControl::className(),
-                'rules' => [
-                    [
-                        'allow' => true,
-                        'roles' => ['admin'],
-                    ],
-                ],
-            ],
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [
                     'delete' => ['POST'],
                 ],
-            ],
+            ],  
+
+        	'access' =>[
+        				'class' => AccessControl::className(),
+        				'rules' =>
+        				[
+        						[
+        								'actions' => ['index', 'view'],
+        								'allow' => true,
+        								'roles' => ['?'],
+        						],
+        				[
+        				'actions' => ['view', 'index', 'create','update','delete'],
+        				'allow' => true,
+        				'roles' => ['@'],
+        			],
+        		],
+        		],        		
         ];
     }
 
@@ -43,15 +50,12 @@ class PostController extends Controller
      * Lists all Post models.
      * @return mixed
      */
-    public function actionIndex($node_id)
+    public function actionIndex()
     {
         $searchModel = new PostSearch();
-        $queryParams = Yii::$app->request->queryParams;
-        $queryParams['PostSearch']['node_id'] = $node_id;
-        $dataProvider = $searchModel->search($queryParams);
+        $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
-            'node_id' => $node_id,
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
         ]);
@@ -74,20 +78,14 @@ class PostController extends Controller
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
-    public function actionCreate($node_id)
+    public function actionCreate()
     {
-        $post = new Post();
-        $post->node_id = $node_id;
-        $model = new $post->node->typeClass;
-
-        if ($post->load(Yii::$app->request->post()) && $model->load(Yii::$app->request->post())) {
-            Yii::$app->db->transaction(function() use($post, $model) {
-                $post->save() && $post->link($post->node->typeName, $model);
-            });
-            return $this->redirect(['admin']);
+        $model = new Post();
+        
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('create', [
-                'post' => $post,
                 'model' => $model,
             ]);
         }
@@ -101,18 +99,12 @@ class PostController extends Controller
      */
     public function actionUpdate($id)
     {
-        $post = $this->findModel($id);
-        $relationName = $post->node->typeName;
-        $model = $post->$relationName;
+        $model = $this->findModel($id);
 
-        if ($post->load(Yii::$app->request->post()) && $model->load(Yii::$app->request->post())) {
-            Yii::$app->db->transaction(function() use($post, $model) {
-                $post->save() && $post->link($post->node->typeName, $model);
-            });
-            return $this->redirect(['admin']);
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            return $this->redirect(['view', 'id' => $model->id]);
         } else {
             return $this->render('update', [
-                'post' => $post,
                 'model' => $model,
             ]);
         }

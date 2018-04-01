@@ -1,28 +1,18 @@
 <?php
 
-use yiichina\adminlte\Box;
+use yii\helpers\Html;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\User */
 
-$mainTitle = '用户管理';
-$subTitle = '修改用户';
-$this->title = $subTitle . ' - ' . $mainTitle . ' - ' . Yii::$app->name;
-$breadcrumbs[] = ['label' => $mainTitle, 'url' => ['index']];
-$breadcrumbs[] = $subTitle;
-$this->params = array_merge($this->params, compact('mainTitle', 'subTitle', 'breadcrumbs'));
+$this->title = '修改用户资料: ' . $model->username;
+$this->params['breadcrumbs'][] = ['label' => '用户管理', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => $model->username, 'url' => ['view', 'id' => $model->id]];
+$this->params['breadcrumbs'][] = '修改';
 ?>
 <div class="user-update">
-
-    <?php Box::begin([
-        'options' => ['class' => 'box-primary'],
-        'title' => $subTitle,
-    ]); ?>
-
     <?= $this->render('_form', [
         'model' => $model,
     ]) ?>
-
-    <?php Box::end(); ?>
 
 </div>

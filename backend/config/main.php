@@ -8,28 +8,29 @@ $params = array_merge(
 
 return [
     'id' => 'app-backend',
-    'name' => 'Yii CMS 管理后台',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'backend\controllers',
     'bootstrap' => ['log'],
-    'modules' => [
-
-    'rbac' => 'dektrium\rbac\RbacWebModule',
-
-],
+    'modules' => [],
+	'language'=> 'zh-CN',
+    'controllerMap' => [
+        'ueditor' => [
+            'class' => 'crazydb\ueditor\UEditorController',
+        ]
+    ],
     'components' => [
-        'request' => [
-            'csrfParam' => '_csrf-backend',
-        ],
         'user' => [
-            'identityClass' => 'common\models\User',
+            'identityClass' => 'common\models\Adminuser',
             'enableAutoLogin' => true,
-            'identityCookie' => ['name' => '_identity-backend', 'httpOnly' => true],
         ],
-        'session' => [
-            // this is the name of the session cookie used for login on the backend
-            'name' => 'advanced-backend',
-        ],
+    	'session'=>[
+    			'name'=>'PHPBACKSESSION',
+    			'savePath'=>sys_get_temp_dir(),
+    	],
+    	'request'=>[
+    			'cookieValidationKey'=>'sdfjjksloeedf78789judf',
+    			'csrfParam'=>'_adminCSRF',
+    	],
         'log' => [
             'traceLevel' => YII_DEBUG ? 3 : 0,
             'targets' => [
@@ -42,14 +43,11 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
-        /*
+        
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'rules' => [
-            ],
         ],
-        */
     ],
     'params' => $params,
 ];
