@@ -9,6 +9,8 @@
 namespace backend\controllers;
 
 use yii\web\Controller;
+use Yii;
+use yii\web\ForbiddenHttpException;
 
 class CommonController extends Controller
 {
