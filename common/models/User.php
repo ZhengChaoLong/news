@@ -60,7 +60,7 @@ class User extends ActiveRecord implements IdentityInterface
     			'auth_key' => 'Auth Key',
     			'password_hash' => 'Password Hash',
     			'password_reset_token' => 'Password Reset Token',
-    			'email' => 'Email',
+    			'email' => '邮箱',
     			'status' => '状态',
     			'created_at' => '创建时间',
     			'updated_at' => '修改时间',

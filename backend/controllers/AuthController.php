@@ -2,6 +2,7 @@
 
 namespace backend\controllers;
 
+use backend\models\RuleForm;
 use backend\models\SignupForm;
 use Yii;
 use common\models\Adminuser;
@@ -202,9 +203,8 @@ class AuthController extends CommonController
         $model = new RoleForm();
         if($model->load(Yii::$app->request->post()) && $model->save()){
             return $this->redirect(['/auth/role']);
-        }else{
-            return $this->render('add-role', ['model' => $model]);
         }
+        return $this->render('add-role', ['model' => $model]);
     }
 
     public function actionPermission($id)
@@ -238,5 +238,48 @@ class AuthController extends CommonController
             'dataProvider' => $dataProvider
         ]);
     }
-          
+
+    //访问规则 ，name = 控制器/方法， describe = 描述
+    public function actionRule()
+    {
+        $auth = Yii::$app->authManager;
+        $dataProvider = new ArrayDataProvider([
+            'allModels' => $auth->getPermissions()
+        ]);
+        return $this->render('rule', [
+            'dataProvider' => $dataProvider
+        ]);
+    }
+
+    public function actionAddRule()
+    {
+        $model = new RuleForm();
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            Yii::$app->session->setFlash('success', '新增规则成功');
+            return $this->redirect(['/auth/rule']);
+        }
+        return $this->render('add-rule', ['model' => $model]);
+    }
+
+    /**
+     * @param $name
+     * @return mixed
+     * 更新规则信息
+     */
+    public function actionUpdateRule($name)
+    {
+        if (empty($name)) {
+            throw new HttpInvalidParamException('参错缺失，请联系管理员');
+        }
+        $auth = Yii::$app->authManager;
+        $info = $auth->getPermission($name);
+        $model = new RuleForm();
+        if ($model->load(Yii::$app->request->post()) && $model->update()) {
+            Yii::$app->session->setFlash('success', '修改规则成功');
+            return $this->redirect(['/auth/rule']);
+        }
+        $model->name = $info->name;
+        $model->description = $info->description;
+        return $this->render('update-rule', ['model' => $model]);
+    }
 }
