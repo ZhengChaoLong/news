@@ -26,6 +26,7 @@ class Nav extends \yii\bootstrap\Nav
                 'items' => [
                     ['label' => '管理员列表', 'url' => ['/auth/index']],
                     ['label' => '角色列表', 'url' => ['/auth/role']],
+                    ['label' => '权限规则列表', 'url' => ['/auth/rule']],
                 ]
             ],
         ];
