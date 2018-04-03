@@ -22,7 +22,14 @@ $this->params['breadcrumbs'][] = $this->title;
              'email:email',
             [
                 'attribute'=>'status',
-                'value'=>'statusStr',
+                'filter' => [ 10 => '正常', 0 => '已删除'],
+                'value' => function($searchModel) {
+                    if ($searchModel->status == 10) {
+                        return '正常';
+                    } else {
+                        return '已删除';
+                    }
+                }
             ],
             [
                 'attribute'=>'created_at',

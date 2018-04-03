@@ -37,7 +37,7 @@ AppAsset::register($this);
 	<div class="wrap">
 		<?php
 		NavBar::begin([
-			'brandLabel' => 'sofewafe system',
+			'brandLabel' => '后台管理',
 			'brandUrl' => Yii::$app->homeUrl,
 			'options' => [
 				'class' => 'navbar-inverse navbar-fixed-top',
