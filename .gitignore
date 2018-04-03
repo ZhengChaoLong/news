@@ -1,1 +1,9 @@
 /.project
+./composer.lock
+./vendor/composer/autoload_namespaces.php
+./vendor/composer/autoload_psr4.php
+./vendor/composer/autoload_static.php
+./vendor/composer/installed.json
+./vendor/crazydb/yii2-ueditor/UEditor.php
+./vendor/yiisoft/extensions.php
+./vendor/yiisoft/yii2/base/Application.php
