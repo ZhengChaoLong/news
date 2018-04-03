@@ -20,7 +20,7 @@ class UserSearch extends User
     {
 
         return [
-            self::SCENARIO_DEFAULT => ['username']
+            self::SCENARIO_DEFAULT => ['username', 'email', 'status']
         ];
     }
 
@@ -31,7 +31,9 @@ class UserSearch extends User
             'query' => $query,
         ]);
         if ($this->load($params) && $this->validate()) {
-            $query->andFilterWhere(['like', 'username', $this->username]);
+            $query->andFilterWhere(['like', 'username', $this->username])
+                ->andFilterWhere(['status' => $this->status])
+                ->andFilterWhere(['like', 'email', $this->email]);
         }
         return $dataProvider;
     }
