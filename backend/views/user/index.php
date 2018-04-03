@@ -11,7 +11,6 @@ $this->title = '用户管理';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="user-index">
-    <h1><?= Html::encode($this->title) ?></h1>
     <?= Html::a('新增用户', ['create'], ['class' => 'btn btn-primary']); ?>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,

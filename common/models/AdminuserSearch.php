@@ -21,7 +21,7 @@ class AdminuserSearch extends Adminuser
     public function scenarios()
     {
         return [
-            self::SCENARIO_DEFAULT => ['username']
+            self::SCENARIO_DEFAULT => ['username', 'nickname', 'email']
         ];
     }
 
@@ -39,7 +39,9 @@ class AdminuserSearch extends Adminuser
 
 
         if ($this->load($params) && $this->validate()) {
-            $query->andFilterWhere(['like', 'username', $this->username]);
+            $query->andFilterWhere(['like', 'username', $this->username])
+                ->andFilterWhere(['like', 'nickname', $this->nickname])
+                ->andFilterWhere(['like', 'email', $this->email]);
         }
 
         return $dataProvider;

@@ -14,7 +14,6 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="box box-default">
     <div class="box-header with-border">
-        <h3 class="box-title"><?= $this->title?></h3>
         <?= Html::a('新增权限规则', ['add-rule'], ['class' => 'btn btn-primary']); ?>
     </div>
     <div class="box-body">

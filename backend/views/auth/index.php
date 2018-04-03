@@ -11,7 +11,6 @@ $this->title = '管理员管理';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="auth-index">
-    <h1><?= Html::encode($this->title) ?></h1>
     <p>
         <?= Html::a('新增管理员', ['create'], ['class' => 'btn btn-success']) ?>
     </p>

@@ -93,7 +93,7 @@ abstract class Application extends Module
     /**
      * @var string the application name.
      */
-    public $name = 'My Application';
+    public $name = '网站后台管理';
     /**
      * @var string the version of this application.
      */
