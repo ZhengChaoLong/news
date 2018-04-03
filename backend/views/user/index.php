@@ -11,7 +11,6 @@ $this->title = '用户管理';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="user-index">
-    <h1><?= Html::encode($this->title) ?></h1>
     <?= Html::a('新增用户', ['create'], ['class' => 'btn btn-primary']); ?>
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
@@ -22,7 +21,14 @@ $this->params['breadcrumbs'][] = $this->title;
              'email:email',
             [
                 'attribute'=>'status',
-                'value'=>'statusStr',
+                'filter' => [ 10 => '正常', 0 => '已删除'],
+                'value' => function($searchModel) {
+                    if ($searchModel->status == 10) {
+                        return '正常';
+                    } else {
+                        return '已删除';
+                    }
+                }
             ],
             [
                 'attribute'=>'created_at',

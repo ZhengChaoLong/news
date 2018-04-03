@@ -13,18 +13,11 @@ $this->title = '评论管理';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="comment-index">
-
-    <h1><?= Html::encode($this->title) ?></h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
-
-
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
         'columns' => [
-           // ['class' => 'yii\grid\SerialColumn'],
-
-            //'id',
         	[
         	'attribute'=>'id',
         	'contentOptions'=>['width'=>'30px'],
@@ -41,7 +34,6 @@ $this->params['breadcrumbs'][] = $this->title;
 //             			return mb_substr($tmpStr,0,20,'utf-8').(($tmpLen>20)?'...':'');
 //             		}
     		],
-        	//'userid',
         	[
         	'attribute'=>'user.username',
         	'label'=>'作者',
@@ -90,10 +82,7 @@ $this->params['breadcrumbs'][] = $this->title;
             				return Html::a('<span class="glyphicon glyphicon-check"></span>',$url,$options);
             				
             			},
-            	],	
-            		
-
-            		
+            	],
             ],
         ],
     ]); ?>
