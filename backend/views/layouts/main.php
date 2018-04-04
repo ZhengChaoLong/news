@@ -4,7 +4,6 @@ use yii\helpers\Html;
 /* @var $this \yii\web\View */
 /* @var $content string */
 
-
 if (Yii::$app->controller->action->id === 'login') { 
 /**
  * Do not use this code in your template. Remove it. 
@@ -22,7 +21,7 @@ if (Yii::$app->controller->action->id === 'login') {
         app\assets\AppAsset::register($this);
     }
 
-    dmstr\web\AdminLteAsset::register($this);
+    \dmstr\web\AdminLteAsset::register($this);
 
     $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/almasaeed2010/adminlte/dist');
     ?>
