@@ -1,0 +1,2453 @@
+2017-05-18 04:40:11 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\Yii2.0Ñ§Ï°ÊÓÆµ\yiiÔ´Âë\yii_blog\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\Yii2.0Ñ§Ï°ÊÓÆµ\yiiÔ´Âë\yii_blog\frontend/messages/zh/app.php
+    in F:\Yii2.0Ñ§Ï°ÊÓÆµ\yiiÔ´Âë\yii_blog\frontend\views\post\index.php:37
+    in F:\Yii2.0Ñ§Ï°ÊÓÆµ\yiiÔ´Âë\yii_blog\frontend\controllers\PostController.php:105
+2017-05-18 04:40:08 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\Yii2.0Ñ§Ï°ÊÓÆµ\\yiiÔ´Âë\\yii_blog\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '54823'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '888'
+    'REQUEST_URI' => '/index.php'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\Yii2.0Ñ§Ï°ÊÓÆµ\\yiiÔ´Âë\\yii_blog\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929'
+    'REQUEST_TIME_FLOAT' => 1495082408.0036
+    'REQUEST_TIME' => 1495082408
+]
+2017-05-18 11:53:49 [127.0.0.1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: E:\MyProject\yii_blog\frontend/messages/zh-CN/app.php Fallback file does not exist as well: E:\MyProject\yii_blog\frontend/messages/zh/app.php
+    in E:\MyProject\yii_blog\frontend\views\post\index.php:37
+    in E:\MyProject\yii_blog\frontend\controllers\PostController.php:105
+2017-05-18 11:53:46 [127.0.0.1][-][-][info][application] $_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;D:\\app\\Administrator\\product\\12.1.0\\dbhome_1\\bin;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D:\\VisualSVN Server\\bin;D:\\TortoiseSVN\\bin;E:\\PHP5.6;E:\\phpStudy\\php70n;C:\\ProgramData\\ComposerSetup\\bin;D:\\nodejs_install\\nodejs\\;D:\\nodejs_install\\nodejs\\node_modules;E:\\phpStudy\\php55n;E:\\phpStudy\\php70n;E:\\phpStudy\\MySQL\\bin;C:\\Users\\bluceè¶…é¾™\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\bluceè¶…é¾™\\AppData\\Roaming\\npm;C:\\Users\\bluceè¶…é¾™\\AppData\\Local\\Microsoft\\WindowsApps;D:\\app\\Administrator\\product\\12.1.0\\dbhome_1\\bin'
+    'SYSTEMROOT' => 'C:\\WINDOWS'
+    'COMSPEC' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\WINDOWS'
+    'PHP_FCGI_MAX_REQUESTS' => '1000'
+    'PHPRC' => 'E:/phpStudy/php70n'
+    '_FCGI_SHUTDOWN_EVENT_' => '2096'
+    'SCRIPT_NAME' => '/index.php'
+    'REQUEST_URI' => '/'
+    'QUERY_STRING' => ''
+    'REQUEST_METHOD' => 'GET'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'REMOTE_PORT' => '1168'
+    'SCRIPT_FILENAME' => 'E:/MyProject/yii_blog/frontend/web/index.php'
+    'SERVER_ADMIN' => 'admin@phpStudy.net'
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/MyProject/yii_blog/frontend/web'
+    'CONTEXT_PREFIX' => ''
+    'REQUEST_SCHEME' => 'http'
+    'DOCUMENT_ROOT' => 'E:/MyProject/yii_blog/frontend/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_NAME' => 'yii_blog.com'
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Win32) OpenSSL/1.0.2e mod_fcgid/2.3.9'
+    'SERVER_SIGNATURE' => ''
+    'SystemRoot' => 'C:\\WINDOWS'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_CONNECTION' => 'close'
+    'HTTP_HOST' => 'yii_blog.com'
+    'FCGI_ROLE' => 'RESPONDER'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1495108425.7945
+    'REQUEST_TIME' => 1495108425
+]
+2017-05-25 15:16:45 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: E:\MyProject\yii_blog\frontend/messages/zh-CN/app.php Fallback file does not exist as well: E:\MyProject\yii_blog\frontend/messages/zh/app.php
+    in E:\MyProject\yii_blog\frontend\views\post\index.php:37
+    in E:\MyProject\yii_blog\frontend\controllers\PostController.php:105
+2017-05-25 15:16:43 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    'PHPBACKSESSION' => 'u3i1utbs4drpm2riif97hbmp10'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\MyProject\\yii_blog\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '12050'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\MyProject\\yii_blog\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; PHPBACKSESSION=u3i1utbs4drpm2riif97hbmp10'
+    'REQUEST_TIME_FLOAT' => 1495725403.9255
+    'REQUEST_TIME' => 1495725403
+]
+2017-05-25 15:28:49 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: E:\MyProject\yii_blog\frontend/messages/zh-CN/app.php Fallback file does not exist as well: E:\MyProject\yii_blog\frontend/messages/zh/app.php
+    in E:\MyProject\yii_blog\frontend\views\post\index.php:37
+    in E:\MyProject\yii_blog\frontend\controllers\PostController.php:105
+2017-05-25 15:28:47 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    'PHPBACKSESSION' => 'u3i1utbs4drpm2riif97hbmp10'
+    'PHPSESSID' => 'smceelt5ou7giv79a33p2klr56'
+    '_csrf' => '3828be93b2536098974db4bdbcaf17513bef7e9b18c7ef10af2c077ce1372224a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mbCDfs-1pJs1bqngFLTwAPNrfsR52uZY\";}'
+    '_adminCSRF' => '4b740ff8aa129c278897d3f66418f2c3931090e3b9fd1b8a0ea5ddb8451c200ba:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"SImQi_wX5Ysaey4QnaLZwjEPvbDIzIvx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\MyProject\\yii_blog\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '12415'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\MyProject\\yii_blog\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; PHPBACKSESSION=u3i1utbs4drpm2riif97hbmp10; PHPSESSID=smceelt5ou7giv79a33p2klr56; _csrf=3828be93b2536098974db4bdbcaf17513bef7e9b18c7ef10af2c077ce1372224a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mbCDfs-1pJs1bqngFLTwAPNrfsR52uZY%22%3B%7D; _adminCSRF=4b740ff8aa129c278897d3f66418f2c3931090e3b9fd1b8a0ea5ddb8451c200ba%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22SImQi_wX5Ysaey4QnaLZwjEPvbDIzIvx%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1495726127.8065
+    'REQUEST_TIME' => 1495726127
+]
+2017-05-25 15:44:16 [::1][-][smceelt5ou7giv79a33p2klr56][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in E:\MyProject\yii_blog\vendor\yiisoft\yii2\web\Request.php:189
+Stack trace:
+#0 E:\MyProject\yii_blog\vendor\yiisoft\yii2\web\Application.php(75): yii\web\Request->resolve()
+#1 E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\MyProject\yii_blog\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+2017-05-25 15:44:16 [::1][-][smceelt5ou7giv79a33p2klr56][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    'PHPBACKSESSION' => 'u3i1utbs4drpm2riif97hbmp10'
+    'PHPSESSID' => 'smceelt5ou7giv79a33p2klr56'
+    '_csrf' => '3828be93b2536098974db4bdbcaf17513bef7e9b18c7ef10af2c077ce1372224a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mbCDfs-1pJs1bqngFLTwAPNrfsR52uZY\";}'
+    '_adminCSRF' => '4b740ff8aa129c278897d3f66418f2c3931090e3b9fd1b8a0ea5ddb8451c200ba:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"SImQi_wX5Ysaey4QnaLZwjEPvbDIzIvx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/post/detail?id=42&title=%E6%97%A7%E7%89%88Yii2.0%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B'
+    '__captcha/site/captcha' => 'nelctit'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\MyProject\\yii_blog\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '12783'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/site/login'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\MyProject\\yii_blog\\frontend\\web\\index.php'
+    'PATH_INFO' => '/site/login'
+    'PHP_SELF' => '/index.php/site/login'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:9999/site/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; PHPBACKSESSION=u3i1utbs4drpm2riif97hbmp10; PHPSESSID=smceelt5ou7giv79a33p2klr56; _csrf=3828be93b2536098974db4bdbcaf17513bef7e9b18c7ef10af2c077ce1372224a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mbCDfs-1pJs1bqngFLTwAPNrfsR52uZY%22%3B%7D; _adminCSRF=4b740ff8aa129c278897d3f66418f2c3931090e3b9fd1b8a0ea5ddb8451c200ba%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22SImQi_wX5Ysaey4QnaLZwjEPvbDIzIvx%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1495727056.2194
+    'REQUEST_TIME' => 1495727056
+]
+2017-05-25 15:44:21 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: E:\MyProject\yii_blog\frontend/messages/zh-CN/app.php Fallback file does not exist as well: E:\MyProject\yii_blog\frontend/messages/zh/app.php
+    in E:\MyProject\yii_blog\frontend\views\post\index.php:37
+    in E:\MyProject\yii_blog\frontend\controllers\PostController.php:105
+2017-05-25 15:44:20 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    'PHPBACKSESSION' => 'u3i1utbs4drpm2riif97hbmp10'
+    'PHPSESSID' => 'smceelt5ou7giv79a33p2klr56'
+    '_csrf' => '3828be93b2536098974db4bdbcaf17513bef7e9b18c7ef10af2c077ce1372224a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mbCDfs-1pJs1bqngFLTwAPNrfsR52uZY\";}'
+    '_adminCSRF' => '4b740ff8aa129c278897d3f66418f2c3931090e3b9fd1b8a0ea5ddb8451c200ba:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"SImQi_wX5Ysaey4QnaLZwjEPvbDIzIvx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/post/detail?id=42&title=%E6%97%A7%E7%89%88Yii2.0%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B'
+    '__captcha/site/captcha' => 'nelctit'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\MyProject\\yii_blog\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '12790'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\MyProject\\yii_blog\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; PHPBACKSESSION=u3i1utbs4drpm2riif97hbmp10; PHPSESSID=smceelt5ou7giv79a33p2klr56; _csrf=3828be93b2536098974db4bdbcaf17513bef7e9b18c7ef10af2c077ce1372224a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mbCDfs-1pJs1bqngFLTwAPNrfsR52uZY%22%3B%7D; _adminCSRF=4b740ff8aa129c278897d3f66418f2c3931090e3b9fd1b8a0ea5ddb8451c200ba%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22SImQi_wX5Ysaey4QnaLZwjEPvbDIzIvx%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1495727060.2772
+    'REQUEST_TIME' => 1495727060
+]
+2017-05-25 17:12:07 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: E:\MyProject\yii_blog\frontend/messages/zh-CN/app.php Fallback file does not exist as well: E:\MyProject\yii_blog\frontend/messages/zh/app.php
+    in E:\MyProject\yii_blog\frontend\views\post\index.php:37
+    in E:\MyProject\yii_blog\frontend\controllers\PostController.php:105
+2017-05-25 17:12:06 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    'PHPBACKSESSION' => 'u3i1utbs4drpm2riif97hbmp10'
+    'PHPSESSID' => 'smceelt5ou7giv79a33p2klr56'
+    '_csrf' => '3828be93b2536098974db4bdbcaf17513bef7e9b18c7ef10af2c077ce1372224a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"mbCDfs-1pJs1bqngFLTwAPNrfsR52uZY\";}'
+    '_adminCSRF' => '4b740ff8aa129c278897d3f66418f2c3931090e3b9fd1b8a0ea5ddb8451c200ba:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"SImQi_wX5Ysaey4QnaLZwjEPvbDIzIvx\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/post/detail?id=42&title=%E6%97%A7%E7%89%88Yii2.0%E8%A7%86%E9%A2%91%E6%95%99%E7%A8%8B'
+    '__captcha/site/captcha' => 'nelctit'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\MyProject\\yii_blog\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '13445'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\MyProject\\yii_blog\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; PHPBACKSESSION=u3i1utbs4drpm2riif97hbmp10; PHPSESSID=smceelt5ou7giv79a33p2klr56; _csrf=3828be93b2536098974db4bdbcaf17513bef7e9b18c7ef10af2c077ce1372224a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22mbCDfs-1pJs1bqngFLTwAPNrfsR52uZY%22%3B%7D; _adminCSRF=4b740ff8aa129c278897d3f66418f2c3931090e3b9fd1b8a0ea5ddb8451c200ba%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22SImQi_wX5Ysaey4QnaLZwjEPvbDIzIvx%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1495732326.5508
+    'REQUEST_TIME' => 1495732326
+]
+2017-05-25 17:22:14 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: E:\MyProject\yii_blog\frontend/messages/zh-CN/app.php Fallback file does not exist as well: E:\MyProject\yii_blog\frontend/messages/zh/app.php
+    in E:\MyProject\yii_blog\frontend\views\post\index.php:37
+    in E:\MyProject\yii_blog\frontend\controllers\PostController.php:105
+2017-05-25 17:22:12 [::1][-][-][info][application] $_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\MyProject\\yii_blog\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '13872'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '888'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\MyProject\\yii_blog\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_ACCEPT' => 'image/gif, image/jpeg, image/pjpeg, application/x-ms-application, application/xaml+xml, application/x-ms-xbap, */*'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN'
+    'HTTP_USER_AGENT' => 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 10.0; WOW64; Trident/7.0; .NET4.0C; .NET4.0E; InfoPath.3)'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_HOST' => 'localhost:888'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'REQUEST_TIME_FLOAT' => 1495732932.851
+    'REQUEST_TIME' => 1495732932
+]
+2017-05-31 00:16:05 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: E:\MyProject\yii_blog\frontend/messages/zh-CN/app.php Fallback file does not exist as well: E:\MyProject\yii_blog\frontend/messages/zh/app.php
+    in E:\MyProject\yii_blog\frontend\views\post\index.php:37
+    in E:\MyProject\yii_blog\frontend\controllers\PostController.php:105
+2017-05-31 00:16:03 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\MyProject\\yii_blog\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '9690'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '888'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\MyProject\\yii_blog\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929'
+    'REQUEST_TIME_FLOAT' => 1496189763.4778
+    'REQUEST_TIME' => 1496189763
+]
+2017-06-10 23:57:57 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: E:\MyProject\yii_blog\frontend/messages/zh-CN/app.php Fallback file does not exist as well: E:\MyProject\yii_blog\frontend/messages/zh/app.php
+    in E:\MyProject\yii_blog\frontend\views\post\index.php:37
+    in E:\MyProject\yii_blog\frontend\controllers\PostController.php:105
+2017-06-10 23:57:54 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\MyProject\\yii_blog\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '6466'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\MyProject\\yii_blog\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1497139074.2578
+    'REQUEST_TIME' => 1497139074
+]
+2017-06-11 02:39:57 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: E:\MyProject\yii_blog\frontend/messages/zh-CN/app.php Fallback file does not exist as well: E:\MyProject\yii_blog\frontend/messages/zh/app.php
+    in E:\MyProject\yii_blog\frontend\views\post\index.php:37
+    in E:\MyProject\yii_blog\frontend\controllers\PostController.php:105
+2017-06-11 02:39:56 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    'PHPSESSID' => '5oujqku96u6dr2viookc8tpsm4'
+    '_csrf' => '2ff2f172b8f3597397b2be091ced5308cc180eddd4a735fa506c2aa6986a1ea2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9wZq4mT72gkTZRrCyMQkQf1mv1TqpGWI\";}'
+    '_adminCSRF' => '29e504e537c35a7a776a428ece38b43ac2ee7ae2c574bcfc4b2a816a30259656a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"xoFGjLcp6zDb3LuCl4QLoMWMpLYruSo_\";}'
+    'PHPBACKSESSION' => 'h3vp6kko74bqsgvom8u2msl120'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'yqweqvg'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\MyProject\\yii_blog\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '9607'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\MyProject\\yii_blog\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; PHPSESSID=5oujqku96u6dr2viookc8tpsm4; _csrf=2ff2f172b8f3597397b2be091ced5308cc180eddd4a735fa506c2aa6986a1ea2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229wZq4mT72gkTZRrCyMQkQf1mv1TqpGWI%22%3B%7D; _adminCSRF=29e504e537c35a7a776a428ece38b43ac2ee7ae2c574bcfc4b2a816a30259656a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22xoFGjLcp6zDb3LuCl4QLoMWMpLYruSo_%22%3B%7D; PHPBACKSESSION=h3vp6kko74bqsgvom8u2msl120; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1497148796.5727
+    'REQUEST_TIME' => 1497148796
+]
+2017-06-11 10:47:10 [::1][6][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: E:\MyProject\yii_blog\frontend/messages/zh-CN/app.php Fallback file does not exist as well: E:\MyProject\yii_blog\frontend/messages/zh/app.php
+    in E:\MyProject\yii_blog\frontend\views\post\index.php:37
+    in E:\MyProject\yii_blog\frontend\controllers\PostController.php:105
+2017-06-11 10:47:09 [::1][6][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_csrf' => '2ff2f172b8f3597397b2be091ced5308cc180eddd4a735fa506c2aa6986a1ea2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9wZq4mT72gkTZRrCyMQkQf1mv1TqpGWI\";}'
+    '_adminCSRF' => '29e504e537c35a7a776a428ece38b43ac2ee7ae2c574bcfc4b2a816a30259656a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"xoFGjLcp6zDb3LuCl4QLoMWMpLYruSo_\";}'
+    'PHPBACKSESSION' => '7u12gftktk4hm0pt3q5kjn9t52'
+    'PHPSESSID' => 'vedor80fn0dd2lb0hpsqhjm9a2'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'yqweqvg'
+    '__captcha/site/captchacount' => 1
+    '__returnUrl' => '/post/detail?id=41&title=RESTful+Web%E6%9C%8D%E5%8A%A1'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\MyProject\\yii_blog\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '10501'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\MyProject\\yii_blog\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:9999/site/signup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _csrf=2ff2f172b8f3597397b2be091ced5308cc180eddd4a735fa506c2aa6986a1ea2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229wZq4mT72gkTZRrCyMQkQf1mv1TqpGWI%22%3B%7D; _adminCSRF=29e504e537c35a7a776a428ece38b43ac2ee7ae2c574bcfc4b2a816a30259656a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22xoFGjLcp6zDb3LuCl4QLoMWMpLYruSo_%22%3B%7D; PHPBACKSESSION=7u12gftktk4hm0pt3q5kjn9t52; PHPSESSID=vedor80fn0dd2lb0hpsqhjm9a2'
+    'REQUEST_TIME_FLOAT' => 1497178029.4036
+    'REQUEST_TIME' => 1497178029
+]
+2017-06-11 11:08:45 [::1][6][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: E:\MyProject\yii_blog\frontend/messages/zh-CN/app.php Fallback file does not exist as well: E:\MyProject\yii_blog\frontend/messages/zh/app.php
+    in E:\MyProject\yii_blog\frontend\views\post\index.php:37
+    in E:\MyProject\yii_blog\frontend\controllers\PostController.php:102
+2017-06-11 11:08:44 [::1][6][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_csrf' => '2ff2f172b8f3597397b2be091ced5308cc180eddd4a735fa506c2aa6986a1ea2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9wZq4mT72gkTZRrCyMQkQf1mv1TqpGWI\";}'
+    '_adminCSRF' => '29e504e537c35a7a776a428ece38b43ac2ee7ae2c574bcfc4b2a816a30259656a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"xoFGjLcp6zDb3LuCl4QLoMWMpLYruSo_\";}'
+    'PHPSESSID' => 'vedor80fn0dd2lb0hpsqhjm9a2'
+    'PHPBACKSESSION' => 'ftqglh7htscm1rmee7eeo3h882'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'yqweqvg'
+    '__captcha/site/captchacount' => 1
+    '__returnUrl' => '/post/detail?id=41&title=RESTful+Web%E6%9C%8D%E5%8A%A1'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\MyProject\\yii_blog\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '11456'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\MyProject\\yii_blog\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _csrf=2ff2f172b8f3597397b2be091ced5308cc180eddd4a735fa506c2aa6986a1ea2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229wZq4mT72gkTZRrCyMQkQf1mv1TqpGWI%22%3B%7D; _adminCSRF=29e504e537c35a7a776a428ece38b43ac2ee7ae2c574bcfc4b2a816a30259656a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22xoFGjLcp6zDb3LuCl4QLoMWMpLYruSo_%22%3B%7D; PHPSESSID=vedor80fn0dd2lb0hpsqhjm9a2; PHPBACKSESSION=ftqglh7htscm1rmee7eeo3h882; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1497179324.4479
+    'REQUEST_TIME' => 1497179324
+]
+2017-06-11 11:08:58 [::1][6][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: E:\MyProject\yii_blog\frontend/messages/zh-CN/app.php Fallback file does not exist as well: E:\MyProject\yii_blog\frontend/messages/zh/app.php
+    in E:\MyProject\yii_blog\frontend\views\post\index.php:37
+    in E:\MyProject\yii_blog\frontend\controllers\PostController.php:102
+2017-06-11 11:08:57 [::1][6][-][info][application] $_GET = [
+    'PostSearch' => [
+        'title' => 'resful'
+    ]
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_csrf' => '2ff2f172b8f3597397b2be091ced5308cc180eddd4a735fa506c2aa6986a1ea2a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"9wZq4mT72gkTZRrCyMQkQf1mv1TqpGWI\";}'
+    '_adminCSRF' => '29e504e537c35a7a776a428ece38b43ac2ee7ae2c574bcfc4b2a816a30259656a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"xoFGjLcp6zDb3LuCl4QLoMWMpLYruSo_\";}'
+    'PHPSESSID' => 'vedor80fn0dd2lb0hpsqhjm9a2'
+    'PHPBACKSESSION' => 'ftqglh7htscm1rmee7eeo3h882'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'yqweqvg'
+    '__captcha/site/captchacount' => 1
+    '__returnUrl' => '/post/detail?id=41&title=RESTful+Web%E6%9C%8D%E5%8A%A1'
+    '__id' => 6
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\MyProject\\yii_blog\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '11495'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/post/index?PostSearch%5Btitle%5D=resful'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\MyProject\\yii_blog\\frontend\\web\\index.php'
+    'PATH_INFO' => '/post/index'
+    'PHP_SELF' => '/index.php/post/index'
+    'QUERY_STRING' => 'PostSearch%5Btitle%5D=resful'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:9999/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _csrf=2ff2f172b8f3597397b2be091ced5308cc180eddd4a735fa506c2aa6986a1ea2a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%229wZq4mT72gkTZRrCyMQkQf1mv1TqpGWI%22%3B%7D; _adminCSRF=29e504e537c35a7a776a428ece38b43ac2ee7ae2c574bcfc4b2a816a30259656a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22xoFGjLcp6zDb3LuCl4QLoMWMpLYruSo_%22%3B%7D; PHPSESSID=vedor80fn0dd2lb0hpsqhjm9a2; PHPBACKSESSION=ftqglh7htscm1rmee7eeo3h882; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1497179337.396
+    'REQUEST_TIME' => 1497179337
+]
+2018-03-04 14:20:32 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: E:\MyProject\yii_blog\frontend/messages/zh-CN/app.php Fallback file does not exist as well: E:\MyProject\yii_blog\frontend/messages/zh/app.php
+    in E:\MyProject\yii_blog\frontend\views\post\index.php:37
+    in E:\MyProject\yii_blog\frontend\controllers\PostController.php:102
+2018-03-04 14:20:30 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\MyProject\\yii_blog\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '4513'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\MyProject\\yii_blog\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929'
+    'REQUEST_TIME_FLOAT' => 1520173230.4523
+    'REQUEST_TIME' => 1520173230
+]
+2018-03-13 13:48:39 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: E:\MyProject\yii_blog\frontend/messages/zh-CN/app.php Fallback file does not exist as well: E:\MyProject\yii_blog\frontend/messages/zh/app.php
+    in E:\MyProject\yii_blog\frontend\views\post\index.php:37
+    in E:\MyProject\yii_blog\frontend\controllers\PostController.php:102
+2018-03-13 13:48:37 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\MyProject\\yii_blog\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '5936'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\MyProject\\yii_blog\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929'
+    'REQUEST_TIME_FLOAT' => 1520948917.6723
+    'REQUEST_TIME' => 1520948917
+]
+2018-03-13 13:50:30 [::1][-][dqvfa5uv208cu7qnmhhhdripr7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "admin". in E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\MyProject\yii_blog\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('admin', Array)
+#1 E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\MyProject\yii_blog\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in E:\MyProject\yii_blog\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\MyProject\yii_blog\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2018-03-13 13:50:30 [::1][-][dqvfa5uv208cu7qnmhhhdripr7][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    'PHPSESSID' => 'dqvfa5uv208cu7qnmhhhdripr7'
+    '_csrf' => '8fde7ed70d0cd0d29e3ec7fd64392bf141845a0f75bfefec025bb7165ae66055a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"REzR15eZWqqG31YB4W8G5pWWwi5sHCT1\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\MyProject\\yii_blog\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '6039'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/admin'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\MyProject\\yii_blog\\frontend\\web\\index.php'
+    'PATH_INFO' => '/admin'
+    'PHP_SELF' => '/index.php/admin'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; PHPSESSID=dqvfa5uv208cu7qnmhhhdripr7; _csrf=8fde7ed70d0cd0d29e3ec7fd64392bf141845a0f75bfefec025bb7165ae66055a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22REzR15eZWqqG31YB4W8G5pWWwi5sHCT1%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1520949030.5881
+    'REQUEST_TIME' => 1520949030
+]
+2018-03-13 14:30:39 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: E:\MyProject\yii_blog\frontend/messages/zh-CN/app.php Fallback file does not exist as well: E:\MyProject\yii_blog\frontend/messages/zh/app.php
+    in E:\MyProject\yii_blog\frontend\views\post\index.php:37
+    in E:\MyProject\yii_blog\frontend\controllers\PostController.php:102
+2018-03-13 14:30:37 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    'PHPSESSID' => 'dqvfa5uv208cu7qnmhhhdripr7'
+    '_csrf' => '8fde7ed70d0cd0d29e3ec7fd64392bf141845a0f75bfefec025bb7165ae66055a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"REzR15eZWqqG31YB4W8G5pWWwi5sHCT1\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\MyProject\\yii_blog\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '6614'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\MyProject\\yii_blog\\frontend\\web\\index.php'
+    'PATH_INFO' => '/post/index'
+    'PHP_SELF' => '/index.php/post/index'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; PHPSESSID=dqvfa5uv208cu7qnmhhhdripr7; _csrf=8fde7ed70d0cd0d29e3ec7fd64392bf141845a0f75bfefec025bb7165ae66055a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22REzR15eZWqqG31YB4W8G5pWWwi5sHCT1%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1520951437.9199
+    'REQUEST_TIME' => 1520951437
+]
+2018-03-13 14:33:27 [::1][-][dqvfa5uv208cu7qnmhhhdripr7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "backend/site/index". in E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 E:\MyProject\yii_blog\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('backend/site/in...', Array)
+#1 E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 E:\MyProject\yii_blog\frontend\web\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: é¡µé¢æœªæ‰¾åˆ°ã€‚ in E:\MyProject\yii_blog\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 E:\MyProject\yii_blog\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 E:\MyProject\yii_blog\frontend\web\index.php(18): yii\base\Application->run()
+#2 {main}
+2018-03-13 14:33:27 [::1][-][dqvfa5uv208cu7qnmhhhdripr7][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    'PHPSESSID' => 'dqvfa5uv208cu7qnmhhhdripr7'
+    '_csrf' => '8fde7ed70d0cd0d29e3ec7fd64392bf141845a0f75bfefec025bb7165ae66055a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"REzR15eZWqqG31YB4W8G5pWWwi5sHCT1\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'E:\\MyProject\\yii_blog\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '6732'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/backend/site/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'E:\\MyProject\\yii_blog\\frontend\\web\\index.php'
+    'PATH_INFO' => '/backend/site/index'
+    'PHP_SELF' => '/index.php/backend/site/index'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; PHPSESSID=dqvfa5uv208cu7qnmhhhdripr7; _csrf=8fde7ed70d0cd0d29e3ec7fd64392bf141845a0f75bfefec025bb7165ae66055a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22REzR15eZWqqG31YB4W8G5pWWwi5sHCT1%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1520951607.222
+    'REQUEST_TIME' => 1520951607
+]
+2018-04-01 06:36:50 [::1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Connection.php:600
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Connection.php(600): PDO->__construct('mysql:host=loca...', 'root', 'root', NULL)
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Connection.php(542): yii\db\Connection->createPdoInstance()
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Connection.php(861): yii\db\Connection->open()
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Connection.php(848): yii\db\Connection->getMasterPdo()
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare(true)
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\common\models\Tag.php(123): yii\db\ActiveQuery->all()
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(92): common\models\Tag::findTagWeights()
+#11 [internal function]: frontend\controllers\PostController->actionIndex()
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#15 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#16 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#17 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#18 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [2002] ÓÉÓÚÄ¿±ê¼ÆËã»ú»ý¼«¾Ü¾ø£¬ÎÞ·¨Á¬½Ó¡£
+ in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Connection.php:547
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Connection.php(861): yii\db\Connection->open()
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Connection.php(848): yii\db\Connection->getMasterPdo()
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(219): yii\db\Connection->getSlavePdo()
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(894): yii\db\Command->prepare(true)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(362): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(210): yii\db\Command->queryAll()
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\ActiveQuery.php(133): yii\db\Query->all(NULL)
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\common\models\Tag.php(123): yii\db\ActiveQuery->all()
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(92): common\models\Tag::findTagWeights()
+#9 [internal function]: frontend\controllers\PostController->actionIndex()
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+Additional Information:
+
+2018-04-01 06:36:48 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '8170'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1522564608.4127
+    'REQUEST_TIME' => 1522564608
+]
+2018-04-01 06:37:22 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 06:37:21 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '8218'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1522564641.2428
+    'REQUEST_TIME' => 1522564641
+]
+2018-04-01 08:43:37 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 08:43:37 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_blog.Adminuser' doesn't exist in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\ActiveDataProvider.php(165): yii\db\Query->count('*', NULL)
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(147): yii\data\ActiveDataProvider->prepareTotalCount()
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(79): yii\data\ActiveDataProvider->prepareModels()
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(92): yii\data\BaseDataProvider->prepare()
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(133): yii\data\BaseDataProvider->getModels()
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\BaseListView.php(124): yii\data\BaseDataProvider->getCount()
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): yii\widgets\BaseListView->run()
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(38): yii\base\Widget::widget(Array)
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#15 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', '[<span class="s...')
+#16 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#17 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#18 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#19 [internal function]: frontend\controllers\PostController->actionIndex()
+#20 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#22 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#23 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#24 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_blog.Adminuser' doesn't exist
+The SQL being executed was: SELECT COUNT(*) FROM `post` INNER JOIN `Adminuser` ON post.author_id = Adminuser.id in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\ActiveDataProvider.php(165): yii\db\Query->count('*', NULL)
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(147): yii\data\ActiveDataProvider->prepareTotalCount()
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(79): yii\data\ActiveDataProvider->prepareModels()
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(92): yii\data\BaseDataProvider->prepare()
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(133): yii\data\BaseDataProvider->getModels()
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\BaseListView.php(124): yii\data\BaseDataProvider->getCount()
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): yii\widgets\BaseListView->run()
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(38): yii\base\Widget::widget(Array)
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#15 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', '[<span class="s...')
+#16 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#17 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#18 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#19 [internal function]: frontend\controllers\PostController->actionIndex()
+#20 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#22 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#23 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#24 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'yii_blog.Adminuser' doesn't exist
+)
+
+2018-04-01 08:43:36 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '11891'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1522572216.258
+    'REQUEST_TIME' => 1522572216
+]
+2018-04-01 09:16:53 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 09:16:53 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_blog.Adminuser' doesn't exist in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\ActiveDataProvider.php(165): yii\db\Query->count('*', NULL)
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(147): yii\data\ActiveDataProvider->prepareTotalCount()
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(79): yii\data\ActiveDataProvider->prepareModels()
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(92): yii\data\BaseDataProvider->prepare()
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(133): yii\data\BaseDataProvider->getModels()
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\BaseListView.php(124): yii\data\BaseDataProvider->getCount()
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): yii\widgets\BaseListView->run()
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(38): yii\base\Widget::widget(Array)
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#15 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', '[<span class="s...')
+#16 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#17 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#18 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#19 [internal function]: frontend\controllers\PostController->actionIndex()
+#20 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#22 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#23 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#24 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_blog.Adminuser' doesn't exist
+The SQL being executed was: SELECT COUNT(*) FROM `post` INNER JOIN `Adminuser` ON post.author_id = Adminuser.id in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\ActiveDataProvider.php(165): yii\db\Query->count('*', NULL)
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(147): yii\data\ActiveDataProvider->prepareTotalCount()
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(79): yii\data\ActiveDataProvider->prepareModels()
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(92): yii\data\BaseDataProvider->prepare()
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(133): yii\data\BaseDataProvider->getModels()
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\BaseListView.php(124): yii\data\BaseDataProvider->getCount()
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): yii\widgets\BaseListView->run()
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(38): yii\base\Widget::widget(Array)
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#15 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', '[<span class="s...')
+#16 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#17 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#18 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#19 [internal function]: frontend\controllers\PostController->actionIndex()
+#20 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#22 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#23 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#24 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'yii_blog.Adminuser' doesn't exist
+)
+
+2018-04-01 09:16:52 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    'PHPBACKSESSION' => 'f276id7bb3bklmi7vv45s46g11'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '12836'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; PHPBACKSESSION=f276id7bb3bklmi7vv45s46g11; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1522574212.4645
+    'REQUEST_TIME' => 1522574212
+]
+2018-04-01 09:16:57 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 09:16:57 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_blog.Adminuser' doesn't exist in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\ActiveDataProvider.php(165): yii\db\Query->count('*', NULL)
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(147): yii\data\ActiveDataProvider->prepareTotalCount()
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(79): yii\data\ActiveDataProvider->prepareModels()
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(92): yii\data\BaseDataProvider->prepare()
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(133): yii\data\BaseDataProvider->getModels()
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\BaseListView.php(124): yii\data\BaseDataProvider->getCount()
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): yii\widgets\BaseListView->run()
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(38): yii\base\Widget::widget(Array)
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#15 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', '[<span class="s...')
+#16 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#17 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#18 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#19 [internal function]: frontend\controllers\PostController->actionIndex()
+#20 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#22 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#23 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#24 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_blog.Adminuser' doesn't exist
+The SQL being executed was: SELECT COUNT(*) FROM `post` INNER JOIN `Adminuser` ON post.author_id = Adminuser.id in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\ActiveDataProvider.php(165): yii\db\Query->count('*', NULL)
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(147): yii\data\ActiveDataProvider->prepareTotalCount()
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(79): yii\data\ActiveDataProvider->prepareModels()
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(92): yii\data\BaseDataProvider->prepare()
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(133): yii\data\BaseDataProvider->getModels()
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\BaseListView.php(124): yii\data\BaseDataProvider->getCount()
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): yii\widgets\BaseListView->run()
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(38): yii\base\Widget::widget(Array)
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#15 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', '[<span class="s...')
+#16 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#17 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#18 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#19 [internal function]: frontend\controllers\PostController->actionIndex()
+#20 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#22 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#23 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#24 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'yii_blog.Adminuser' doesn't exist
+)
+
+2018-04-01 09:16:57 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    'PHPBACKSESSION' => 'f276id7bb3bklmi7vv45s46g11'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '12839'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; PHPBACKSESSION=f276id7bb3bklmi7vv45s46g11; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1522574217.0727
+    'REQUEST_TIME' => 1522574217
+]
+2018-04-01 09:42:37 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 09:42:36 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+    'PHPBACKSESSION' => '0h566hldh553m2c9n529t7n8v0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '13534'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D; PHPBACKSESSION=0h566hldh553m2c9n529t7n8v0'
+    'REQUEST_TIME_FLOAT' => 1522575756.4094
+    'REQUEST_TIME' => 1522575756
+]
+2018-04-01 09:44:13 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 09:44:13 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_blog.Adminuser' doesn't exist in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\ActiveDataProvider.php(165): yii\db\Query->count('*', NULL)
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(147): yii\data\ActiveDataProvider->prepareTotalCount()
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(79): yii\data\ActiveDataProvider->prepareModels()
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(92): yii\data\BaseDataProvider->prepare()
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(133): yii\data\BaseDataProvider->getModels()
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\BaseListView.php(124): yii\data\BaseDataProvider->getCount()
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): yii\widgets\BaseListView->run()
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(38): yii\base\Widget::widget(Array)
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#15 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', '[<span class="s...')
+#16 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#17 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#18 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#19 [internal function]: frontend\controllers\PostController->actionIndex()
+#20 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#22 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#23 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#24 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_blog.Adminuser' doesn't exist
+The SQL being executed was: SELECT COUNT(*) FROM `post` INNER JOIN `Adminuser` ON post.author_id = Adminuser.id in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\ActiveDataProvider.php(165): yii\db\Query->count('*', NULL)
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(147): yii\data\ActiveDataProvider->prepareTotalCount()
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(79): yii\data\ActiveDataProvider->prepareModels()
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(92): yii\data\BaseDataProvider->prepare()
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(133): yii\data\BaseDataProvider->getModels()
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\BaseListView.php(124): yii\data\BaseDataProvider->getCount()
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): yii\widgets\BaseListView->run()
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(38): yii\base\Widget::widget(Array)
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#15 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', '[<span class="s...')
+#16 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#17 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#18 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#19 [internal function]: frontend\controllers\PostController->actionIndex()
+#20 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#22 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#23 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#24 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'yii_blog.Adminuser' doesn't exist
+)
+
+2018-04-01 09:44:10 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+    'PHPBACKSESSION' => '0h566hldh553m2c9n529t7n8v0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '13602'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D; PHPBACKSESSION=0h566hldh553m2c9n529t7n8v0'
+    'REQUEST_TIME_FLOAT' => 1522575850.8987
+    'REQUEST_TIME' => 1522575850
+]
+2018-04-01 09:47:11 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 09:47:12 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_blog.adminuser' doesn't exist in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one(NULL)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\ActiveRelationTrait.php(157): yii\db\ActiveQuery->one()
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\BaseActiveRecord.php(254): yii\db\ActiveQuery->findFor('author', Object(common\models\Post))
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\_listitem.php(11): yii\db\BaseActiveRecord->__get('author')
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', '[<span class="s...')
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, NULL)
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\ListView.php(100): yii\base\View->render('_listitem', Array)
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\ListView.php(77): yii\widgets\ListView->renderItem(Object(common\models\Post), 33, 0)
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\BaseListView.php(151): yii\widgets\ListView->renderItems()
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\widgets\BaseListView->renderSection('{items}')
+#14 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#15 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '{items} {pager}')
+#16 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): yii\widgets\BaseListView->run()
+#17 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(38): yii\base\Widget::widget(Array)
+#18 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#19 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', '[<span class="s...')
+#20 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#21 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#22 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#23 [internal function]: frontend\controllers\PostController->actionIndex()
+#24 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#25 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#26 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#27 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#28 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#30 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_blog.adminuser' doesn't exist
+The SQL being executed was: SELECT * FROM `adminuser` WHERE `id`=1 in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT * FROM `...')
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(376): yii\db\Command->queryInternal('fetch', NULL)
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(247): yii\db\Command->queryOne()
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\ActiveQuery.php(290): yii\db\Query->one(NULL)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\ActiveRelationTrait.php(157): yii\db\ActiveQuery->one()
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\BaseActiveRecord.php(254): yii\db\ActiveQuery->findFor('author', Object(common\models\Post))
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\_listitem.php(11): yii\db\BaseActiveRecord->__get('author')
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', '[<span class="s...')
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, NULL)
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\ListView.php(100): yii\base\View->render('_listitem', Array)
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\ListView.php(77): yii\widgets\ListView->renderItem(Object(common\models\Post), 33, 0)
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\BaseListView.php(151): yii\widgets\ListView->renderItems()
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\BaseListView.php(126): yii\widgets\BaseListView->renderSection('{items}')
+#14 [internal function]: yii\widgets\BaseListView->yii\widgets\{closure}(Array)
+#15 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\BaseListView.php(129): preg_replace_callback('/{\\w+}/', Object(Closure), '{items} {pager}')
+#16 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): yii\widgets\BaseListView->run()
+#17 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(38): yii\base\Widget::widget(Array)
+#18 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#19 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', '[<span class="s...')
+#20 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#21 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#22 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#23 [internal function]: frontend\controllers\PostController->actionIndex()
+#24 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#25 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#26 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#27 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#28 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#29 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#30 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'yii_blog.adminuser' doesn't exist
+)
+
+2018-04-01 09:47:11 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+    'PHPBACKSESSION' => '0h566hldh553m2c9n529t7n8v0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '13702'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D; PHPBACKSESSION=0h566hldh553m2c9n529t7n8v0'
+    'REQUEST_TIME_FLOAT' => 1522576031.1273
+    'REQUEST_TIME' => 1522576031
+]
+2018-04-01 09:51:00 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 09:51:00 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\db\Exception] PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_blog.Adminuser' doesn't exist in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php:900
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(900): PDOStatement->execute()
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\ActiveDataProvider.php(165): yii\db\Query->count('*', NULL)
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(147): yii\data\ActiveDataProvider->prepareTotalCount()
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(79): yii\data\ActiveDataProvider->prepareModels()
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(92): yii\data\BaseDataProvider->prepare()
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(133): yii\data\BaseDataProvider->getModels()
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\BaseListView.php(124): yii\data\BaseDataProvider->getCount()
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): yii\widgets\BaseListView->run()
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(38): yii\base\Widget::widget(Array)
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#15 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', '[<span class="s...')
+#16 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#17 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#18 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#19 [internal function]: frontend\controllers\PostController->actionIndex()
+#20 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#22 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#23 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#24 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+
+Next yii\db\Exception: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'yii_blog.Adminuser' doesn't exist
+The SQL being executed was: SELECT COUNT(*) FROM `post` INNER JOIN `Adminuser` ON post.author_id = Adminuser.id in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Schema.php:633
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(915): yii\db\Schema->convertException(Object(PDOException), 'SELECT COUNT(*)...')
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Command.php(388): yii\db\Command->queryInternal('fetchColumn', 0)
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(393): yii\db\Command->queryScalar()
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\ActiveQuery.php(329): yii\db\Query->queryScalar('COUNT(*)', NULL)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\Query.php(300): yii\db\ActiveQuery->queryScalar('COUNT(*)', NULL)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\ActiveDataProvider.php(165): yii\db\Query->count('*', NULL)
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(147): yii\data\ActiveDataProvider->prepareTotalCount()
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(79): yii\data\ActiveDataProvider->prepareModels()
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(92): yii\data\BaseDataProvider->prepare()
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\data\BaseDataProvider.php(133): yii\data\BaseDataProvider->getModels()
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\BaseListView.php(124): yii\data\BaseDataProvider->getCount()
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): yii\widgets\BaseListView->run()
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(38): yii\base\Widget::widget(Array)
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#15 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', '[<span class="s...')
+#16 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#17 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#18 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#19 [internal function]: frontend\controllers\PostController->actionIndex()
+#20 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#21 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#22 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#23 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#24 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#25 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#26 {main}
+Additional Information:
+Array
+(
+    [0] => 42S02
+    [1] => 1146
+    [2] => Table 'yii_blog.Adminuser' doesn't exist
+)
+
+2018-04-01 09:50:59 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+    'PHPBACKSESSION' => '0h566hldh553m2c9n529t7n8v0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '13781'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D; PHPBACKSESSION=0h566hldh553m2c9n529t7n8v0'
+    'REQUEST_TIME_FLOAT' => 1522576259.6515
+    'REQUEST_TIME' => 1522576259
+]
+2018-04-01 09:59:57 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 10:00:01 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\components\RctReplyWidget.php:30
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\components\RctReplyWidget.php(30): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', 30, Array)
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): frontend\components\RctReplyWidget->run()
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(110): yii\base\Widget::widget(Array)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#8 [internal function]: frontend\controllers\PostController->actionIndex()
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+2018-04-01 09:59:57 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+    'PHPBACKSESSION' => '0h566hldh553m2c9n529t7n8v0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '13989'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D; PHPBACKSESSION=0h566hldh553m2c9n529t7n8v0'
+    'REQUEST_TIME_FLOAT' => 1522576797.1776
+    'REQUEST_TIME' => 1522576797
+]
+2018-04-01 10:01:07 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 10:01:11 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\components\RctReplyWidget.php:30
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\components\RctReplyWidget.php(30): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', 30, Array)
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): frontend\components\RctReplyWidget->run()
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(110): yii\base\Widget::widget(Array)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#8 [internal function]: frontend\controllers\PostController->actionIndex()
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+2018-04-01 10:01:07 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+    'PHPBACKSESSION' => '0h566hldh553m2c9n529t7n8v0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '14013'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D; PHPBACKSESSION=0h566hldh553m2c9n529t7n8v0'
+    'REQUEST_TIME_FLOAT' => 1522576867.3097
+    'REQUEST_TIME' => 1522576867
+]
+2018-04-01 10:09:28 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 10:09:31 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant post - assumed 'post' in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\components\RctReplyWidget.php:30
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\components\RctReplyWidget.php(30): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', 30, Array)
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): frontend\components\RctReplyWidget->run()
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(110): yii\base\Widget::widget(Array)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#8 [internal function]: frontend\controllers\PostController->actionIndex()
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+2018-04-01 10:09:27 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+    'PHPBACKSESSION' => '0h566hldh553m2c9n529t7n8v0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '14298'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D; PHPBACKSESSION=0h566hldh553m2c9n529t7n8v0'
+    'REQUEST_TIME_FLOAT' => 1522577367.3376
+    'REQUEST_TIME' => 1522577367
+]
+2018-04-01 10:10:03 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 10:10:03 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+    'PHPBACKSESSION' => '0h566hldh553m2c9n529t7n8v0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '14306'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D; PHPBACKSESSION=0h566hldh553m2c9n529t7n8v0'
+    'REQUEST_TIME_FLOAT' => 1522577403.2156
+    'REQUEST_TIME' => 1522577403
+]
+2018-04-01 10:13:25 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 10:13:29 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: yii\db\ActiveQuery::url in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\components\RctReplyWidget.php(30): yii\base\Component->__get('url')
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): frontend\components\RctReplyWidget->run()
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(110): yii\base\Widget::widget(Array)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#8 [internal function]: frontend\controllers\PostController->actionIndex()
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+2018-04-01 10:13:24 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+    'PHPBACKSESSION' => '0h566hldh553m2c9n529t7n8v0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '14386'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D; PHPBACKSESSION=0h566hldh553m2c9n529t7n8v0'
+    'REQUEST_TIME_FLOAT' => 1522577604.7951
+    'REQUEST_TIME' => 1522577604
+]
+2018-04-01 10:17:09 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 10:17:14 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: yii\db\ActiveQuery::title in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\components\RctReplyWidget.php(30): yii\base\Component->__get('title')
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): frontend\components\RctReplyWidget->run()
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(110): yii\base\Widget::widget(Array)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#8 [internal function]: frontend\controllers\PostController->actionIndex()
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+2018-04-01 10:17:08 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+    'PHPBACKSESSION' => '0h566hldh553m2c9n529t7n8v0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '14489'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D; PHPBACKSESSION=0h566hldh553m2c9n529t7n8v0'
+    'REQUEST_TIME_FLOAT' => 1522577829.0153
+    'REQUEST_TIME' => 1522577829
+]
+2018-04-01 10:17:37 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 10:17:40 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: common\models\Comment::title in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Component.php:143
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('title')
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\components\RctReplyWidget.php(30): yii\db\BaseActiveRecord->__get('title')
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): frontend\components\RctReplyWidget->run()
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(110): yii\base\Widget::widget(Array)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array)
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#9 [internal function]: frontend\controllers\PostController->actionIndex()
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+2018-04-01 10:17:36 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+    'PHPBACKSESSION' => '0h566hldh553m2c9n529t7n8v0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '14510'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D; PHPBACKSESSION=0h566hldh553m2c9n529t7n8v0'
+    'REQUEST_TIME_FLOAT' => 1522577856.9005
+    'REQUEST_TIME' => 1522577856
+]
+2018-04-01 10:18:34 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 10:18:38 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\base\InvalidParamException] yii\base\InvalidParamException: Relation names are case sensitive. common\models\Comment has a relation named "post" instead of "Post". in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\ActiveRelationTrait.php:153
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\BaseActiveRecord.php(254): yii\db\ActiveQuery->findFor('Post', Object(common\models\Comment))
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\components\RctReplyWidget.php(30): yii\db\BaseActiveRecord->__get('Post')
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): frontend\components\RctReplyWidget->run()
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(110): yii\base\Widget::widget(Array)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array)
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#9 [internal function]: frontend\controllers\PostController->actionIndex()
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+2018-04-01 10:18:33 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+    'PHPBACKSESSION' => '0h566hldh553m2c9n529t7n8v0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '14602'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D; PHPBACKSESSION=0h566hldh553m2c9n529t7n8v0'
+    'REQUEST_TIME_FLOAT' => 1522577913.5163
+    'REQUEST_TIME' => 1522577913
+]
+2018-04-01 10:18:54 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 10:18:58 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\components\RctReplyWidget.php:30
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\components\RctReplyWidget.php(30): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', 30, Array)
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): frontend\components\RctReplyWidget->run()
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(110): yii\base\Widget::widget(Array)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#8 [internal function]: frontend\controllers\PostController->actionIndex()
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+2018-04-01 10:18:53 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+    'PHPBACKSESSION' => '0h566hldh553m2c9n529t7n8v0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '14662'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D; PHPBACKSESSION=0h566hldh553m2c9n529t7n8v0'
+    'REQUEST_TIME_FLOAT' => 1522577933.6899
+    'REQUEST_TIME' => 1522577933
+]
+2018-04-01 10:19:43 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 10:19:46 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\components\RctReplyWidget.php:31
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\components\RctReplyWidget.php(31): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', 31, Array)
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): frontend\components\RctReplyWidget->run()
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(110): yii\base\Widget::widget(Array)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#8 [internal function]: frontend\controllers\PostController->actionIndex()
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+2018-04-01 10:19:42 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+    'PHPBACKSESSION' => '0h566hldh553m2c9n529t7n8v0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '14686'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D; PHPBACKSESSION=0h566hldh553m2c9n529t7n8v0'
+    'REQUEST_TIME_FLOAT' => 1522577982.8273
+    'REQUEST_TIME' => 1522577982
+]
+2018-04-01 10:19:58 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 10:19:57 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+    'PHPBACKSESSION' => '0h566hldh553m2c9n529t7n8v0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '14699'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D; PHPBACKSESSION=0h566hldh553m2c9n529t7n8v0'
+    'REQUEST_TIME_FLOAT' => 1522577997.7107
+    'REQUEST_TIME' => 1522577997
+]
+2018-04-01 10:21:02 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 10:21:06 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\components\RctReplyWidget.php:30
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\components\RctReplyWidget.php(30): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', 30, Array)
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): frontend\components\RctReplyWidget->run()
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(110): yii\base\Widget::widget(Array)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#8 [internal function]: frontend\controllers\PostController->actionIndex()
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+2018-04-01 10:21:02 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+    'PHPBACKSESSION' => '0h566hldh553m2c9n529t7n8v0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '14729'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D; PHPBACKSESSION=0h566hldh553m2c9n529t7n8v0'
+    'REQUEST_TIME_FLOAT' => 1522578062.2173
+    'REQUEST_TIME' => 1522578062
+]
+2018-04-01 10:21:38 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 10:21:42 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][error][yii\base\ErrorException:8] yii\base\ErrorException: Use of undefined constant title - assumed 'title' in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\components\RctReplyWidget.php:30
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\components\RctReplyWidget.php(30): yii\base\ErrorHandler->handleError(8, 'Use of undefine...', 'F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', 30, Array)
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(98): frontend\components\RctReplyWidget->run()
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php(110): yii\base\Widget::widget(Array)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(frontend\controllers\PostController))
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('index', Array, Object(frontend\controllers\PostController))
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php(102): yii\base\Controller->render('index', Array)
+#8 [internal function]: frontend\controllers\PostController->actionIndex()
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('', Array)
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\web\index.php(18): yii\base\Application->run()
+#15 {main}
+2018-04-01 10:21:29 [::1][-][mvdon8kkqk2v2f7mjm7p4uqir1][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+    'PHPBACKSESSION' => '0h566hldh553m2c9n529t7n8v0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '14739'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D; PHPBACKSESSION=0h566hldh553m2c9n529t7n8v0'
+    'REQUEST_TIME_FLOAT' => 1522578089.5274
+    'REQUEST_TIME' => 1522578089
+]
+2018-04-01 10:22:17 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 10:22:16 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+    'PHPBACKSESSION' => '0h566hldh553m2c9n529t7n8v0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '14760'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D; PHPBACKSESSION=0h566hldh553m2c9n529t7n8v0'
+    'REQUEST_TIME_FLOAT' => 1522578136.8348
+    'REQUEST_TIME' => 1522578136
+]
+2018-04-01 10:26:29 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 10:26:29 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+    'PHPBACKSESSION' => '0h566hldh553m2c9n529t7n8v0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '14855'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D; PHPBACKSESSION=0h566hldh553m2c9n529t7n8v0'
+    'REQUEST_TIME_FLOAT' => 1522578389.3053
+    'REQUEST_TIME' => 1522578389
+]
+2018-04-01 10:29:43 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend/messages/zh/app.php
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\views\post\index.php:37
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\frontend\controllers\PostController.php:102
+2018-04-01 10:29:43 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'PHPSESSID' => 'mvdon8kkqk2v2f7mjm7p4uqir1'
+    '_csrf' => 'c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J\";}'
+    '_adminCSRF' => '5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb\";}'
+    'PHPBACKSESSION' => '0h566hldh553m2c9n529t7n8v0'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '14995'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8989'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8989'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; PHPSESSID=mvdon8kkqk2v2f7mjm7p4uqir1; _csrf=c61e13a85924819f5950dedf55f59123057cd768d4c5aae27af58e15a22e63d0a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22VBTfHNJpJn6k7GsWKN3hWUA8gnd0w66J%22%3B%7D; _adminCSRF=5af4e0dbf510e5a431ec6c579d5ebc6f417a865874b83fbf3a4d74781a975223a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22J4Hc3rwwOnX-1JS04fLu7rjz5CwwPcbb%22%3B%7D; PHPBACKSESSION=0h566hldh553m2c9n529t7n8v0'
+    'REQUEST_TIME_FLOAT' => 1522578583.1936
+    'REQUEST_TIME' => 1522578583
+]
