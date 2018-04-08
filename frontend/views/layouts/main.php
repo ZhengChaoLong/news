@@ -28,7 +28,7 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => 'sofeWare system classwork',
+        'brandLabel' => '简易的新闻网站',
     	'brandOptions'=> ['style'=>'color:yellow;font-size:23px'],
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
@@ -36,7 +36,6 @@ AppAsset::register($this);
         ],
     ]);
     $menuItems = [
-      
         //['label' => '关于我们', 'url' => ['/site/about']],
     ];
     if (Yii::$app->user->isGuest) {

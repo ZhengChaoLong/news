@@ -1,12 +1,12 @@
-a:2:{i:0;a:2:{i:0;s:29883:"<!DOCTYPE html>
+a:2:{i:0;a:2:{i:0;s:30023:"<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-param" content="_csrf">
-    <meta name="csrf-token" content="TDJsa1A3b1EacDgNGHklIQZcWgBncBwGB3xfAwdiLmkrXAhbJwFZGw==">
+    <meta name="csrf-token" content="bEJMSTl4M3EuDz0mbB59OlgaOQxpLwVCJRMrHGA0diIdED8ZfxEGQg==">
     <title></title>
-    <link href="/assets/c163d90e/css/bootstrap.css" rel="stylesheet">
+    <link href="/assets/5e629f08/css/bootstrap.css" rel="stylesheet">
 <link href="/css/site.css" rel="stylesheet"></head>
 <body>
 
@@ -14,8 +14,8 @@ a:2:{i:0;a:2:{i:0;s:29883:"<!DOCTYPE html>
     <nav id="w0" class="navbar-inverse navbar-fixed-top navbar" role="navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w0-collapse"><span class="sr-only">Toggle navigation</span>
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
-<span class="icon-bar"></span></button><a class="navbar-brand" href="/" style="color:yellow;font-size:23px">sofeWare system classwork</a></div><div id="w0-collapse" class="collapse navbar-collapse"><ul id="w1" class="navbar-nav navbar-right nav"><li><a href="/site/signup">注册</a></li>
-<li><a href="/site/login">登录</a></li></ul></div></div></nav>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="/" style="color:yellow;font-size:23px">简易的新闻网站</a></div><div id="w0-collapse" class="collapse navbar-collapse"><ul id="w1" class="navbar-nav navbar-right nav"><li><form action="/site/logout" method="post">
+<input type="hidden" name="_csrf" value="bEJMSTl4M3EuDz0mbB59OlgaOQxpLwVCJRMrHGA0diIdED8ZfxEGQg=="><button type="submit" class="btn btn-link">退出 (chaolong)</button></form></li></ul></div></div></nav>
     <div class="container">
                         
 <div class="container">
@@ -37,7 +37,7 @@ a:2:{i:0;a:2:{i:0;s:29883:"<!DOCTYPE html>
 	
 		<div class="author">
 		<span class="glyphicon glyphicon-time" aria-hidden="true"></span><em>2017-06-11 06:57:59&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em>
-		<span class="glyphicon glyphicon-user" aria-hidden="true"></span><em>chaolong</em>
+		<span class="glyphicon glyphicon-user" aria-hidden="true"></span><em>test</em>
 		</div>
 	</div>
 	
@@ -50,7 +50,7 @@ a:2:{i:0;a:2:{i:0;s:29883:"<!DOCTYPE html>
 	<div class="nav">
 		<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
 		<a href="/post/index?PostSearch%5Btags%5D=test">test</a>		<br>
-		<a href="/post/detail?id=42&amp;title=test#comments">评论 (0)</a> | 最后修改于 2017-06-59 06:57:59	</div>
+		<a href="/post/detail?id=42&amp;title=test#comments">评论 (0)</a> | 最后修改于 2018-04-25 07:22:25	</div>
 	
 </div></div>
 <div data-key="41">
@@ -335,7 +335,7 @@ jQuery UI widg...
     </div>
 </div>
 
-<div id="yii-debug-toolbar" data-url="/debug/default/toolbar?tag=5ac0b4973662c" style="display:none" class="yii-debug-toolbar-bottom"></div><style>
+<div id="yii-debug-toolbar" data-url="/debug/default/toolbar?tag=5ac885a5e8a0d" style="display:none" class="yii-debug-toolbar-bottom"></div><style>
 #yii-debug-toolbar-logo {
     position: fixed;
     right: 31px;
@@ -756,8 +756,8 @@ a.yii-debug-toolbar__label:focus {
         return el;
     }
 })();
-</script><script src="/assets/6f58bba/jquery.js"></script>
-<script src="/assets/8466ed2a/yii.js"></script>
-<script src="/assets/c163d90e/js/bootstrap.js"></script></body>
+</script><script src="/assets/99f4cdbc/jquery.js"></script>
+<script src="/assets/249c4d9d/yii.js"></script>
+<script src="/assets/5e629f08/js/bootstrap.js"></script></body>
 </html>
 ";i:1;N;}i:1;O:24:"yii\caching\DbDependency":5:{s:2:"db";s:2:"db";s:3:"sql";s:26:"select count(id) from post";s:6:"params";a:0:{}s:4:"data";a:1:{s:9:"count(id)";s:1:"8";}s:8:"reusable";b:0;}}
