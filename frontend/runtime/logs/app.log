@@ -2451,3 +2451,639 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1522578583.1936
     'REQUEST_TIME' => 1522578583
 ]
+2018-04-07 07:14:13 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\大学毕业设计\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\大学毕业设计\news\frontend/messages/zh/app.php
+    in F:\大学毕业设计\news\frontend\views\post\index.php:37
+    in F:\大学毕业设计\news\frontend\controllers\PostController.php:102
+2018-04-07 07:14:12 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ace_settings' => '{\"navbar-fixed\":-1,\"main-container-fixed\":1,\"sidebar-fixed\":-1,\"breadcrumbs-fixed\":-1,\"sidebar-collapsed\":-1}'
+    '_adminCSRF' => '7c4068dafcd787316bd577a921aa43217a3112989083034325c3161aa9a126bca:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"r6Al8NpAmPr17Wblw9-YBpWDozliNLin\";}'
+    'PHPBACKSESSION' => 'ro7inea7i03td5a7vfq1ik1j53'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\大学毕业设计\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '2302'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\大学毕业设计\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ace.settings=%7B%22navbar-fixed%22%3A-1%2C%22main-container-fixed%22%3A1%2C%22sidebar-fixed%22%3A-1%2C%22breadcrumbs-fixed%22%3A-1%2C%22sidebar-collapsed%22%3A-1%7D; _adminCSRF=7c4068dafcd787316bd577a921aa43217a3112989083034325c3161aa9a126bca%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22r6Al8NpAmPr17Wblw9-YBpWDozliNLin%22%3B%7D; PHPBACKSESSION=ro7inea7i03td5a7vfq1ik1j53; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523085252.7533
+    'REQUEST_TIME' => 1523085252
+]
+2018-04-07 07:26:12 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\大学毕业设计\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\大学毕业设计\news\frontend/messages/zh/app.php
+    in F:\大学毕业设计\news\frontend\views\post\index.php:37
+    in F:\大学毕业设计\news\frontend\controllers\PostController.php:102
+2018-04-07 07:26:11 [::1][1][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ace_settings' => '{\"navbar-fixed\":-1,\"main-container-fixed\":1,\"sidebar-fixed\":-1,\"breadcrumbs-fixed\":-1,\"sidebar-collapsed\":-1}'
+    '_adminCSRF' => '7c4068dafcd787316bd577a921aa43217a3112989083034325c3161aa9a126bca:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"r6Al8NpAmPr17Wblw9-YBpWDozliNLin\";}'
+    'PHPBACKSESSION' => 'ro7inea7i03td5a7vfq1ik1j53'
+    '_csrf' => 'c1d8cc2752c2a247111a6b5b82dea35f15d1bbb5b349e9e7c959a12e4da89cd7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BMqoUfNK4XuEPW63IQgUYLESqRsPFi53\";}'
+    'PHPSESSID' => 'ck3bnuem3ip22f4s78m583ie45'
+    '_identity' => '83454a98b8cd6b510d54710bbcbed780a8632fc0be3049782d3aafbc3ffc0b11a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/post/detail?id=41&title=RESTful+Web%E6%9C%8D%E5%8A%A1'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\大学毕业设计\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '3545'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\大学毕业设计\\news\\frontend\\web\\index.php'
+    'PATH_INFO' => '/post/index'
+    'PHP_SELF' => '/index.php/post/index'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8888/post/detail?id=41&title=RESTful+Web%E6%9C%8D%E5%8A%A1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ace.settings=%7B%22navbar-fixed%22%3A-1%2C%22main-container-fixed%22%3A1%2C%22sidebar-fixed%22%3A-1%2C%22breadcrumbs-fixed%22%3A-1%2C%22sidebar-collapsed%22%3A-1%7D; _adminCSRF=7c4068dafcd787316bd577a921aa43217a3112989083034325c3161aa9a126bca%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22r6Al8NpAmPr17Wblw9-YBpWDozliNLin%22%3B%7D; PHPBACKSESSION=ro7inea7i03td5a7vfq1ik1j53; _csrf=c1d8cc2752c2a247111a6b5b82dea35f15d1bbb5b349e9e7c959a12e4da89cd7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BMqoUfNK4XuEPW63IQgUYLESqRsPFi53%22%3B%7D; PHPSESSID=ck3bnuem3ip22f4s78m583ie45; _identity=83454a98b8cd6b510d54710bbcbed780a8632fc0be3049782d3aafbc3ffc0b11a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523085971.4416
+    'REQUEST_TIME' => 1523085971
+]
+2018-04-07 08:21:01 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\大学毕业设计\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\大学毕业设计\news\frontend/messages/zh/app.php
+    in F:\大学毕业设计\news\frontend\views\post\index.php:37
+    in F:\大学毕业设计\news\frontend\controllers\PostController.php:102
+2018-04-07 08:21:00 [::1][1][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ace_settings' => '{\"navbar-fixed\":-1,\"main-container-fixed\":1,\"sidebar-fixed\":-1,\"breadcrumbs-fixed\":-1,\"sidebar-collapsed\":-1}'
+    '_adminCSRF' => '7c4068dafcd787316bd577a921aa43217a3112989083034325c3161aa9a126bca:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"r6Al8NpAmPr17Wblw9-YBpWDozliNLin\";}'
+    'PHPBACKSESSION' => 'ro7inea7i03td5a7vfq1ik1j53'
+    '_csrf' => 'c1d8cc2752c2a247111a6b5b82dea35f15d1bbb5b349e9e7c959a12e4da89cd7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BMqoUfNK4XuEPW63IQgUYLESqRsPFi53\";}'
+    'PHPSESSID' => 'ck3bnuem3ip22f4s78m583ie45'
+    '_identity' => '83454a98b8cd6b510d54710bbcbed780a8632fc0be3049782d3aafbc3ffc0b11a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/post/detail?id=41&title=RESTful+Web%E6%9C%8D%E5%8A%A1'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\大学毕业设计\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '6006'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\大学毕业设计\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8888/post/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ace.settings=%7B%22navbar-fixed%22%3A-1%2C%22main-container-fixed%22%3A1%2C%22sidebar-fixed%22%3A-1%2C%22breadcrumbs-fixed%22%3A-1%2C%22sidebar-collapsed%22%3A-1%7D; _adminCSRF=7c4068dafcd787316bd577a921aa43217a3112989083034325c3161aa9a126bca%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22r6Al8NpAmPr17Wblw9-YBpWDozliNLin%22%3B%7D; PHPBACKSESSION=ro7inea7i03td5a7vfq1ik1j53; _csrf=c1d8cc2752c2a247111a6b5b82dea35f15d1bbb5b349e9e7c959a12e4da89cd7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BMqoUfNK4XuEPW63IQgUYLESqRsPFi53%22%3B%7D; PHPSESSID=ck3bnuem3ip22f4s78m583ie45; _identity=83454a98b8cd6b510d54710bbcbed780a8632fc0be3049782d3aafbc3ffc0b11a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523089260.32
+    'REQUEST_TIME' => 1523089260
+]
+2018-04-07 08:47:34 [::1][1][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\大学毕业设计\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\大学毕业设计\news\frontend/messages/zh/app.php
+    in F:\大学毕业设计\news\frontend\views\post\index.php:37
+    in F:\大学毕业设计\news\frontend\controllers\PostController.php:102
+2018-04-07 08:47:33 [::1][1][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ace_settings' => '{\"navbar-fixed\":-1,\"main-container-fixed\":1,\"sidebar-fixed\":-1,\"breadcrumbs-fixed\":-1,\"sidebar-collapsed\":-1}'
+    '_adminCSRF' => '7c4068dafcd787316bd577a921aa43217a3112989083034325c3161aa9a126bca:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"r6Al8NpAmPr17Wblw9-YBpWDozliNLin\";}'
+    '_csrf' => 'c1d8cc2752c2a247111a6b5b82dea35f15d1bbb5b349e9e7c959a12e4da89cd7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BMqoUfNK4XuEPW63IQgUYLESqRsPFi53\";}'
+    'PHPSESSID' => 'ck3bnuem3ip22f4s78m583ie45'
+    'PHPBACKSESSION' => 'vqnr728hmj4k8qhcf0bvoscet6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/post/detail?id=41&title=RESTful+Web%E6%9C%8D%E5%8A%A1'
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\大学毕业设计\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '6903'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\大学毕业设计\\news\\frontend\\web\\index.php'
+    'PATH_INFO' => '/post/index'
+    'PHP_SELF' => '/index.php/post/index'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8888/post/detail?id=42&title=test'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ace.settings=%7B%22navbar-fixed%22%3A-1%2C%22main-container-fixed%22%3A1%2C%22sidebar-fixed%22%3A-1%2C%22breadcrumbs-fixed%22%3A-1%2C%22sidebar-collapsed%22%3A-1%7D; _adminCSRF=7c4068dafcd787316bd577a921aa43217a3112989083034325c3161aa9a126bca%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22r6Al8NpAmPr17Wblw9-YBpWDozliNLin%22%3B%7D; _csrf=c1d8cc2752c2a247111a6b5b82dea35f15d1bbb5b349e9e7c959a12e4da89cd7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BMqoUfNK4XuEPW63IQgUYLESqRsPFi53%22%3B%7D; PHPSESSID=ck3bnuem3ip22f4s78m583ie45; PHPBACKSESSION=vqnr728hmj4k8qhcf0bvoscet6'
+    'REQUEST_TIME_FLOAT' => 1523090853.9272
+    'REQUEST_TIME' => 1523090853
+]
+2018-04-08 07:48:13 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\大学毕业设计\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\大学毕业设计\news\frontend/messages/zh/app.php
+    in F:\大学毕业设计\news\frontend\views\post\index.php:37
+    in F:\大学毕业设计\news\frontend\controllers\PostController.php:102
+2018-04-08 07:48:11 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ace_settings' => '{\"navbar-fixed\":-1,\"main-container-fixed\":1,\"sidebar-fixed\":-1,\"breadcrumbs-fixed\":-1,\"sidebar-collapsed\":-1}'
+    '_adminCSRF' => '6fbe59473c25dd4e0c589c966d944df29ed4afc44889ef6c2b17a72eccf7fd6ca:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"lbDkpPYuMwvAySZP5-YvFI8dojbq2t8_\";}'
+    'PHPBACKSESSION' => 'himtutvi9a38kdor5otvnu8m24'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\大学毕业设计\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '14054'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\大学毕业设计\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ace.settings=%7B%22navbar-fixed%22%3A-1%2C%22main-container-fixed%22%3A1%2C%22sidebar-fixed%22%3A-1%2C%22breadcrumbs-fixed%22%3A-1%2C%22sidebar-collapsed%22%3A-1%7D; _adminCSRF=6fbe59473c25dd4e0c589c966d944df29ed4afc44889ef6c2b17a72eccf7fd6ca%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22lbDkpPYuMwvAySZP5-YvFI8dojbq2t8_%22%3B%7D; PHPBACKSESSION=himtutvi9a38kdor5otvnu8m24; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523173692.0204
+    'REQUEST_TIME' => 1523173692
+]
+2018-04-08 15:32:43 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\大学毕业设计\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\大学毕业设计\news\frontend/messages/zh/app.php
+    in F:\大学毕业设计\news\frontend\views\post\index.php:37
+    in F:\大学毕业设计\news\frontend\controllers\PostController.php:102
+2018-04-08 15:32:42 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ace_settings' => '{\"navbar-fixed\":-1,\"main-container-fixed\":1,\"sidebar-fixed\":-1,\"breadcrumbs-fixed\":-1,\"sidebar-collapsed\":-1}'
+    '_adminCSRF' => '6fbe59473c25dd4e0c589c966d944df29ed4afc44889ef6c2b17a72eccf7fd6ca:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"lbDkpPYuMwvAySZP5-YvFI8dojbq2t8_\";}'
+    'PHPBACKSESSION' => 'himtutvi9a38kdor5otvnu8m24'
+    'PHPSESSID' => '54ld8kevf4iljgpmdpo1f005u6'
+    '_csrf' => 'b24d708a2bc60661d90b972e4fda2405a3b10f58db53628f79485b2546a6befaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6Xv5M_OrxOzUjDOfpKoyt2h_k4wiD-Mq\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\大学毕业设计\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '4048'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\大学毕业设计\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ace.settings=%7B%22navbar-fixed%22%3A-1%2C%22main-container-fixed%22%3A1%2C%22sidebar-fixed%22%3A-1%2C%22breadcrumbs-fixed%22%3A-1%2C%22sidebar-collapsed%22%3A-1%7D; _adminCSRF=6fbe59473c25dd4e0c589c966d944df29ed4afc44889ef6c2b17a72eccf7fd6ca%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22lbDkpPYuMwvAySZP5-YvFI8dojbq2t8_%22%3B%7D; PHPBACKSESSION=himtutvi9a38kdor5otvnu8m24; PHPSESSID=54ld8kevf4iljgpmdpo1f005u6; _csrf=b24d708a2bc60661d90b972e4fda2405a3b10f58db53628f79485b2546a6befaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226Xv5M_OrxOzUjDOfpKoyt2h_k4wiD-Mq%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523201562.0379
+    'REQUEST_TIME' => 1523201562
+]
+2018-04-09 07:01:36 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\大学毕业设计\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\大学毕业设计\news\frontend/messages/zh/app.php
+    in F:\大学毕业设计\news\frontend\views\post\index.php:37
+    in F:\大学毕业设计\news\frontend\controllers\PostController.php:102
+2018-04-09 07:01:35 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ace_settings' => '{\"navbar-fixed\":-1,\"main-container-fixed\":1,\"sidebar-fixed\":-1,\"breadcrumbs-fixed\":-1,\"sidebar-collapsed\":-1}'
+    '_adminCSRF' => '6fbe59473c25dd4e0c589c966d944df29ed4afc44889ef6c2b17a72eccf7fd6ca:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"lbDkpPYuMwvAySZP5-YvFI8dojbq2t8_\";}'
+    'PHPBACKSESSION' => 'himtutvi9a38kdor5otvnu8m24'
+    'PHPSESSID' => '54ld8kevf4iljgpmdpo1f005u6'
+    '_csrf' => 'b24d708a2bc60661d90b972e4fda2405a3b10f58db53628f79485b2546a6befaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6Xv5M_OrxOzUjDOfpKoyt2h_k4wiD-Mq\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\大学毕业设计\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '14806'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\大学毕业设计\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ace.settings=%7B%22navbar-fixed%22%3A-1%2C%22main-container-fixed%22%3A1%2C%22sidebar-fixed%22%3A-1%2C%22breadcrumbs-fixed%22%3A-1%2C%22sidebar-collapsed%22%3A-1%7D; _adminCSRF=6fbe59473c25dd4e0c589c966d944df29ed4afc44889ef6c2b17a72eccf7fd6ca%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22lbDkpPYuMwvAySZP5-YvFI8dojbq2t8_%22%3B%7D; PHPBACKSESSION=himtutvi9a38kdor5otvnu8m24; PHPSESSID=54ld8kevf4iljgpmdpo1f005u6; _csrf=b24d708a2bc60661d90b972e4fda2405a3b10f58db53628f79485b2546a6befaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226Xv5M_OrxOzUjDOfpKoyt2h_k4wiD-Mq%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523257295.5234
+    'REQUEST_TIME' => 1523257295
+]
+2018-04-10 01:21:56 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\大学毕业设计\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\大学毕业设计\news\frontend/messages/zh/app.php
+    in F:\大学毕业设计\news\frontend\views\post\index.php:37
+    in F:\大学毕业设计\news\frontend\controllers\PostController.php:102
+2018-04-10 01:21:55 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ace_settings' => '{\"navbar-fixed\":-1,\"main-container-fixed\":1,\"sidebar-fixed\":-1,\"breadcrumbs-fixed\":-1,\"sidebar-collapsed\":-1}'
+    '_adminCSRF' => '6fbe59473c25dd4e0c589c966d944df29ed4afc44889ef6c2b17a72eccf7fd6ca:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"lbDkpPYuMwvAySZP5-YvFI8dojbq2t8_\";}'
+    'PHPBACKSESSION' => 'himtutvi9a38kdor5otvnu8m24'
+    'PHPSESSID' => '54ld8kevf4iljgpmdpo1f005u6'
+    '_csrf' => 'b24d708a2bc60661d90b972e4fda2405a3b10f58db53628f79485b2546a6befaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6Xv5M_OrxOzUjDOfpKoyt2h_k4wiD-Mq\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\大学毕业设计\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '4350'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\大学毕业设计\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ace.settings=%7B%22navbar-fixed%22%3A-1%2C%22main-container-fixed%22%3A1%2C%22sidebar-fixed%22%3A-1%2C%22breadcrumbs-fixed%22%3A-1%2C%22sidebar-collapsed%22%3A-1%7D; _adminCSRF=6fbe59473c25dd4e0c589c966d944df29ed4afc44889ef6c2b17a72eccf7fd6ca%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22lbDkpPYuMwvAySZP5-YvFI8dojbq2t8_%22%3B%7D; PHPBACKSESSION=himtutvi9a38kdor5otvnu8m24; PHPSESSID=54ld8kevf4iljgpmdpo1f005u6; _csrf=b24d708a2bc60661d90b972e4fda2405a3b10f58db53628f79485b2546a6befaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226Xv5M_OrxOzUjDOfpKoyt2h_k4wiD-Mq%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523323315.6887
+    'REQUEST_TIME' => 1523323315
+]
+2018-04-10 02:03:51 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\大学毕业设计\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\大学毕业设计\news\frontend/messages/zh/app.php
+    in F:\大学毕业设计\news\frontend\views\post\index.php:37
+    in F:\大学毕业设计\news\frontend\controllers\PostController.php:102
+2018-04-10 02:03:50 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ace_settings' => '{\"navbar-fixed\":-1,\"main-container-fixed\":1,\"sidebar-fixed\":-1,\"breadcrumbs-fixed\":-1,\"sidebar-collapsed\":-1}'
+    '_adminCSRF' => '6fbe59473c25dd4e0c589c966d944df29ed4afc44889ef6c2b17a72eccf7fd6ca:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"lbDkpPYuMwvAySZP5-YvFI8dojbq2t8_\";}'
+    'PHPBACKSESSION' => 'himtutvi9a38kdor5otvnu8m24'
+    'PHPSESSID' => '54ld8kevf4iljgpmdpo1f005u6'
+    '_csrf' => 'b24d708a2bc60661d90b972e4fda2405a3b10f58db53628f79485b2546a6befaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6Xv5M_OrxOzUjDOfpKoyt2h_k4wiD-Mq\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\大学毕业设计\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '7367'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\大学毕业设计\\news\\frontend\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ace.settings=%7B%22navbar-fixed%22%3A-1%2C%22main-container-fixed%22%3A1%2C%22sidebar-fixed%22%3A-1%2C%22breadcrumbs-fixed%22%3A-1%2C%22sidebar-collapsed%22%3A-1%7D; _adminCSRF=6fbe59473c25dd4e0c589c966d944df29ed4afc44889ef6c2b17a72eccf7fd6ca%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22lbDkpPYuMwvAySZP5-YvFI8dojbq2t8_%22%3B%7D; PHPBACKSESSION=himtutvi9a38kdor5otvnu8m24; PHPSESSID=54ld8kevf4iljgpmdpo1f005u6; _csrf=b24d708a2bc60661d90b972e4fda2405a3b10f58db53628f79485b2546a6befaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226Xv5M_OrxOzUjDOfpKoyt2h_k4wiD-Mq%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523325830.1865
+    'REQUEST_TIME' => 1523325830
+]
+2018-04-10 02:07:03 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\大学毕业设计\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\大学毕业设计\news\frontend/messages/zh/app.php
+    in F:\大学毕业设计\news\frontend\views\post\index.php:37
+    in F:\大学毕业设计\news\frontend\controllers\PostController.php:102
+2018-04-10 02:07:02 [::1][-][-][info][application] $_GET = [
+    'PostSearch' => [
+        'tags' => 'DetailView'
+    ]
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ace_settings' => '{\"navbar-fixed\":-1,\"main-container-fixed\":1,\"sidebar-fixed\":-1,\"breadcrumbs-fixed\":-1,\"sidebar-collapsed\":-1}'
+    '_adminCSRF' => '6fbe59473c25dd4e0c589c966d944df29ed4afc44889ef6c2b17a72eccf7fd6ca:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"lbDkpPYuMwvAySZP5-YvFI8dojbq2t8_\";}'
+    'PHPBACKSESSION' => 'himtutvi9a38kdor5otvnu8m24'
+    'PHPSESSID' => '54ld8kevf4iljgpmdpo1f005u6'
+    '_csrf' => 'b24d708a2bc60661d90b972e4fda2405a3b10f58db53628f79485b2546a6befaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6Xv5M_OrxOzUjDOfpKoyt2h_k4wiD-Mq\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\大学毕业设计\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '7539'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/post/index?PostSearch%5Btags%5D=DetailView'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\大学毕业设计\\news\\frontend\\web\\index.php'
+    'PATH_INFO' => '/post/index'
+    'PHP_SELF' => '/index.php/post/index'
+    'QUERY_STRING' => 'PostSearch%5Btags%5D=DetailView'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8888/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ace.settings=%7B%22navbar-fixed%22%3A-1%2C%22main-container-fixed%22%3A1%2C%22sidebar-fixed%22%3A-1%2C%22breadcrumbs-fixed%22%3A-1%2C%22sidebar-collapsed%22%3A-1%7D; _adminCSRF=6fbe59473c25dd4e0c589c966d944df29ed4afc44889ef6c2b17a72eccf7fd6ca%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22lbDkpPYuMwvAySZP5-YvFI8dojbq2t8_%22%3B%7D; PHPBACKSESSION=himtutvi9a38kdor5otvnu8m24; PHPSESSID=54ld8kevf4iljgpmdpo1f005u6; _csrf=b24d708a2bc60661d90b972e4fda2405a3b10f58db53628f79485b2546a6befaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226Xv5M_OrxOzUjDOfpKoyt2h_k4wiD-Mq%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523326022.0596
+    'REQUEST_TIME' => 1523326022
+]
+2018-04-10 02:07:23 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\大学毕业设计\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\大学毕业设计\news\frontend/messages/zh/app.php
+    in F:\大学毕业设计\news\frontend\views\post\index.php:37
+    in F:\大学毕业设计\news\frontend\controllers\PostController.php:102
+2018-04-10 02:07:22 [::1][-][-][info][application] $_GET = [
+    'PostSearch' => [
+        'tags' => 'ActiveRecord'
+    ]
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ace_settings' => '{\"navbar-fixed\":-1,\"main-container-fixed\":1,\"sidebar-fixed\":-1,\"breadcrumbs-fixed\":-1,\"sidebar-collapsed\":-1}'
+    '_adminCSRF' => '6fbe59473c25dd4e0c589c966d944df29ed4afc44889ef6c2b17a72eccf7fd6ca:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"lbDkpPYuMwvAySZP5-YvFI8dojbq2t8_\";}'
+    'PHPBACKSESSION' => 'himtutvi9a38kdor5otvnu8m24'
+    'PHPSESSID' => '54ld8kevf4iljgpmdpo1f005u6'
+    '_csrf' => 'b24d708a2bc60661d90b972e4fda2405a3b10f58db53628f79485b2546a6befaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6Xv5M_OrxOzUjDOfpKoyt2h_k4wiD-Mq\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\大学毕业设计\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '7568'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/post/index?PostSearch%5Btags%5D=ActiveRecord'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\大学毕业设计\\news\\frontend\\web\\index.php'
+    'PATH_INFO' => '/post/index'
+    'PHP_SELF' => '/index.php/post/index'
+    'QUERY_STRING' => 'PostSearch%5Btags%5D=ActiveRecord'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8888/post/index?PostSearch%5Btags%5D=DetailView'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ace.settings=%7B%22navbar-fixed%22%3A-1%2C%22main-container-fixed%22%3A1%2C%22sidebar-fixed%22%3A-1%2C%22breadcrumbs-fixed%22%3A-1%2C%22sidebar-collapsed%22%3A-1%7D; _adminCSRF=6fbe59473c25dd4e0c589c966d944df29ed4afc44889ef6c2b17a72eccf7fd6ca%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22lbDkpPYuMwvAySZP5-YvFI8dojbq2t8_%22%3B%7D; PHPBACKSESSION=himtutvi9a38kdor5otvnu8m24; PHPSESSID=54ld8kevf4iljgpmdpo1f005u6; _csrf=b24d708a2bc60661d90b972e4fda2405a3b10f58db53628f79485b2546a6befaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226Xv5M_OrxOzUjDOfpKoyt2h_k4wiD-Mq%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523326042.9253
+    'REQUEST_TIME' => 1523326042
+]
+2018-04-10 02:07:56 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\大学毕业设计\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\大学毕业设计\news\frontend/messages/zh/app.php
+    in F:\大学毕业设计\news\frontend\views\post\index.php:37
+    in F:\大学毕业设计\news\frontend\controllers\PostController.php:102
+2018-04-10 02:07:55 [::1][-][-][info][application] $_GET = [
+    'PostSearch' => [
+        'tags' => 'Yii2'
+    ]
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ace_settings' => '{\"navbar-fixed\":-1,\"main-container-fixed\":1,\"sidebar-fixed\":-1,\"breadcrumbs-fixed\":-1,\"sidebar-collapsed\":-1}'
+    '_adminCSRF' => '6fbe59473c25dd4e0c589c966d944df29ed4afc44889ef6c2b17a72eccf7fd6ca:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"lbDkpPYuMwvAySZP5-YvFI8dojbq2t8_\";}'
+    'PHPBACKSESSION' => 'himtutvi9a38kdor5otvnu8m24'
+    'PHPSESSID' => '54ld8kevf4iljgpmdpo1f005u6'
+    '_csrf' => 'b24d708a2bc60661d90b972e4fda2405a3b10f58db53628f79485b2546a6befaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6Xv5M_OrxOzUjDOfpKoyt2h_k4wiD-Mq\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\大学毕业设计\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '7610'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/post/index?PostSearch%5Btags%5D=Yii2'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\大学毕业设计\\news\\frontend\\web\\index.php'
+    'PATH_INFO' => '/post/index'
+    'PHP_SELF' => '/index.php/post/index'
+    'QUERY_STRING' => 'PostSearch%5Btags%5D=Yii2'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8888/post/index?PostSearch%5Btags%5D=ActiveRecord'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ace.settings=%7B%22navbar-fixed%22%3A-1%2C%22main-container-fixed%22%3A1%2C%22sidebar-fixed%22%3A-1%2C%22breadcrumbs-fixed%22%3A-1%2C%22sidebar-collapsed%22%3A-1%7D; _adminCSRF=6fbe59473c25dd4e0c589c966d944df29ed4afc44889ef6c2b17a72eccf7fd6ca%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22lbDkpPYuMwvAySZP5-YvFI8dojbq2t8_%22%3B%7D; PHPBACKSESSION=himtutvi9a38kdor5otvnu8m24; PHPSESSID=54ld8kevf4iljgpmdpo1f005u6; _csrf=b24d708a2bc60661d90b972e4fda2405a3b10f58db53628f79485b2546a6befaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226Xv5M_OrxOzUjDOfpKoyt2h_k4wiD-Mq%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523326075.6597
+    'REQUEST_TIME' => 1523326075
+]
+2018-04-10 02:08:09 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\大学毕业设计\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\大学毕业设计\news\frontend/messages/zh/app.php
+    in F:\大学毕业设计\news\frontend\views\post\index.php:37
+    in F:\大学毕业设计\news\frontend\controllers\PostController.php:102
+2018-04-10 02:08:08 [::1][-][-][info][application] $_GET = [
+    'PostSearch' => [
+        'tags' => 'Yii'
+    ]
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ace_settings' => '{\"navbar-fixed\":-1,\"main-container-fixed\":1,\"sidebar-fixed\":-1,\"breadcrumbs-fixed\":-1,\"sidebar-collapsed\":-1}'
+    '_adminCSRF' => '6fbe59473c25dd4e0c589c966d944df29ed4afc44889ef6c2b17a72eccf7fd6ca:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"lbDkpPYuMwvAySZP5-YvFI8dojbq2t8_\";}'
+    'PHPBACKSESSION' => 'himtutvi9a38kdor5otvnu8m24'
+    'PHPSESSID' => '54ld8kevf4iljgpmdpo1f005u6'
+    '_csrf' => 'b24d708a2bc60661d90b972e4fda2405a3b10f58db53628f79485b2546a6befaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6Xv5M_OrxOzUjDOfpKoyt2h_k4wiD-Mq\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\大学毕业设计\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '7626'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/post/index?PostSearch%5Btags%5D=Yii'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\大学毕业设计\\news\\frontend\\web\\index.php'
+    'PATH_INFO' => '/post/index'
+    'PHP_SELF' => '/index.php/post/index'
+    'QUERY_STRING' => 'PostSearch%5Btags%5D=Yii'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8888/post/index?PostSearch%5Btags%5D=Yii2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ace.settings=%7B%22navbar-fixed%22%3A-1%2C%22main-container-fixed%22%3A1%2C%22sidebar-fixed%22%3A-1%2C%22breadcrumbs-fixed%22%3A-1%2C%22sidebar-collapsed%22%3A-1%7D; _adminCSRF=6fbe59473c25dd4e0c589c966d944df29ed4afc44889ef6c2b17a72eccf7fd6ca%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22lbDkpPYuMwvAySZP5-YvFI8dojbq2t8_%22%3B%7D; PHPBACKSESSION=himtutvi9a38kdor5otvnu8m24; PHPSESSID=54ld8kevf4iljgpmdpo1f005u6; _csrf=b24d708a2bc60661d90b972e4fda2405a3b10f58db53628f79485b2546a6befaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226Xv5M_OrxOzUjDOfpKoyt2h_k4wiD-Mq%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523326088.5746
+    'REQUEST_TIME' => 1523326088
+]
+2018-04-10 02:43:24 [::1][-][-][error][yii\i18n\PhpMessageSource::loadFallbackMessages] The message file for category 'app' does not exist: F:\大学毕业设计\news\frontend/messages/zh-CN/app.php Fallback file does not exist as well: F:\大学毕业设计\news\frontend/messages/zh/app.php
+    in F:\大学毕业设计\news\frontend\views\post\index.php:37
+    in F:\大学毕业设计\news\frontend\controllers\PostController.php:103
+2018-04-10 02:43:23 [::1][-][-][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ace_settings' => '{\"navbar-fixed\":-1,\"main-container-fixed\":1,\"sidebar-fixed\":-1,\"breadcrumbs-fixed\":-1,\"sidebar-collapsed\":-1}'
+    '_adminCSRF' => '6fbe59473c25dd4e0c589c966d944df29ed4afc44889ef6c2b17a72eccf7fd6ca:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"lbDkpPYuMwvAySZP5-YvFI8dojbq2t8_\";}'
+    'PHPBACKSESSION' => 'himtutvi9a38kdor5otvnu8m24'
+    'PHPSESSID' => '54ld8kevf4iljgpmdpo1f005u6'
+    '_csrf' => 'b24d708a2bc60661d90b972e4fda2405a3b10f58db53628f79485b2546a6befaa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"6Xv5M_OrxOzUjDOfpKoyt2h_k4wiD-Mq\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\大学毕业设计\\news\\frontend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '9788'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8888'
+    'REQUEST_URI' => '/post/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\大学毕业设计\\news\\frontend\\web\\index.php'
+    'PATH_INFO' => '/post/index'
+    'PHP_SELF' => '/index.php/post/index'
+    'HTTP_HOST' => 'localhost:8888'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ace.settings=%7B%22navbar-fixed%22%3A-1%2C%22main-container-fixed%22%3A1%2C%22sidebar-fixed%22%3A-1%2C%22breadcrumbs-fixed%22%3A-1%2C%22sidebar-collapsed%22%3A-1%7D; _adminCSRF=6fbe59473c25dd4e0c589c966d944df29ed4afc44889ef6c2b17a72eccf7fd6ca%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22lbDkpPYuMwvAySZP5-YvFI8dojbq2t8_%22%3B%7D; PHPBACKSESSION=himtutvi9a38kdor5otvnu8m24; PHPSESSID=54ld8kevf4iljgpmdpo1f005u6; _csrf=b24d708a2bc60661d90b972e4fda2405a3b10f58db53628f79485b2546a6befaa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%226Xv5M_OrxOzUjDOfpKoyt2h_k4wiD-Mq%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523328203.5745
+    'REQUEST_TIME' => 1523328203
+]

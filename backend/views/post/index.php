@@ -47,13 +47,12 @@ $this->params['breadcrumbs'][] = $this->title;
             		->indexBy('id')
             		->column(),
    			 ],
-            // 'create_time:datetime',
-             //'update_time:datetime',
-             ['attribute'=>'update_time',
+            ['attribute'=>'create_time',
+                'format'=>['date','php:Y-m-d H:i:s'],
+            ],
+            ['attribute'=>'update_time',
              'format'=>['date','php:Y-m-d H:i:s'],
         	],
-             
-
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>

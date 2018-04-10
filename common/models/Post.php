@@ -3,6 +3,7 @@
 namespace common\models;
 
 use Yii;
+use yii\db\Query;
 use yii\helpers\Html;
 
 /**
@@ -16,7 +17,7 @@ use yii\helpers\Html;
  * @property integer $create_time
  * @property integer $update_time
  * @property integer $author_id
- *
+ * @property integer $view
  * @property Comment[] $comments
  * @property Adminuser $author
  * @property Poststatus $status0
@@ -165,23 +166,80 @@ class Post extends \yii\db\ActiveRecord
     {
     	return Comment::find()->where(['post_id'=>$this->id,'status'=>2])->count();
     }
-    
-    
-        
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+    // $time = 'y-m' 根据文章创建时间每个月的数量
+    public function getPostCountByCreateTime($time)
+    {
+        $startTime = strtotime($time.'-01');
+        $time = str_replace('-', '', $time);
+        $nexMonth = $this->getMonth($time, 0);
+        $lastTime  = strtotime($nexMonth.'-01');
+
+        return static::find()
+            ->where('create_time>=:create_time AND create_time<:lastTime', [':create_time' => $startTime, ':lastTime' => $lastTime])
+            ->count();
+    }
+
+    // $time = 'y-m' 根据文章时间每个月的数量
+    public function getPostCountByUpdateTime($time)
+    {
+        $startTime = strtotime($time.'-01');
+        $time = str_replace('-', '', $time);
+        $nexMonth = $this->getMonth($time, 0);
+        $lastTime  = strtotime($nexMonth.'-01');
+
+        return static::find()
+            ->where('update_time' != 'create_time')
+            ->andWhere('update_time>=:start AND update_time<:last', [':start' => $startTime, ':last' => $lastTime])
+            ->count();
+    }
+
+    //$time = Ym
+    public function getMonth($time, $sign = "1")
+    {
+        //得到系统的年月
+        $tmp_date = $time;
+        //切割出年份
+        $tmp_year = substr($tmp_date,0,4);
+        //切割出月份
+        $tmp_mon = substr($tmp_date,4,2);
+        $tmp_nextmonth = mktime(0,0,0,$tmp_mon+1,1,$tmp_year);
+        $tmp_forwardmonth = mktime(0,0,0,$tmp_mon-1,1,$tmp_year);
+        if($sign == 0){
+            //得到当前月的下一个月
+            return $fm_next_month = date("Y-m",$tmp_nextmonth);
+        }else{
+            //得到当前月的上一个月
+            return $fm_forward_month = date("Y-m",$tmp_forwardmonth);
+        }
+    }
+
+    //获取浏览量最高的前十篇文章 postid => view
+    public function getMostViewPost()
+    {
+        $result = array();
+        $viewPost =  (new Query())->select(['id', 'view', 'create_time'])
+            ->from('post')
+            ->orderBy(['view' => SORT_DESC, 'create_time' => SORT_DESC])
+            ->limit(10)
+            ->all();
+        if (empty($viewPost)) {
+            return $result;
+        }
+        $postIdArray = array();
+        $postIdView  = array();
+        foreach ($viewPost as $v) {
+            array_push($postIdArray, $v['id']);
+            array_push($postIdView, $v['view']);
+        }
+        $result['postId'] = $postIdArray;
+        $result['postIdView'] = $postIdView;
+        return $result;
+    }
+
+    //获取带有该标签的文章数量
+    public static function getTagPostNumber($tag)
+    {
+        return static::find()->andFilterWhere(['like', 'tags', $tag])->count();
+    }
 }

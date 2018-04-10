@@ -32,8 +32,9 @@ class PostSearch extends Post
      */
     public function scenarios()
     {
-        // bypass scenarios() implementation in the parent class
-        return Model::scenarios();
+        return [
+            self::SCENARIO_DEFAULT => ['id', 'title', 'content', 'status', 'authorName', 'tags']
+        ];
     }
 
     /**
@@ -88,8 +89,6 @@ class PostSearch extends Post
             //'id' => $this->id,
         	'post.id' => $this->id,
             'status' => $this->status,
-            'create_time' => $this->create_time,
-            'update_time' => $this->update_time,
             'author_id' => $this->author_id,
         ]);
 

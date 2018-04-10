@@ -16,11 +16,12 @@ class TagsCloudWidget extends Widget
 	public function run()
 	{
 		$tagString='';
-		$fontStyle=array("6"=>"danger",
-				"5"=>"info",
-				"4"=>"warning",
-				"3"=>"primary",
-				"2"=>"success",
+		$fontStyle=array(
+		    "6"=>"danger",
+            "5"=>"info",
+            "4"=>"warning",
+            "3"=>"primary",
+            "2"=>"success",
 		);
 		
 		foreach ($this->tags as $tag=>$weight)
@@ -30,17 +31,6 @@ class TagsCloudWidget extends Widget
 					' <h'.$weight.' style="display:inline-block;"><span class="label label-'
 					.$fontStyle[$weight].'">'.$tag.'</span></h'.$weight.'></a>';
 		}
-		sleep(3);
 		return $tagString;
-		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }

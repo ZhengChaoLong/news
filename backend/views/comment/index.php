@@ -35,36 +35,28 @@ $this->params['breadcrumbs'][] = $this->title;
 //             		}
     		],
         	[
-        	'attribute'=>'user.username',
-        	'label'=>'作者',
-        	'value'=>'user.username',	
+                'attribute'=>'user.username',
+                'label'=>'作者',
+                'value'=>'user.username',
         	],
-            //'status',
             [
-            'attribute'=>'status',
-            'value'=>'status0.name',
-            'filter'=>Commentstatus::find()
-            		  ->select(['name','id'])
-            		  ->orderBy('position')
-            		  ->indexBy('id')
-            		  ->column(),
-            'contentOptions'=>
-            		function($model)
-            		{
-            			return ($model->status==1)?['class'=>'bg-danger']:[];
-            		}
+                'attribute'=>'status',
+                'value'=>'status0.name',
+                'filter'=>Commentstatus::find()
+                          ->select(['name','id'])
+                          ->orderBy('position')
+                          ->indexBy('id')
+                          ->column(),
+                'contentOptions'=> function($model) {
+                    return ($model->status==1)?['class'=>'bg-danger']:[];
+                }
             ],
-           // 'create_time:datetime',
-           [
-           		'attribute'=>'create_time',
-           		'format'=>['date','php:m-d H:i'],
-            ],
-            
-            // 'email:email',
-            // 'url:url',
-            // 'post_id',
+            'email:email',
             'post.title',
-
+            [
+                'attribute'=>'create_time',
+                'format'=>['date','php:y-m-d H:i:s'],
+            ],
             [
             'class' => 'yii\grid\ActionColumn',
             'template'=>'{view} {update} {delete} {approve}',

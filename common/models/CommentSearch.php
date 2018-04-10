@@ -32,8 +32,9 @@ class CommentSearch extends Comment
      */
     public function scenarios()
     {
-        // bypass scenarios() implementation in the parent class
-        return Model::scenarios();
+        return [
+            self::SCENARIO_DEFAULT => ['id', 'content', 'status', 'authorName', 'user.username']
+        ];
     }
 
     /**
@@ -65,28 +66,32 @@ class CommentSearch extends Comment
         $query->andFilterWhere([
             'comment.id' => $this->id,
             'comment.status' => $this->status,
-            'create_time' => $this->create_time,
             'userid' => $this->userid,
             'post_id' => $this->post_id,
         ]);
 
         $query->andFilterWhere(['like', 'content', $this->content])
-        ->andFilterWhere(['like', 'email', $this->email])
-        ->andFilterWhere(['like', 'url', $this->url]);
+        ->andFilterWhere(['like', 'email', $this->email]);
         
         $query->join('INNER JOIN','user','comment.userid = user.id');
         $query->andFilterWhere(['like','user.username',$this->getAttribute('user.username')]);
         
         $dataProvider->sort->attributes['user.username'] =
         [
-        		'asc'=>['user.username'=>SORT_ASC],
-        		'desc'=>['user.username'=>SORT_DESC],
+            'asc'=>['user.username'=>SORT_ASC],
+            'desc'=>['user.username'=>SORT_DESC],
         ];
+
+        $dataProvider->sort->attributes['post.title'] =
+            [
+                'asc'=>['post.title'=>SORT_ASC],
+                'desc'=>['post.title'=>SORT_DESC],
+            ];
         
         $dataProvider->sort->defaultOrder = 
         [
-        		'status'=>SORT_ASC,
-        		'id'=>SORT_DESC,
+            'status'=>SORT_ASC,
+            'id'=>SORT_DESC,
         ];
         
         

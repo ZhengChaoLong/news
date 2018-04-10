@@ -1,10 +1,10 @@
-a:2:{i:0;a:2:{i:0;s:30023:"<!DOCTYPE html>
+a:2:{i:0;a:2:{i:0;s:30374:"<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-param" content="_csrf">
-    <meta name="csrf-token" content="bEJMSTl4M3EuDz0mbB59OlgaOQxpLwVCJRMrHGA0diIdED8ZfxEGQg==">
+    <meta name="csrf-token" content="MzZzamNkdmwFbgVfLjs5Hkt5CT8JIDkKQ30cExdWHjNYAgQDJ0k7HQ==">
     <title></title>
     <link href="/assets/5e629f08/css/bootstrap.css" rel="stylesheet">
 <link href="/css/site.css" rel="stylesheet"></head>
@@ -14,8 +14,8 @@ a:2:{i:0;a:2:{i:0;s:30023:"<!DOCTYPE html>
     <nav id="w0" class="navbar-inverse navbar-fixed-top navbar" role="navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w0-collapse"><span class="sr-only">Toggle navigation</span>
 <span class="icon-bar"></span>
 <span class="icon-bar"></span>
-<span class="icon-bar"></span></button><a class="navbar-brand" href="/" style="color:yellow;font-size:23px">简易的新闻网站</a></div><div id="w0-collapse" class="collapse navbar-collapse"><ul id="w1" class="navbar-nav navbar-right nav"><li><form action="/site/logout" method="post">
-<input type="hidden" name="_csrf" value="bEJMSTl4M3EuDz0mbB59OlgaOQxpLwVCJRMrHGA0diIdED8ZfxEGQg=="><button type="submit" class="btn btn-link">退出 (chaolong)</button></form></li></ul></div></div></nav>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="/" style="color:yellow;font-size:23px">简易的新闻网站</a></div><div id="w0-collapse" class="collapse navbar-collapse"><ul id="w1" class="navbar-nav navbar-right nav"><li><a href="/site/signup">注册</a></li>
+<li><a href="/site/login">登录</a></li></ul></div></div></nav>
     <div class="container">
                         
 <div class="container">
@@ -30,7 +30,31 @@ a:2:{i:0;a:2:{i:0;s:30023:"<!DOCTYPE html>
 		
 		</ol>
 		
-		<div id="postList" class="list-view"><div data-key="42">
+		<div id="postList" class="list-view"><div data-key="44">
+<div class="post">
+	<div class="title">
+		<h2><a href="/post/detail?id=44&title=%E6%96%87%E7%AB%A0%E7%BB%9F%E8%AE%A1">文章统计</a></h2>
+	
+		<div class="author">
+		<span class="glyphicon glyphicon-time" aria-hidden="true"></span><em>2018-04-08 07:53:30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em>
+		<span class="glyphicon glyphicon-user" aria-hidden="true"></span><em>chaolong</em>
+		</div>
+	</div>
+	
+	<br>
+	<div class="content">
+	我要统计这个个文章的时间	
+	</div>
+	
+	<br>
+	<div class="nav">
+		<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
+		<a href="/post/index?PostSearch%5Btags%5D=yii">yii</a>		<br>
+        <a>浏览量 (0)</a> |
+		<a href="/post/detail?id=44&amp;title=%E6%96%87%E7%AB%A0%E7%BB%9F%E8%AE%A1#comments">评论 (0)</a> | 最后修改于 2018-04-30 07:53:30	</div>
+	
+</div></div>
+<div data-key="42">
 <div class="post">
 	<div class="title">
 		<h2><a href="/post/detail?id=42&title=test">test</a></h2>
@@ -50,6 +74,7 @@ a:2:{i:0;a:2:{i:0;s:30023:"<!DOCTYPE html>
 	<div class="nav">
 		<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
 		<a href="/post/index?PostSearch%5Btags%5D=test">test</a>		<br>
+        <a>浏览量 (0)</a> |
 		<a href="/post/detail?id=42&amp;title=test#comments">评论 (0)</a> | 最后修改于 2018-04-25 07:22:25	</div>
 	
 </div></div>
@@ -86,6 +111,7 @@ Yii 提供了一整套用来简化实现 RESTful 风格的 Web Service 服务的
 	<div class="nav">
 		<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
 		<a href="/post/index?PostSearch%5Btags%5D=Yii">Yii</a>, <a href="/post/index?PostSearch%5Btags%5D=RESTful+Web%E6%9C%8D%E5%8A%A1">RESTful Web服务</a>		<br>
+        <a>浏览量 (0)</a> |
 		<a href="/post/detail?id=41&amp;title=RESTful+Web%E6%9C%8D%E5%8A%A1#comments">评论 (1)</a> | 最后修改于 2015-09-49 10:07:49	</div>
 	
 </div></div>
@@ -117,6 +143,7 @@ use yii\data\ActiveDataProvider;
 	<div class="nav">
 		<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
 		<a href="/post/index?PostSearch%5Btags%5D=Yii2">Yii2</a>, <a href="/post/index?PostSearch%5Btags%5D=GridView">GridView</a>		<br>
+        <a>浏览量 (0)</a> |
 		<a href="/post/detail?id=38&amp;title=GridView#comments">评论 (0)</a> | 最后修改于 2015-09-04 09:52:04	</div>
 	
 </div></div>
@@ -148,6 +175,7 @@ $dataProvider = new ActiveData...
 	<div class="nav">
 		<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
 		<a href="/post/index?PostSearch%5Btags%5D=Yii2">Yii2</a>, <a href="/post/index?PostSearch%5Btags%5D=ListView">ListView</a>		<br>
+        <a>浏览量 (0)</a> |
 		<a href="/post/detail?id=37&amp;title=ListView#comments">评论 (0)</a> | 最后修改于 2015-09-18 09:51:18	</div>
 	
 </div></div>
@@ -180,6 +208,7 @@ yii\db\ActiveRecord::ini...
 	<div class="nav">
 		<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
 		<a href="/post/index?PostSearch%5Btags%5D=Yii2">Yii2</a>, <a href="/post/index?PostSearch%5Btags%5D=ActiveRecord">ActiveRecord</a>		<br>
+        <a>浏览量 (0)</a> |
 		<a href="/post/detail?id=35&amp;title=Active+Record+%E8%AF%A6%E8%A7%A3%EF%BC%88%E4%B8%8B%EF%BC%89#comments">评论 (0)</a> | 最后修改于 2015-09-54 09:24:54	</div>
 	
 </div></div>
@@ -210,6 +239,7 @@ Active Record （活动记录，以下简称AR）提供了一个面向对象的�
 	<div class="nav">
 		<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
 		<a href="/post/index?PostSearch%5Btags%5D=Yii">Yii</a>, <a href="/post/index?PostSearch%5Btags%5D=ActiveRecord">ActiveRecord</a>		<br>
+        <a>浏览量 (0)</a> |
 		<a href="/post/detail?id=34&amp;title=ActiveRecord+%E8%AF%A6%E8%A7%A3%EF%BC%88%E4%B8%8A%EF%BC%89#comments">评论 (1)</a> | 最后修改于 2015-09-25 09:22:25	</div>
 	
 </div></div>
@@ -241,6 +271,7 @@ mv c...
 	<div class="nav">
 		<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
 		<a href="/post/index?PostSearch%5Btags%5D=%E5%AE%89%E8%A3%85">安装</a>, <a href="/post/index?PostSearch%5Btags%5D=Yii2">Yii2</a>, <a href="/post/index?PostSearch%5Btags%5D=Composer">Composer</a>		<br>
+        <a>浏览量 (0)</a> |
 		<a href="/post/detail?id=33&amp;title=Yii2%E5%AE%89%E8%A3%85+#comments">评论 (0)</a> | 最后修改于 2015-09-40 09:13:40	</div>
 	
 </div></div>
@@ -275,6 +306,7 @@ jQuery UI widg...
 	<div class="nav">
 		<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
 		<a href="/post/index?PostSearch%5Btags%5D=Yii2">Yii2</a>, <a href="/post/index?PostSearch%5Btags%5D=%E5%B0%8F%E9%83%A8%E4%BB%B6">小部件</a>, <a href="/post/index?PostSearch%5Btags%5D=widget">widget</a>		<br>
+        <a>浏览量 (11)</a> |
 		<a href="/post/detail?id=32&amp;title=Yii2%E5%B0%8F%E9%83%A8%E4%BB%B6%E8%AF%A6%E8%A7%A3#comments">评论 (0)</a> | 最后修改于 2016-09-45 12:26:45	</div>
 	
 </div></div> </div>		
@@ -286,7 +318,7 @@ jQuery UI widg...
 				<ul class="list-group">
 				  <li class="list-group-item">
 				  <span class="glyphicon glyphicon-search" aria-hidden="true"></span> 查找文章（
-				  				  8				  ）
+				  				  9				  ）
 				  </li>
 				  <li class="list-group-item">				  
 					  <form class="form-inline" action="/post/index" id="w0" method="get">
@@ -306,7 +338,7 @@ jQuery UI widg...
 				  <span class="glyphicon glyphicon-tags" aria-hidden="true"></span> 标签云
 				  </li>
 				  <li class="list-group-item">
-				  				  <a href="/post/index?PostSearch%5Btags%5D=ActiveRecord"> <h2 style="display:inline-block;"><span class="label label-success">ActiveRecord</span></h2></a><a href="/post/index?PostSearch%5Btags%5D=Composer"> <h5 style="display:inline-block;"><span class="label label-info">Composer</span></h5></a><a href="/post/index?PostSearch%5Btags%5D=DAO"> <h3 style="display:inline-block;"><span class="label label-primary">DAO</span></h3></a><a href="/post/index?PostSearch%5Btags%5D=DetailView"> <h4 style="display:inline-block;"><span class="label label-warning">DetailView</span></h4></a><a href="/post/index?PostSearch%5Btags%5D=Gii"> <h3 style="display:inline-block;"><span class="label label-primary">Gii</span></h3></a><a href="/post/index?PostSearch%5Btags%5D=GridView"> <h3 style="display:inline-block;"><span class="label label-primary">GridView</span></h3></a><a href="/post/index?PostSearch%5Btags%5D=ListView"> <h4 style="display:inline-block;"><span class="label label-warning">ListView</span></h4></a><a href="/post/index?PostSearch%5Btags%5D=RESTful+Web%E6%9C%8D%E5%8A%A1"> <h4 style="display:inline-block;"><span class="label label-warning">RESTful Web服务</span></h4></a><a href="/post/index?PostSearch%5Btags%5D=Yii"> <h2 style="display:inline-block;"><span class="label label-success">Yii</span></h2></a><a href="/post/index?PostSearch%5Btags%5D=Yii2"> <h2 style="display:inline-block;"><span class="label label-success">Yii2</span></h2></a><a href="/post/index?PostSearch%5Btags%5D=test"> <h6 style="display:inline-block;"><span class="label label-danger">test</span></h6></a><a href="/post/index?PostSearch%5Btags%5D=widget"> <h6 style="display:inline-block;"><span class="label label-danger">widget</span></h6></a><a href="/post/index?PostSearch%5Btags%5D=%E5%AE%89%E8%A3%85"> <h5 style="display:inline-block;"><span class="label label-info">安装</span></h5></a><a href="/post/index?PostSearch%5Btags%5D=%E5%B0%8F%E9%83%A8%E4%BB%B6"> <h6 style="display:inline-block;"><span class="label label-danger">小部件</span></h6></a><a href="/post/index?PostSearch%5Btags%5D=%E6%9F%A5%E8%AF%A2%E6%9E%84%E5%BB%BA%E5%99%A8"> <h5 style="display:inline-block;"><span class="label label-info">查询构建器</span></h5></a>				   </li>
+				  				  <a href="/post/index?PostSearch%5Btags%5D=ActiveRecord"> <h3 style="display:inline-block;"><span class="label label-primary">ActiveRecord</span></h3></a><a href="/post/index?PostSearch%5Btags%5D=Composer"> <h4 style="display:inline-block;"><span class="label label-warning">Composer</span></h4></a><a href="/post/index?PostSearch%5Btags%5D=GridView"> <h2 style="display:inline-block;"><span class="label label-success">GridView</span></h2></a><a href="/post/index?PostSearch%5Btags%5D=ListView"> <h3 style="display:inline-block;"><span class="label label-primary">ListView</span></h3></a><a href="/post/index?PostSearch%5Btags%5D=RESTful+Web%E6%9C%8D%E5%8A%A1"> <h3 style="display:inline-block;"><span class="label label-primary">RESTful Web服务</span></h3></a><a href="/post/index?PostSearch%5Btags%5D=Yii"> <h2 style="display:inline-block;"><span class="label label-success">Yii</span></h2></a><a href="/post/index?PostSearch%5Btags%5D=Yii2"> <h2 style="display:inline-block;"><span class="label label-success">Yii2</span></h2></a><a href="/post/index?PostSearch%5Btags%5D=test"> <h5 style="display:inline-block;"><span class="label label-info">test</span></h5></a><a href="/post/index?PostSearch%5Btags%5D=widget"> <h5 style="display:inline-block;"><span class="label label-info">widget</span></h5></a><a href="/post/index?PostSearch%5Btags%5D=%E5%AE%89%E8%A3%85"> <h4 style="display:inline-block;"><span class="label label-warning">安装</span></h4></a><a href="/post/index?PostSearch%5Btags%5D=%E5%B0%8F%E9%83%A8%E4%BB%B6"> <h4 style="display:inline-block;"><span class="label label-warning">小部件</span></h4></a>				   </li>
 				</ul>			
 			</div>
 			
@@ -317,11 +349,11 @@ jQuery UI widg...
 				  <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 最新回复
 				  </li>
 				  <li class="list-group-item">
-				  <div class="post"><div class="title"><p style="color:#777777;font-style:italic;">传说中的沙发</p><p class="text"> <span class="glyphicon glyphicon-user" aria-hidden="ture">
+				  <div class="post"><div class="title"><p style="color:#777777;font-style:italic;">假设你想通过 RESTful 风格的 API 来展示用户数据。用户数据被存储在用户DB表， 你已经创建了 yii\db\ActiveRecord 类 app\models\User 来访问该用户数据.</p><p class="text"> <span class="glyphicon glyphicon-user" aria-hidden="ture">
 							</span> chaolong</p><p style="font-size:8pt;color:bule">
-							《<a href="">ActiveRecord 详解（上）</a>》</p><hr></div></div><div class="post"><div class="title"><p style="color:#777777;font-style:italic;">假设你想通过 RESTful 风格的 API 来展示用户数据。用户数据被存储在用户DB表， 你已经创建了 yii\db\ActiveRecord 类 app\models\User 来访问该用户数据.</p><p class="text"> <span class="glyphicon glyphicon-user" aria-hidden="ture">
+							《<a href="">RESTful Web服务</a>》</p><hr></div></div><div class="post"><div class="title"><p style="color:#777777;font-style:italic;">传说中的沙发</p><p class="text"> <span class="glyphicon glyphicon-user" aria-hidden="ture">
 							</span> chaolong</p><p style="font-size:8pt;color:bule">
-							《<a href="">RESTful Web服务</a>》</p><hr></div></div>				  </li>
+							《<a href="">ActiveRecord 详解（上）</a>》</p><hr></div></div>				  </li>
 				</ul>			
 			</div>
 			
@@ -335,7 +367,7 @@ jQuery UI widg...
     </div>
 </div>
 
-<div id="yii-debug-toolbar" data-url="/debug/default/toolbar?tag=5ac885a5e8a0d" style="display:none" class="yii-debug-toolbar-bottom"></div><style>
+<div id="yii-debug-toolbar" data-url="/debug/default/toolbar?tag=5acc24cb952d8" style="display:none" class="yii-debug-toolbar-bottom"></div><style>
 #yii-debug-toolbar-logo {
     position: fixed;
     right: 31px;
@@ -760,4 +792,4 @@ a.yii-debug-toolbar__label:focus {
 <script src="/assets/249c4d9d/yii.js"></script>
 <script src="/assets/5e629f08/js/bootstrap.js"></script></body>
 </html>
-";i:1;N;}i:1;O:24:"yii\caching\DbDependency":5:{s:2:"db";s:2:"db";s:3:"sql";s:26:"select count(id) from post";s:6:"params";a:0:{}s:4:"data";a:1:{s:9:"count(id)";s:1:"8";}s:8:"reusable";b:0;}}
+";i:1;N;}i:1;O:24:"yii\caching\DbDependency":5:{s:2:"db";s:2:"db";s:3:"sql";s:26:"select count(id) from post";s:6:"params";a:0:{}s:4:"data";a:1:{s:9:"count(id)";s:1:"9";}s:8:"reusable";b:0;}}

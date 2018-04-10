@@ -123,15 +123,58 @@ class Comment extends \yii\db\ActiveRecord
     {
     	return Comment::find()->where(['status'=>2])->orderBy('create_time DESC')
     	->limit($limit)->all();
-    }   
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    }
+
+    /**
+     * 根据评论的创建时间获取评论所在月的数量
+     * @param $time  array
+     * @return mixed
+     */
+    public function getNumberByTime($time)
+    {
+        if (!is_array($time)) {
+            return null;
+        }
+        $createCount = array();
+        foreach ($time as $k => $v) {
+            array_push($createCount, $this->getCommentCountByCreateTime($v));
+        }
+        return $createCount;
+    }
+
+    /**
+     * @param $time y-m
+     * @return int|string
+     */
+    public function getCommentCountByCreateTime($time)
+    {
+        $startTime = strtotime($time.'-01');
+        $time = str_replace('-', '', $time);
+        $nexMonth = $this->getMonth($time, 0);
+        $lastTime  = strtotime($nexMonth.'-01');
+
+        return static::find()
+            ->where('create_time>=:start AND create_time<:last', [':start' => $startTime, ':last' => $lastTime])
+            ->count();
+    }
+
+    //$time = Ym
+    public function getMonth($time, $sign = "1")
+    {
+        //得到系统的年月
+        $tmp_date = $time;
+        //切割出年份
+        $tmp_year = substr($tmp_date,0,4);
+        //切割出月份
+        $tmp_mon = substr($tmp_date,4,2);
+        $tmp_nextmonth = mktime(0,0,0,$tmp_mon+1,1,$tmp_year);
+        $tmp_forwardmonth = mktime(0,0,0,$tmp_mon-1,1,$tmp_year);
+        if($sign == 0){
+            //得到当前月的下一个月
+            return $fm_next_month = date("Y-m",$tmp_nextmonth);
+        }else{
+            //得到当前月的上一个月
+            return $fm_forward_month = date("Y-m",$tmp_forwardmonth);
+        }
+    }
 }

@@ -22,6 +22,7 @@ use yii\helpers\Html;
 		<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
 		<?= implode(', ',$model->tagLinks);?>
 		<br>
+        <?= Html::a("浏览量 ({$model->view})")?> |
 		<?= Html::a("评论 ({$model->commentCount})",$model->url.'#comments')?> | 最后修改于 <?= date('Y-m-s H:i:s',$model->update_time);?>
 	</div>
 	

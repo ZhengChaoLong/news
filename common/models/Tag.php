@@ -140,6 +140,20 @@ class Tag extends \yii\db\ActiveRecord
     	}
     	return $tags;
     }
-    
-    
+
+    //获取标签频率前十的文章比例
+    public function getTagPostData($limit=10)
+    {
+        /**@var $tags Tag**/
+        $tags = Tag::find()->orderBy('frequency desc')->limit($limit)->all();
+        $postCount = Post::find()->count();
+
+        $result = array();
+        foreach ($tags as $tag) {
+            $tagCount = Post::getTagPostNumber($tag->name);
+            $bili = sprintf('%.2f', $tagCount/$postCount * 100);
+            array_push($result, array('name' => $tag->name, 'bili' => $bili));
+        }
+        return $result;
+    }
 }

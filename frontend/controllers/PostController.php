@@ -89,8 +89,9 @@ class PostController extends Controller
 
     public function actionIndex()
     {
-    	$tags=Tag::findTagWeights();
-    	$recentComments=Comment::findRecentComments();
+    	$tags = Tag::findTagWeights();
+    	//var_dump($tags);exit;
+    	$recentComments = Comment::findRecentComments();
     	
         $searchModel = new PostSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
