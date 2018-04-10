@@ -76,7 +76,7 @@ if (Yii::$app->controller->action->id === 'login') {
 
     <?php $this->endBody() ?>
     </body>
-    <script type="text/javascript" src="./skin.js"></script>
+    <script type="text/javascript" src="/skin.js"></script>
     </html>
     <?php $this->endPage() ?>
 <?php } ?>

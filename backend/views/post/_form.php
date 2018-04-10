@@ -10,17 +10,10 @@ use crazydb\ueditor\UEditor;
 /* @var $model common\models\Post */
 /* @var $form yii\widgets\ActiveForm */
 ?>
-
 <div class="post-form">
-
     <?php $form = ActiveForm::begin(); ?>
-
     <?= $form->field($model, 'title')->textInput(['maxlength' => true]) ?>
-
-    <?= $form->field($model, 'content')->textInput() ?>
-
-    <?= $form->field($model, 'tags')->textarea(['rows' => 6]) ?>
-	
+    <?= $form->field($model, 'tags')->textarea(['rows' => 3]) ?>
 	<?php 
 	/*
 	第一种方法：
@@ -44,10 +37,7 @@ use crazydb\ueditor\UEditor;
 	->orderBy('position')
 	->indexBy('id')
 	->column();
-	
 	*/
-
-	
 	?>
     
     <?= $form->field($model,'status')
@@ -66,6 +56,8 @@ use crazydb\ueditor\UEditor;
 						->indexBy('id')
 						->column(),
     		   ['prompt'=>'请选择作者']);?>
+
+    <?= $form->field($model, 'content')->widget(\crazydb\ueditor\UEditor::className()) ?>
     <div class="form-group">
         <?= Html::submitButton($model->isNewRecord ? '新增' : '修改', ['class' => $model->isNewRecord ? 'btn btn-success' : 'btn btn-primary']) ?>
     </div>

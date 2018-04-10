@@ -13,11 +13,11 @@ return [
     'bootstrap' => ['log'],
     'modules' => [],
 	'language'=> 'zh-CN',
-    'controllerMap' => [
-        'ueditor' => [
-            'class' => 'crazydb\ueditor\UEditorController',
-        ]
-    ],
+//    'controllerMap' => [
+//        'ueditor' => [
+//            'class' => 'crazydb\ueditor\UEditorController',
+//        ]
+//    ],
     'components' => [
         'user' => [
             'identityClass' => 'common\models\Adminuser',
