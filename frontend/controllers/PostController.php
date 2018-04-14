@@ -5,6 +5,7 @@ namespace frontend\controllers;
 use Yii;
 use common\models\Post;
 use common\models\PostSearch;
+use yii\db\Exception;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
@@ -52,37 +53,33 @@ class PostController extends Controller
                             ],
                     ],
         		
-        	'pageCache'=>[
-        			'class'=>'yii\filters\PageCache',
-        			'only'=>['index'],
-        			'duration'=>600,
-        			'variations'=>[
-        					Yii::$app->request->get('page'),
-        					Yii::$app->request->get('PostSearch'),
-        			],
-        			'dependency'=>[
-        					'class'=>'yii\caching\DbDependency',
-        					'sql'=>'select count(id) from post',
-        			],
-        	],
+//        	'pageCache'=>[
+//        			'class'=>'yii\filters\PageCache',
+//        			'only'=>['index'],
+//        			'duration'=>600,
+//        			'variations'=>[
+//        					Yii::$app->request->get('page'),
+//        					Yii::$app->request->get('PostSearch'),
+//        			],
+//        			'dependency'=>[
+//        					'class'=>'yii\caching\DbDependency',
+//        					'sql'=>'select count(id) from post',
+//        			],
+//        	],
         		
-        	'httpCache'=>[
-        			'class'=>'yii\filters\HttpCache',
-        			'only'=>['detail'],
-        			'lastModified'=>function ($action,$params){
-        				$q = new Query();
-        				return $q->from('post')->max('update_time');
-        			},
-        			'etagSeed'=>function ($action,$params) {
-        				$post = $this->findModel(Yii::$app->request->get('id'));
-        				return serialize([$post->title,$post->content]);
-        			},
-        			
-        			'cacheControlHeader' => 'public,max-age=600',
-        			
-        	],
-        		
-        		
+//        	'httpCache'=>[
+//        			'class'=>'yii\filters\HttpCache',
+//        			'only'=>['detail'],
+//        			'lastModified'=>function ($action,$params){
+//        				$q = new Query();
+//        				return $q->from('post')->max('update_time');
+//        			},
+//        			'etagSeed'=>function ($action,$params) {
+//        				$post = $this->findModel(Yii::$app->request->get('id'));
+//        				return serialize([$post->title,$post->content]);
+//        			},
+//        			'cacheControlHeader' => 'public,max-age=600',
+//        	],
         ];
     }
 
@@ -171,11 +168,22 @@ class PostController extends Controller
             throw new NotFoundHttpException('The requested page does not exist.');
         }
     }
+
+    protected function addViewAndFindPost($id)
+    {
+        $model = $this->findModel($id);
+        $model->view = $model->view + 1;
+        if ($model->save()) {
+            return $model;
+        } else {
+            throw new Exception('浏览量自增失败');
+        }
+    }
     
     public function actionDetail($id)
     {
-    	//step1. 准备数据模型   	
-    	$model = $this->findModel($id);
+    	//step1. 准备数据模型
+        $model = $this->addViewAndFindPost($id);
     	$tags=Tag::findTagWeights();
     	$recentComments=Comment::findRecentComments();
     	
@@ -204,18 +212,29 @@ class PostController extends Controller
     			'commentModel'=>$commentModel, 
     			'added'=>$this->added, 			
     	]);
-    	
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+    public static function getWeather($cityName = '广州')
+    {
+        //设置天气预报的redisKey为weatherData
+        $redis = new \Redis();
+        $redis->connect(Yii::$app->params['redisHost']);
+        if ($data = $redis->get(Yii::$app->params['weatherDataKey'])) {
+            $redis->close();
+            return $data;
+        }
+        //调用聚合数据天气预报的开放接口
+        $appKey = '7d14569c454bec1e4a7c90a17974e94e';
+        $cityNameEncode = urlencode($cityName);
+        $url = 'http://v.juhe.cn/weather/index?format=2&cityname='. $cityNameEncode .'&key='.$appKey;
+        $data = json_decode(file_get_contents($url), true);
+        $todayData = $data['result']['today'];
+        $cacheData = '<a target="_blank" href="http://tianqi.qq.com/?province=%E5%B9%BF%E4%B8%9C%E7%9C%81&city=%E5%B9%BF%E5%B7%9E%E5%B8%82&district=">'.
+            $cityName.'市 '.$todayData['temperature'].'/'.$todayData['weather'].'</a>';
+        //将数据缓存进redis中
+        $lastTime = strtotime(date('y-m-d')) + 3600*24;
+        $redis->set(Yii::$app->params['weatherDataKey'], $cacheData, ($lastTime - time()));
+        $redis->close();
+        return $cacheData;
+    }
 }

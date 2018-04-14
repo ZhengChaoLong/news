@@ -10525,3 +10525,1003 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1523373291.6336
     'REQUEST_TIME' => 1523373291
 ]
+2018-04-14 18:24:00 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][error][Error] Error: Class 'backend\controllers\PostSearch' not found in F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\controllers\CategoryController.php:15
+Stack trace:
+#0 [internal function]: backend\controllers\CategoryController->actionIndex()
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('category/index', Array)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2018-04-14 18:23:59 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ts_uid' => '8852925335'
+    'userNewsPort0' => '1'
+    'UM_distinctid' => '162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6'
+    'CNZZDATA1262608253' => '1884850789-1523501911-null|1523509751'
+    'defaultCity' => '101010100'
+    'Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523504202,1523588551'
+    'Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523588551'
+    'Wa_lvt_1' => '1523504202,1523588552'
+    'Wa_lpvt_1' => '1523588552'
+    'PHPSESSID' => '57i0a8jdg7eku099kabotj5gn2'
+    '_csrf' => '7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk\";}'
+    'PHPBACKSESSION' => '4mea8tquhsbbf6vcf6vib8lkt7'
+    '_adminCSRF' => 'f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"8QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '11742'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/category/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web\\index.php'
+    'PATH_INFO' => '/category/index'
+    'PHP_SELF' => '/index.php/category/index'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:9999/auth/permission?id=admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ts_uid=8852925335; userNewsPort0=1; UM_distinctid=162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6; CNZZDATA1262608253=1884850789-1523501911-null%7C1523509751; defaultCity=101010100; Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b=1523504202,1523588551; Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b=1523588551; Wa_lvt_1=1523504202,1523588552; Wa_lpvt_1=1523588552; PHPSESSID=57i0a8jdg7eku099kabotj5gn2; _csrf=7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk%22%3B%7D; PHPBACKSESSION=4mea8tquhsbbf6vcf6vib8lkt7; _adminCSRF=f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%228QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523701439.7233
+    'REQUEST_TIME' => 1523701439
+]
+2018-04-14 18:24:00 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2-debug\LogTarget.php:57
+
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2-debug\LogTarget.php(57): serialize(Array)
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2018-04-14 18:23:59 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ts_uid' => '8852925335'
+    'userNewsPort0' => '1'
+    'UM_distinctid' => '162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6'
+    'CNZZDATA1262608253' => '1884850789-1523501911-null|1523509751'
+    'defaultCity' => '101010100'
+    'Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523504202,1523588551'
+    'Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523588551'
+    'Wa_lvt_1' => '1523504202,1523588552'
+    'Wa_lpvt_1' => '1523588552'
+    'PHPSESSID' => '57i0a8jdg7eku099kabotj5gn2'
+    '_csrf' => '7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk\";}'
+    'PHPBACKSESSION' => '4mea8tquhsbbf6vcf6vib8lkt7'
+    '_adminCSRF' => 'f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"8QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '11742'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/category/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web\\index.php'
+    'PATH_INFO' => '/category/index'
+    'PHP_SELF' => '/index.php/category/index'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:9999/auth/permission?id=admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ts_uid=8852925335; userNewsPort0=1; UM_distinctid=162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6; CNZZDATA1262608253=1884850789-1523501911-null%7C1523509751; defaultCity=101010100; Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b=1523504202,1523588551; Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b=1523588551; Wa_lvt_1=1523504202,1523588552; Wa_lpvt_1=1523588552; PHPSESSID=57i0a8jdg7eku099kabotj5gn2; _csrf=7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk%22%3B%7D; PHPBACKSESSION=4mea8tquhsbbf6vcf6vib8lkt7; _adminCSRF=f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%228QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523701439.7233
+    'REQUEST_TIME' => 1523701439
+]
+2018-04-14 18:24:16 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][error][Error] Error: Class 'backend\controllers\PostSearch' not found in F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\controllers\CategoryController.php:15
+Stack trace:
+#0 [internal function]: backend\controllers\CategoryController->actionIndex()
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('category/index', Array)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2018-04-14 18:24:16 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ts_uid' => '8852925335'
+    'userNewsPort0' => '1'
+    'UM_distinctid' => '162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6'
+    'CNZZDATA1262608253' => '1884850789-1523501911-null|1523509751'
+    'defaultCity' => '101010100'
+    'Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523504202,1523588551'
+    'Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523588551'
+    'Wa_lvt_1' => '1523504202,1523588552'
+    'Wa_lpvt_1' => '1523588552'
+    'PHPSESSID' => '57i0a8jdg7eku099kabotj5gn2'
+    '_csrf' => '7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk\";}'
+    'PHPBACKSESSION' => '4mea8tquhsbbf6vcf6vib8lkt7'
+    '_adminCSRF' => 'f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"8QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '11747'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/category/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web\\index.php'
+    'PATH_INFO' => '/category/index'
+    'PHP_SELF' => '/index.php/category/index'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:9999/auth/permission?id=admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ts_uid=8852925335; userNewsPort0=1; UM_distinctid=162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6; CNZZDATA1262608253=1884850789-1523501911-null%7C1523509751; defaultCity=101010100; Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b=1523504202,1523588551; Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b=1523588551; Wa_lvt_1=1523504202,1523588552; Wa_lpvt_1=1523588552; PHPSESSID=57i0a8jdg7eku099kabotj5gn2; _csrf=7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk%22%3B%7D; PHPBACKSESSION=4mea8tquhsbbf6vcf6vib8lkt7; _adminCSRF=f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%228QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523701456.0845
+    'REQUEST_TIME' => 1523701456
+]
+2018-04-14 18:24:16 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2-debug\LogTarget.php:57
+
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2-debug\LogTarget.php(57): serialize(Array)
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2018-04-14 18:24:16 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ts_uid' => '8852925335'
+    'userNewsPort0' => '1'
+    'UM_distinctid' => '162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6'
+    'CNZZDATA1262608253' => '1884850789-1523501911-null|1523509751'
+    'defaultCity' => '101010100'
+    'Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523504202,1523588551'
+    'Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523588551'
+    'Wa_lvt_1' => '1523504202,1523588552'
+    'Wa_lpvt_1' => '1523588552'
+    'PHPSESSID' => '57i0a8jdg7eku099kabotj5gn2'
+    '_csrf' => '7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk\";}'
+    'PHPBACKSESSION' => '4mea8tquhsbbf6vcf6vib8lkt7'
+    '_adminCSRF' => 'f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"8QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '11747'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/category/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web\\index.php'
+    'PATH_INFO' => '/category/index'
+    'PHP_SELF' => '/index.php/category/index'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:9999/auth/permission?id=admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ts_uid=8852925335; userNewsPort0=1; UM_distinctid=162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6; CNZZDATA1262608253=1884850789-1523501911-null%7C1523509751; defaultCity=101010100; Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b=1523504202,1523588551; Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b=1523588551; Wa_lvt_1=1523504202,1523588552; Wa_lpvt_1=1523588552; PHPSESSID=57i0a8jdg7eku099kabotj5gn2; _csrf=7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk%22%3B%7D; PHPBACKSESSION=4mea8tquhsbbf6vcf6vib8lkt7; _adminCSRF=f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%228QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523701456.0845
+    'REQUEST_TIME' => 1523701456
+]
+2018-04-14 18:24:40 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][error][Error] Error: Class 'backend\controllers\Yii' not found in F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\controllers\CategoryController.php:18
+Stack trace:
+#0 [internal function]: backend\controllers\CategoryController->actionIndex()
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('index', Array)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('category/index', Array)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\web\index.php(18): yii\base\Application->run()
+#7 {main}
+2018-04-14 18:24:40 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ts_uid' => '8852925335'
+    'userNewsPort0' => '1'
+    'UM_distinctid' => '162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6'
+    'CNZZDATA1262608253' => '1884850789-1523501911-null|1523509751'
+    'defaultCity' => '101010100'
+    'Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523504202,1523588551'
+    'Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523588551'
+    'Wa_lvt_1' => '1523504202,1523588552'
+    'Wa_lpvt_1' => '1523588552'
+    'PHPSESSID' => '57i0a8jdg7eku099kabotj5gn2'
+    '_csrf' => '7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk\";}'
+    'PHPBACKSESSION' => '4mea8tquhsbbf6vcf6vib8lkt7'
+    '_adminCSRF' => 'f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"8QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '11765'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/category/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web\\index.php'
+    'PATH_INFO' => '/category/index'
+    'PHP_SELF' => '/index.php/category/index'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:9999/auth/permission?id=admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ts_uid=8852925335; userNewsPort0=1; UM_distinctid=162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6; CNZZDATA1262608253=1884850789-1523501911-null%7C1523509751; defaultCity=101010100; Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b=1523504202,1523588551; Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b=1523588551; Wa_lvt_1=1523504202,1523588552; Wa_lpvt_1=1523588552; PHPSESSID=57i0a8jdg7eku099kabotj5gn2; _csrf=7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk%22%3B%7D; PHPBACKSESSION=4mea8tquhsbbf6vcf6vib8lkt7; _adminCSRF=f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%228QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523701480.1391
+    'REQUEST_TIME' => 1523701480
+]
+2018-04-14 18:24:40 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2-debug\LogTarget.php:57
+
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2-debug\LogTarget.php(57): serialize(Array)
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2018-04-14 18:24:40 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ts_uid' => '8852925335'
+    'userNewsPort0' => '1'
+    'UM_distinctid' => '162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6'
+    'CNZZDATA1262608253' => '1884850789-1523501911-null|1523509751'
+    'defaultCity' => '101010100'
+    'Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523504202,1523588551'
+    'Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523588551'
+    'Wa_lvt_1' => '1523504202,1523588552'
+    'Wa_lpvt_1' => '1523588552'
+    'PHPSESSID' => '57i0a8jdg7eku099kabotj5gn2'
+    '_csrf' => '7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk\";}'
+    'PHPBACKSESSION' => '4mea8tquhsbbf6vcf6vib8lkt7'
+    '_adminCSRF' => 'f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"8QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '11765'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/category/index'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web\\index.php'
+    'PATH_INFO' => '/category/index'
+    'PHP_SELF' => '/index.php/category/index'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:9999/auth/permission?id=admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ts_uid=8852925335; userNewsPort0=1; UM_distinctid=162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6; CNZZDATA1262608253=1884850789-1523501911-null%7C1523509751; defaultCity=101010100; Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b=1523504202,1523588551; Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b=1523588551; Wa_lvt_1=1523504202,1523588552; Wa_lpvt_1=1523588552; PHPSESSID=57i0a8jdg7eku099kabotj5gn2; _csrf=7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk%22%3B%7D; PHPBACKSESSION=4mea8tquhsbbf6vcf6vib8lkt7; _adminCSRF=f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%228QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523701480.1391
+    'REQUEST_TIME' => 1523701480
+]
+2018-04-14 18:50:55 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][error][yii\web\HttpException:403] yii\web\ForbiddenHttpException: ä½ æ²¡æœ‰æƒé™è®¿é—® in F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\controllers\CommonController.php:28
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(152): backend\controllers\CommonController->beforeAction(Object(yii\base\InlineAction))
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('create', Array)
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('category/create', Array)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\web\index.php(18): yii\base\Application->run()
+#5 {main}
+2018-04-14 18:50:55 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ts_uid' => '8852925335'
+    'userNewsPort0' => '1'
+    'UM_distinctid' => '162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6'
+    'CNZZDATA1262608253' => '1884850789-1523501911-null|1523509751'
+    'defaultCity' => '101010100'
+    'Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523504202,1523588551'
+    'Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523588551'
+    'Wa_lvt_1' => '1523504202,1523588552'
+    'Wa_lpvt_1' => '1523588552'
+    'PHPSESSID' => '57i0a8jdg7eku099kabotj5gn2'
+    '_csrf' => '7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk\";}'
+    'PHPBACKSESSION' => '4mea8tquhsbbf6vcf6vib8lkt7'
+    '_adminCSRF' => 'f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"8QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '13067'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/category/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web\\index.php'
+    'PATH_INFO' => '/category/create'
+    'PHP_SELF' => '/index.php/category/create'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:9999/category/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ts_uid=8852925335; userNewsPort0=1; UM_distinctid=162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6; CNZZDATA1262608253=1884850789-1523501911-null%7C1523509751; defaultCity=101010100; Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b=1523504202,1523588551; Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b=1523588551; Wa_lvt_1=1523504202,1523588552; Wa_lpvt_1=1523588552; PHPSESSID=57i0a8jdg7eku099kabotj5gn2; _csrf=7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk%22%3B%7D; PHPBACKSESSION=4mea8tquhsbbf6vcf6vib8lkt7; _adminCSRF=f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%228QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523703055.144
+    'REQUEST_TIME' => 1523703055
+]
+2018-04-14 18:53:32 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][error][Error] Error: Class 'ActiveForm' not found in F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\views\category\create.php:23
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require()
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array)
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(backend\controllers\CategoryController))
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('create', Array, Object(backend\controllers\CategoryController))
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\controllers\CommentController.php(68): yii\base\Controller->render('create', Array)
+#5 [internal function]: backend\controllers\CommentController->actionCreate()
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('create', Array)
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('category/create', Array)
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\web\index.php(18): yii\base\Application->run()
+#12 {main}
+2018-04-14 18:53:31 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ts_uid' => '8852925335'
+    'userNewsPort0' => '1'
+    'UM_distinctid' => '162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6'
+    'CNZZDATA1262608253' => '1884850789-1523501911-null|1523509751'
+    'defaultCity' => '101010100'
+    'Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523504202,1523588551'
+    'Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523588551'
+    'Wa_lvt_1' => '1523504202,1523588552'
+    'Wa_lpvt_1' => '1523588552'
+    'PHPSESSID' => '57i0a8jdg7eku099kabotj5gn2'
+    '_csrf' => '7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk\";}'
+    'PHPBACKSESSION' => '4mea8tquhsbbf6vcf6vib8lkt7'
+    '_adminCSRF' => 'f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"8QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '13415'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/category/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web\\index.php'
+    'PATH_INFO' => '/category/create'
+    'PHP_SELF' => '/index.php/category/create'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:9999/category/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ts_uid=8852925335; userNewsPort0=1; UM_distinctid=162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6; CNZZDATA1262608253=1884850789-1523501911-null%7C1523509751; defaultCity=101010100; Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b=1523504202,1523588551; Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b=1523588551; Wa_lvt_1=1523504202,1523588552; Wa_lpvt_1=1523588552; PHPSESSID=57i0a8jdg7eku099kabotj5gn2; _csrf=7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk%22%3B%7D; PHPBACKSESSION=4mea8tquhsbbf6vcf6vib8lkt7; _adminCSRF=f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%228QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523703211.6412
+    'REQUEST_TIME' => 1523703211
+]
+2018-04-14 18:53:32 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: Exception 'Exception' with message 'Serialization of 'Closure' is not allowed' 
+
+in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2-debug\LogTarget.php:57
+
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2-debug\LogTarget.php(57): serialize(Array)
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2-debug\LogTarget.php(118): yii\debug\LogTarget->export()
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\log\Dispatcher.php(188): yii\debug\LogTarget->collect(Array, true)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\log\Logger.php(173): yii\log\Dispatcher->dispatch(Array, true)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\ErrorHandler.php(111): yii\log\Logger->flush(true)
+#5 [internal function]: yii\base\ErrorHandler->handleException(Object(Error))
+#6 {main}
+2018-04-14 18:53:31 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ts_uid' => '8852925335'
+    'userNewsPort0' => '1'
+    'UM_distinctid' => '162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6'
+    'CNZZDATA1262608253' => '1884850789-1523501911-null|1523509751'
+    'defaultCity' => '101010100'
+    'Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523504202,1523588551'
+    'Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523588551'
+    'Wa_lvt_1' => '1523504202,1523588552'
+    'Wa_lpvt_1' => '1523588552'
+    'PHPSESSID' => '57i0a8jdg7eku099kabotj5gn2'
+    '_csrf' => '7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk\";}'
+    'PHPBACKSESSION' => '4mea8tquhsbbf6vcf6vib8lkt7'
+    '_adminCSRF' => 'f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"8QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '13415'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/category/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web\\index.php'
+    'PATH_INFO' => '/category/create'
+    'PHP_SELF' => '/index.php/category/create'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:9999/category/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ts_uid=8852925335; userNewsPort0=1; UM_distinctid=162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6; CNZZDATA1262608253=1884850789-1523501911-null%7C1523509751; defaultCity=101010100; Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b=1523504202,1523588551; Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b=1523588551; Wa_lvt_1=1523504202,1523588552; Wa_lpvt_1=1523588552; PHPSESSID=57i0a8jdg7eku099kabotj5gn2; _csrf=7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk%22%3B%7D; PHPBACKSESSION=4mea8tquhsbbf6vcf6vib8lkt7; _adminCSRF=f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%228QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523703211.6412
+    'REQUEST_TIME' => 1523703211
+]
+2018-04-14 18:54:05 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Setting unknown property: yii\widgets\ActiveForm::layout in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Component.php:197
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\BaseYii.php(521): yii\base\Component->__set('layout', 'horizontal')
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(yii\widgets\ActiveForm), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\di\Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\di\Container.php(153): yii\di\Container->build('yii\\widgets\\Act...', Array, Array)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\widgets\\Act...', Array, Array)
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(56): yii\BaseYii::createObject(Array)
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\views\category\create.php(23): yii\base\Widget::begin(Array)
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array)
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(backend\controllers\CategoryController))
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('create', Array, Object(backend\controllers\CategoryController))
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\controllers\CommentController.php(68): yii\base\Controller->render('create', Array)
+#13 [internal function]: backend\controllers\CommentController->actionCreate()
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#16 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('create', Array)
+#17 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('category/create', Array)
+#18 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\web\index.php(18): yii\base\Application->run()
+#20 {main}
+2018-04-14 18:54:04 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ts_uid' => '8852925335'
+    'userNewsPort0' => '1'
+    'UM_distinctid' => '162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6'
+    'CNZZDATA1262608253' => '1884850789-1523501911-null|1523509751'
+    'defaultCity' => '101010100'
+    'Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523504202,1523588551'
+    'Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523588551'
+    'Wa_lvt_1' => '1523504202,1523588552'
+    'Wa_lpvt_1' => '1523588552'
+    'PHPSESSID' => '57i0a8jdg7eku099kabotj5gn2'
+    '_csrf' => '7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk\";}'
+    'PHPBACKSESSION' => '4mea8tquhsbbf6vcf6vib8lkt7'
+    '_adminCSRF' => 'f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"8QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '13435'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/category/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web\\index.php'
+    'PATH_INFO' => '/category/create'
+    'PHP_SELF' => '/index.php/category/create'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:9999/category/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ts_uid=8852925335; userNewsPort0=1; UM_distinctid=162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6; CNZZDATA1262608253=1884850789-1523501911-null%7C1523509751; defaultCity=101010100; Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b=1523504202,1523588551; Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b=1523588551; Wa_lvt_1=1523504202,1523588552; Wa_lpvt_1=1523588552; PHPSESSID=57i0a8jdg7eku099kabotj5gn2; _csrf=7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk%22%3B%7D; PHPBACKSESSION=4mea8tquhsbbf6vcf6vib8lkt7; _adminCSRF=f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%228QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523703244.2868
+    'REQUEST_TIME' => 1523703244
+]
+2018-04-14 18:54:26 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][error][yii\base\ErrorException:256] yii\base\ErrorException: Exception (Unknown Property) 'yii\base\UnknownPropertyException' with message 'Getting unknown property: common\models\Comment::name' 
+
+in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Component.php:143
+
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\db\BaseActiveRecord.php(252): yii\base\Component->__get('name')
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\helpers\BaseHtml.php(2068): yii\db\BaseActiveRecord->__get('name')
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\helpers\BaseHtml.php(1243): yii\helpers\BaseHtml::getAttributeValue(Object(common\models\Comment), 'name')
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\helpers\BaseHtml.php(1292): yii\helpers\BaseHtml::activeInput('text', Object(common\models\Comment), 'name', Array)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\ActiveField.php(362): yii\helpers\BaseHtml::activeTextInput(Object(common\models\Comment), 'name', Array)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\ActiveField.php(190): yii\widgets\ActiveField->textInput()
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\ActiveField.php(162): yii\widgets\ActiveField->render()
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\views\category\create.php(25): yii\widgets\ActiveField->__toString()
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array)
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(backend\controllers\CategoryController))
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('create', Array, Object(backend\controllers\CategoryController))
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\controllers\CommentController.php(68): yii\base\Controller->render('create', Array)
+#13 [internal function]: backend\controllers\CommentController->actionCreate()
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#16 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('create', Array)
+#17 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('category/create', Array)
+#18 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\web\index.php(18): yii\base\Application->run()
+#20 {main} in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\ErrorHandler.php:299
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(256, 'Exception (Unkn...', 'F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', 299, Array)
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\ErrorHandler.php(299): trigger_error('Exception (Unkn...', 256)
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\widgets\ActiveField.php(164): yii\base\ErrorHandler::convertExceptionToError(Object(yii\base\UnknownPropertyException))
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\views\category\create.php(25): yii\widgets\ActiveField->__toString()
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', '[<span class="s...')
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(backend\controllers\CategoryController))
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('create', Array, Object(backend\controllers\CategoryController))
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\controllers\CommentController.php(68): yii\base\Controller->render('create', Array)
+#9 [internal function]: backend\controllers\CommentController->actionCreate()
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('create', Array)
+#13 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('category/create', Array)
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#15 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\web\index.php(18): yii\base\Application->run()
+#16 {main}
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\views\category\create.php:25
+    in F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\controllers\CommentController.php:68
+2018-04-14 18:54:25 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ts_uid' => '8852925335'
+    'userNewsPort0' => '1'
+    'UM_distinctid' => '162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6'
+    'CNZZDATA1262608253' => '1884850789-1523501911-null|1523509751'
+    'defaultCity' => '101010100'
+    'Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523504202,1523588551'
+    'Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523588551'
+    'Wa_lvt_1' => '1523504202,1523588552'
+    'Wa_lpvt_1' => '1523588552'
+    'PHPSESSID' => '57i0a8jdg7eku099kabotj5gn2'
+    '_csrf' => '7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk\";}'
+    'PHPBACKSESSION' => '4mea8tquhsbbf6vcf6vib8lkt7'
+    '_adminCSRF' => 'f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"8QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '13443'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/category/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web\\index.php'
+    'PATH_INFO' => '/category/create'
+    'PHP_SELF' => '/index.php/category/create'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:9999/category/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ts_uid=8852925335; userNewsPort0=1; UM_distinctid=162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6; CNZZDATA1262608253=1884850789-1523501911-null%7C1523509751; defaultCity=101010100; Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b=1523504202,1523588551; Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b=1523588551; Wa_lvt_1=1523504202,1523588552; Wa_lpvt_1=1523588552; PHPSESSID=57i0a8jdg7eku099kabotj5gn2; _csrf=7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk%22%3B%7D; PHPBACKSESSION=4mea8tquhsbbf6vcf6vib8lkt7; _adminCSRF=f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%228QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523703265.8901
+    'REQUEST_TIME' => 1523703265
+]
+2018-04-14 18:58:44 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Setting unknown property: yii\widgets\ActiveForm::layout in F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Component.php:197
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\BaseYii.php(521): yii\base\Component->__set('layout', 'horizontal')
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Object.php(105): yii\BaseYii::configure(Object(yii\widgets\ActiveForm), Array)
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\di\Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\di\Container.php(153): yii\di\Container->build('yii\\widgets\\Act...', Array, Array)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\BaseYii.php(344): yii\di\Container->get('yii\\widgets\\Act...', Array, Array)
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Widget.php(56): yii\BaseYii::createObject(Array)
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\views\category\create.php(23): yii\base\Widget::begin(Array)
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array)
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(backend\controllers\CategoryController))
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('create', Array, Object(backend\controllers\CategoryController))
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\controllers\CategoryController.php(29): yii\base\Controller->render('create')
+#13 [internal function]: backend\controllers\CategoryController->actionCreate()
+#14 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#15 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#16 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('create', Array)
+#17 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('category/create', Array)
+#18 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#19 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\web\index.php(18): yii\base\Application->run()
+#20 {main}
+2018-04-14 18:58:43 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ts_uid' => '8852925335'
+    'userNewsPort0' => '1'
+    'UM_distinctid' => '162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6'
+    'CNZZDATA1262608253' => '1884850789-1523501911-null|1523509751'
+    'defaultCity' => '101010100'
+    'Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523504202,1523588551'
+    'Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523588551'
+    'Wa_lvt_1' => '1523504202,1523588552'
+    'Wa_lpvt_1' => '1523588552'
+    'PHPSESSID' => '57i0a8jdg7eku099kabotj5gn2'
+    '_csrf' => '7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk\";}'
+    'PHPBACKSESSION' => '4mea8tquhsbbf6vcf6vib8lkt7'
+    '_adminCSRF' => 'f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"8QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '13642'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/category/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web\\index.php'
+    'PATH_INFO' => '/category/create'
+    'PHP_SELF' => '/index.php/category/create'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:9999/category/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ts_uid=8852925335; userNewsPort0=1; UM_distinctid=162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6; CNZZDATA1262608253=1884850789-1523501911-null%7C1523509751; defaultCity=101010100; Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b=1523504202,1523588551; Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b=1523588551; Wa_lvt_1=1523504202,1523588552; Wa_lpvt_1=1523588552; PHPSESSID=57i0a8jdg7eku099kabotj5gn2; _csrf=7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk%22%3B%7D; PHPBACKSESSION=4mea8tquhsbbf6vcf6vib8lkt7; _adminCSRF=f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%228QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523703523.497
+    'REQUEST_TIME' => 1523703523
+]
+2018-04-14 18:59:24 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: model in F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\views\category\create.php:24
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\views\category\create.php(24): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', 24, Array)
+#1 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(325): require('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...')
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(247): yii\base\View->renderPhpFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\View.php(149): yii\base\View->renderFile('F:\\\xB4\xF3\xD1\xA7\xB1\xCF\xD2\xB5\xC9\xE8\xBC\xC6...', Array, Object(backend\controllers\CategoryController))
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\View->render('create', Array, Object(backend\controllers\CategoryController))
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\controllers\CategoryController.php(29): yii\base\Controller->render('create')
+#6 [internal function]: backend\controllers\CategoryController->actionCreate()
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#8 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#9 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('create', Array)
+#10 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('category/create', Array)
+#11 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\web\index.php(18): yii\base\Application->run()
+#13 {main}
+2018-04-14 18:59:23 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][info][application] $_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ts_uid' => '8852925335'
+    'userNewsPort0' => '1'
+    'UM_distinctid' => '162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6'
+    'CNZZDATA1262608253' => '1884850789-1523501911-null|1523509751'
+    'defaultCity' => '101010100'
+    'Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523504202,1523588551'
+    'Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523588551'
+    'Wa_lvt_1' => '1523504202,1523588552'
+    'Wa_lpvt_1' => '1523588552'
+    'PHPSESSID' => '57i0a8jdg7eku099kabotj5gn2'
+    '_csrf' => '7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk\";}'
+    'PHPBACKSESSION' => '4mea8tquhsbbf6vcf6vib8lkt7'
+    '_adminCSRF' => 'f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"8QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '13662'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/category/create'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web\\index.php'
+    'PATH_INFO' => '/category/create'
+    'PHP_SELF' => '/index.php/category/create'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:9999/category/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ts_uid=8852925335; userNewsPort0=1; UM_distinctid=162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6; CNZZDATA1262608253=1884850789-1523501911-null%7C1523509751; defaultCity=101010100; Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b=1523504202,1523588551; Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b=1523588551; Wa_lvt_1=1523504202,1523588552; Wa_lpvt_1=1523588552; PHPSESSID=57i0a8jdg7eku099kabotj5gn2; _csrf=7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk%22%3B%7D; PHPBACKSESSION=4mea8tquhsbbf6vcf6vib8lkt7; _adminCSRF=f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%228QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523703563.7527
+    'REQUEST_TIME' => 1523703563
+]
+2018-04-14 19:37:56 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: The requested page does not exist. in F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\controllers\CommentController.php:100
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\controllers\CommentController.php(76): backend\controllers\CommentController->findModel('5')
+#1 [internal function]: backend\controllers\CommentController->actionUpdate('5')
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('category/update', Array)
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2018-04-14 19:37:55 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][info][application] $_GET = [
+    'id' => '5'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ts_uid' => '8852925335'
+    'userNewsPort0' => '1'
+    'UM_distinctid' => '162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6'
+    'CNZZDATA1262608253' => '1884850789-1523501911-null|1523509751'
+    'defaultCity' => '101010100'
+    'Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523504202,1523588551'
+    'Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523588551'
+    'Wa_lvt_1' => '1523504202,1523588552'
+    'Wa_lpvt_1' => '1523588552'
+    'PHPSESSID' => '57i0a8jdg7eku099kabotj5gn2'
+    '_csrf' => '7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk\";}'
+    'PHPBACKSESSION' => '4mea8tquhsbbf6vcf6vib8lkt7'
+    '_adminCSRF' => 'f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"8QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '1644'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/category/update?id=5'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web\\index.php'
+    'PATH_INFO' => '/category/update'
+    'PHP_SELF' => '/index.php/category/update'
+    'QUERY_STRING' => 'id=5'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:9999/category/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ts_uid=8852925335; userNewsPort0=1; UM_distinctid=162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6; CNZZDATA1262608253=1884850789-1523501911-null%7C1523509751; defaultCity=101010100; Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b=1523504202,1523588551; Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b=1523588551; Wa_lvt_1=1523504202,1523588552; Wa_lpvt_1=1523588552; PHPSESSID=57i0a8jdg7eku099kabotj5gn2; _csrf=7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk%22%3B%7D; PHPBACKSESSION=4mea8tquhsbbf6vcf6vib8lkt7; _adminCSRF=f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%228QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523705876.0113
+    'REQUEST_TIME' => 1523705876
+]
+2018-04-14 19:39:37 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][error][yii\web\HttpException:404] yii\web\NotFoundHttpException: The requested page does not exist. in F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\controllers\CommentController.php:100
+Stack trace:
+#0 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\controllers\CommentController.php(76): backend\controllers\CommentController->findModel('5')
+#1 [internal function]: backend\controllers\CommentController->actionUpdate('5')
+#2 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\InlineAction.php(55): call_user_func_array(Array, Array)
+#3 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#4 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('update', Array)
+#5 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('category/update', Array)
+#6 F:\´óÑ§±ÏÒµÉè¼Æ\news\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#7 F:\´óÑ§±ÏÒµÉè¼Æ\news\backend\web\index.php(18): yii\base\Application->run()
+#8 {main}
+2018-04-14 19:39:35 [::1][1][4mea8tquhsbbf6vcf6vib8lkt7][info][application] $_GET = [
+    'id' => '5'
+]
+
+$_COOKIE = [
+    '_ga' => 'GA1.1.1383451274.1493098929'
+    '_identity-backend' => '6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a\",2592000]\";}'
+    'ts_uid' => '8852925335'
+    'userNewsPort0' => '1'
+    'UM_distinctid' => '162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6'
+    'CNZZDATA1262608253' => '1884850789-1523501911-null|1523509751'
+    'defaultCity' => '101010100'
+    'Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523504202,1523588551'
+    'Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b' => '1523588551'
+    'Wa_lvt_1' => '1523504202,1523588552'
+    'Wa_lpvt_1' => '1523588552'
+    'PHPSESSID' => '57i0a8jdg7eku099kabotj5gn2'
+    '_csrf' => '7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk\";}'
+    'PHPBACKSESSION' => '4mea8tquhsbbf6vcf6vib8lkt7'
+    '_adminCSRF' => 'f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a:2:{i:0;s:10:\"_adminCSRF\";i:1;s:32:\"8QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9\";}'
+    '_identity' => '2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a:2:{i:0;s:9:\"_identity\";i:1;s:46:\"[1,\"pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web'
+    'REMOTE_ADDR' => '::1'
+    'REMOTE_PORT' => '1755'
+    'SERVER_SOFTWARE' => 'PHP 7.0.1 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '9999'
+    'REQUEST_URI' => '/category/update?id=5'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'F:\\´óÑ§±ÏÒµÉè¼Æ\\news\\backend\\web\\index.php'
+    'PATH_INFO' => '/category/update'
+    'PHP_SELF' => '/index.php/category/update'
+    'QUERY_STRING' => 'id=5'
+    'HTTP_HOST' => 'localhost:9999'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:9999/category/index'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => '_ga=GA1.1.1383451274.1493098929; _identity-backend=6f45725abe27469e794ee1a511dddcea2dc7a51f9c6c2afe361c36ab60c159f4a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22w1DMsDr5qcGFcCogfhNcq3iFLjtEct7a%22%2C2592000%5D%22%3B%7D; ts_uid=8852925335; userNewsPort0=1; UM_distinctid=162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6; CNZZDATA1262608253=1884850789-1523501911-null%7C1523509751; defaultCity=101010100; Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b=1523504202,1523588551; Hm_lpvt_080dabacb001ad3dc8b9b9049b36d43b=1523588551; Wa_lvt_1=1523504202,1523588552; Wa_lpvt_1=1523588552; PHPSESSID=57i0a8jdg7eku099kabotj5gn2; _csrf=7749329e8427dd54fc6e6a61551ec1f416fd6e0b7b083d9a7130c15f84adc539a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224vm_oDCE4fnkBVXmw0rrxPOAQelNnUfk%22%3B%7D; PHPBACKSESSION=4mea8tquhsbbf6vcf6vib8lkt7; _adminCSRF=f0e9450492a30b52d3505cd2211dca8dd8801de75d9ee37b9afd747dfef61bd7a%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%228QFk4vIRjHGy3pc9vbpES1C6jrVs-xQ9%22%3B%7D; _identity=2ee88609ab19408b884b602fe183b26b1737b78b2f7e765bb971b50fe8734f55a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22pG7TRyTIXlEbcenpi34TzmMYS2zDsMTF%22%2C2592000%5D%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1523705975.7662
+    'REQUEST_TIME' => 1523705975
+]

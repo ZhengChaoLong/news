@@ -13,31 +13,26 @@ use yii\helpers\Url;
 /* @var $this yii\web\View */
 /* @var $searchModel common\models\PostSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
-
+/* @var $model \common\models\Post*/
 ?>
 
 <div class="container">
-
 	<div class="row">
-	
 		<div class="col-md-9">
-		
 			<ol class="breadcrumb">
 			<li><a href="<?= Yii::$app->homeUrl;?>">首页</a></li>
 			<li><a href="<?= Url::to(['post/index']);?>">文章列表</a></li>
 			<li class="active"><?= $model->title?></li>
 			</ol>
-			
 			<div class="post">
 				<div class="title">
 					<h2><a href="<?= $model->url;?>"><?= Html::encode($model->title);?></a></h2>				
 						<div class="author">
-						<span class="glyphicon glyphicon-time" aria-hidden="true"></span><em><?= date('Y-m-d H:i:s',$model->create_time)."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";?></em>
-						<span class="glyphicon glyphicon-user" aria-hidden="true"></span><em><?= Html::encode($model->author->nickname);?></em>
+                            <span>浏览量：<?= $model->view . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"; ?></span></em>
+						    <span class="glyphicon glyphicon-time" aria-hidden="true"></span><em><?= date('Y-m-d H:i:s',$model->create_time)."&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;";?></em>
+						    <span class="glyphicon glyphicon-user" aria-hidden="true"></span><em><?= Html::encode($model->author->nickname);?></em>
 						</div>				
 				</div>
-		
-			
 			<br>
 			
 			<div class="content">
@@ -132,11 +127,6 @@ use yii\helpers\Url;
 				  </li>
 				</ul>			
 			</div>
-			
-		
 		</div>
-		
-		
 	</div>
-
 </div>

@@ -1,0 +1,763 @@
+a:2:{i:0;a:2:{i:0;s:32308:"<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf">
+    <meta name="csrf-token" content="a2hVdVB0WTElPhwXEQQeZC9FEzAgEh11GQQBTWI.YAMcXHgZGi44cw==">
+    <title></title>
+    <link href="/assets/5e629f08/css/bootstrap.css" rel="stylesheet">
+<link href="/css/site.css" rel="stylesheet"></head>
+<body>
+
+<div class="wrap">
+    <nav id="w0" class="navbar-fixed-top navbar" role="navigation"><div class="container"><div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#w0-collapse"><span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span></button><a class="navbar-brand" href="/" style="color:blue;font-size:23px">新闻资讯</a></div><div id="w0-collapse" class="collapse navbar-collapse"><ul id="w1" class="navbar-nav navbar-right nav"><li><a href="#">&lt;span class=&quot;glyphicon glyphicon-time&quot; aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;&lt;em&gt;&lt;?= date(&#039;Y-m-d H:i:s&#039;)?&gt;</a></li>
+<li><a href="#">注册</a></li>
+<li><a href="/site/signup">注册</a></li>
+<li><a href="/site/login">登录</a></li></ul></div></div></nav>
+    <div class="container">
+                        
+<div class="container">
+	<div class="row">
+		<div class="col-md-9">
+		<ol class="breadcrumb">
+		<li><a href="/">首页</a></li>
+		<li>文章列表</li>
+		</ol>
+		
+		<div id="postList" class="list-view"><div data-key="46">
+<div class="post">
+	<div class="title">
+		<h2><a href="/post/detail?id=46&title=%E7%88%B1%E8%A6%81%E6%80%8E%E4%B9%88%E8%AF%B4%E5%87%BA%E5%8F%A3">爱要怎么说出口</a></h2>
+		<div class="author">
+            <span>浏览量：4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></em>
+		    <span class="glyphicon glyphicon-time" aria-hidden="true"></span><em>2018-04-10 23:22:23&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em>
+		    <span class="glyphicon glyphicon-user" aria-hidden="true"></span><em>test</em>
+		</div>
+	</div>
+	<br>
+	<div class="content">
+	我会忍住不让眼泪流第一次握你的手握你的手指尖传来你的温柔每一次深情眼光的背后背后谁知道会有多少愁 多少愁爱要怎么说出口我的心里好难受如果能将你拥有我会忍住不让眼泪流第一次握你的手指尖传来你的温柔每一次深情眼光的背后谁知道会有多少愁 多少愁	</div>
+	<br>
+	<div class="nav">
+		<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
+		<a href="/post/index?PostSearch%5Btags%5D=test">test</a>		<br>
+		<a href="/post/detail?id=46&amp;title=%E7%88%B1%E8%A6%81%E6%80%8E%E4%B9%88%E8%AF%B4%E5%87%BA%E5%8F%A3#comments">评论 (0)</a> | 最后修改于 2018-04-02 18:46:02	</div>
+</div>
+</div>
+<div data-key="45">
+<div class="post">
+	<div class="title">
+		<h2><a href="/post/detail?id=45&title=%E7%9B%B8%E4%BF%A1%E4%BD%A0%E8%BF%98%E5%9C%A8%E8%BF%99%E9%87%8C">相信你还在这里</a></h2>
+		<div class="author">
+            <span>浏览量：0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></em>
+		    <span class="glyphicon glyphicon-time" aria-hidden="true"></span><em>2018-04-10 18:30:05&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em>
+		    <span class="glyphicon glyphicon-user" aria-hidden="true"></span><em>test</em>
+		</div>
+	</div>
+	<br>
+	<div class="content">
+	爱曾经来到过的地方依稀留着昨天的芬芳那熟悉的温暖像天使的翅膀划过我无边的心上相信你还在这里从不曾离去我的爱像天使守护你若生命直到这里从此没有我我会找个天使替我去爱你爱曾经来到过的地方依稀留着昨天的芬芳那熟悉的温暖像天使的翅膀划过我无边的心上	</div>
+	<br>
+	<div class="nav">
+		<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
+		<a href="/post/index?PostSearch%5Btags%5D=test">test</a>		<br>
+		<a href="/post/detail?id=45&amp;title=%E7%9B%B8%E4%BF%A1%E4%BD%A0%E8%BF%98%E5%9C%A8%E8%BF%99%E9%87%8C#comments">评论 (0)</a> | 最后修改于 2018-04-51 19:17:51	</div>
+</div>
+</div>
+<div data-key="44">
+<div class="post">
+	<div class="title">
+		<h2><a href="/post/detail?id=44&title=%E6%96%87%E7%AB%A0%E7%BB%9F%E8%AE%A1">文章统计</a></h2>
+		<div class="author">
+            <span>浏览量：0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></em>
+		    <span class="glyphicon glyphicon-time" aria-hidden="true"></span><em>2018-04-08 15:53:30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em>
+		    <span class="glyphicon glyphicon-user" aria-hidden="true"></span><em>chaolong</em>
+		</div>
+	</div>
+	<br>
+	<div class="content">
+	我要统计这个个文章的时间	</div>
+	<br>
+	<div class="nav">
+		<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
+		<a href="/post/index?PostSearch%5Btags%5D=yii">yii</a>		<br>
+		<a href="/post/detail?id=44&amp;title=%E6%96%87%E7%AB%A0%E7%BB%9F%E8%AE%A1#comments">评论 (0)</a> | 最后修改于 2018-04-30 15:53:30	</div>
+</div>
+</div>
+<div data-key="42">
+<div class="post">
+	<div class="title">
+		<h2><a href="/post/detail?id=42&title=test">test</a></h2>
+		<div class="author">
+            <span>浏览量：0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></em>
+		    <span class="glyphicon glyphicon-time" aria-hidden="true"></span><em>2017-06-11 14:57:59&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em>
+		    <span class="glyphicon glyphicon-user" aria-hidden="true"></span><em>test</em>
+		</div>
+	</div>
+	<br>
+	<div class="content">
+	test	</div>
+	<br>
+	<div class="nav">
+		<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
+		<a href="/post/index?PostSearch%5Btags%5D=test">test</a>		<br>
+		<a href="/post/detail?id=42&amp;title=test#comments">评论 (0)</a> | 最后修改于 2018-04-25 15:22:25	</div>
+</div>
+</div>
+<div data-key="41">
+<div class="post">
+	<div class="title">
+		<h2><a href="/post/detail?id=41&title=RESTful+Web%E6%9C%8D%E5%8A%A1">RESTful Web服务</a></h2>
+		<div class="author">
+            <span>浏览量：0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></em>
+		    <span class="glyphicon glyphicon-time" aria-hidden="true"></span><em>2015-09-23 18:07:49&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em>
+		    <span class="glyphicon glyphicon-user" aria-hidden="true"></span><em>chaolong</em>
+		</div>
+	</div>
+	<br>
+	<div class="content">
+	
+Yii 提供了一整套用来简化实现 RESTful 风格的 Web Service 服务的 API。
+特别是，Yii 支持以下关于 RESTful 风格的 API：
+支持 Active Record 类的通用API的快速原型
+涉及的响应格式（在默认情况下支持 JSON 和 XML)
+支持可选输出字段的定制对象序列化
+适当的格式的数据采集和验证错误
+支持 HATEOAS
+有适当HTTP动词检查的高效的路由
+内置OPTIONS和HEAD动词的支持
+认证和授权
+数据缓存和HTTP缓存
+速率限制
+如下， 我们用一个例子来说明如何用最少的编码来建立一套R...	</div>
+	<br>
+	<div class="nav">
+		<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
+		<a href="/post/index?PostSearch%5Btags%5D=Yii">Yii</a>, <a href="/post/index?PostSearch%5Btags%5D=RESTful+Web%E6%9C%8D%E5%8A%A1">RESTful Web服务</a>		<br>
+		<a href="/post/detail?id=41&amp;title=RESTful+Web%E6%9C%8D%E5%8A%A1#comments">评论 (1)</a> | 最后修改于 2015-09-49 18:07:49	</div>
+</div>
+</div>
+<div data-key="38">
+<div class="post">
+	<div class="title">
+		<h2><a href="/post/detail?id=38&title=GridView">GridView</a></h2>
+		<div class="author">
+            <span>浏览量：0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></em>
+		    <span class="glyphicon glyphicon-time" aria-hidden="true"></span><em>2015-09-23 17:52:04&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em>
+		    <span class="glyphicon glyphicon-user" aria-hidden="true"></span><em>chaolong</em>
+		</div>
+	</div>
+	<br>
+	<div class="content">
+	
+数据网格或者说 GridView 小部件是Yii中最强大的部件之一。如果你需要快速建立系统的管理后台，
+GridView 非常有用。它从数据提供者 data provider 中取得数据并使用 yii\grid\GridView::columns 属性的一组列配置，在一个表格中渲染每一行数据。
+表中的每一行代表一个数据项的数据，并且一列通常表示该项的属性（某些列可以对应于属性或静态文本的复杂表达式）。
+使用GridView的最少代码如下：
+use yii\grid\GridView;
+use yii\data\ActiveDataProvider;
+
+...	</div>
+	<br>
+	<div class="nav">
+		<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
+		<a href="/post/index?PostSearch%5Btags%5D=Yii2">Yii2</a>, <a href="/post/index?PostSearch%5Btags%5D=GridView">GridView</a>		<br>
+		<a href="/post/detail?id=38&amp;title=GridView#comments">评论 (0)</a> | 最后修改于 2015-09-04 17:52:04	</div>
+</div>
+</div>
+<div data-key="37">
+<div class="post">
+	<div class="title">
+		<h2><a href="/post/detail?id=37&title=ListView">ListView</a></h2>
+		<div class="author">
+            <span>浏览量：0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></em>
+		    <span class="glyphicon glyphicon-time" aria-hidden="true"></span><em>2015-09-23 17:50:37&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em>
+		    <span class="glyphicon glyphicon-user" aria-hidden="true"></span><em>chaolong</em>
+		</div>
+	</div>
+	<br>
+	<div class="content">
+	
+yii\widgets\ListView 小部件用于显示数据提供者 data provider 提供的数据。
+每个数据模型用指定的视图文件 yii\widgets\ListView::$itemView 来渲染。
+因为它提供开箱即用式的（译者注：封装好的）分页、排序以及过滤这样一些特性，所以它可以很方便地为最终用户显示信息并同时创建数据管理界面。
+一个典型的用法如下例所示：
+use yii\widgets\ListView;
+use yii\data\ActiveDataProvider;
+
+$dataProvider = new ActiveData...	</div>
+	<br>
+	<div class="nav">
+		<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
+		<a href="/post/index?PostSearch%5Btags%5D=Yii2">Yii2</a>, <a href="/post/index?PostSearch%5Btags%5D=ListView">ListView</a>		<br>
+		<a href="/post/detail?id=37&amp;title=ListView#comments">评论 (0)</a> | 最后修改于 2015-09-18 17:51:18	</div>
+</div>
+</div>
+<div data-key="35">
+<div class="post">
+	<div class="title">
+		<h2><a href="/post/detail?id=35&title=Active+Record+%E8%AF%A6%E8%A7%A3%EF%BC%88%E4%B8%8B%EF%BC%89">Active Record 详解（下）</a></h2>
+		<div class="author">
+            <span>浏览量：0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></em>
+		    <span class="glyphicon glyphicon-time" aria-hidden="true"></span><em>2015-09-23 17:24:22&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em>
+		    <span class="glyphicon glyphicon-user" aria-hidden="true"></span><em>chaolong</em>
+		</div>
+	</div>
+	<br>
+	<div class="content">
+	
+
+AR的生命周期
+理解AR的生命周期对于你操作数据库非常重要。生命周期通常都会有些典型的事件存在。对于开发AR的behaviors来说非常有用。
+当你实例化一个新的AR对象时，我们将获得如下的生命周期：
+constructor
+yii\db\ActiveRecord::init(): 会触发一个 yii\db\ActiveRecord::EVENT_INIT 事件
+当你通过 yii\db\ActiveRecord::find() 方法查询数据时，每个AR实例都将有以下生命周期：
+constructor
+yii\db\ActiveRecord::ini...	</div>
+	<br>
+	<div class="nav">
+		<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
+		<a href="/post/index?PostSearch%5Btags%5D=Yii2">Yii2</a>, <a href="/post/index?PostSearch%5Btags%5D=ActiveRecord">ActiveRecord</a>		<br>
+		<a href="/post/detail?id=35&amp;title=Active+Record+%E8%AF%A6%E8%A7%A3%EF%BC%88%E4%B8%8B%EF%BC%89#comments">评论 (0)</a> | 最后修改于 2015-09-54 17:24:54	</div>
+</div>
+</div>
+<div data-key="34">
+<div class="post">
+	<div class="title">
+		<h2><a href="/post/detail?id=34&title=ActiveRecord+%E8%AF%A6%E8%A7%A3%EF%BC%88%E4%B8%8A%EF%BC%89">ActiveRecord 详解（上）</a></h2>
+		<div class="author">
+            <span>浏览量：0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></em>
+		    <span class="glyphicon glyphicon-time" aria-hidden="true"></span><em>2015-09-23 17:22:25&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em>
+		    <span class="glyphicon glyphicon-user" aria-hidden="true"></span><em>chaolong</em>
+		</div>
+	</div>
+	<br>
+	<div class="content">
+	
+			
+Active Record （活动记录，以下简称AR）提供了一个面向对象的接口，
+用以访问数据库中的数据。一个 AR 类关联一张数据表，
+每个 AR 对象对应表中的一行，对象的属性（即 AR 的特性Attribute）映射到数据行的对应列。
+一条活动记录（AR对象）对应数据表的一行，AR对象的属性则映射该行的相应列。
+您可以直接以面向对象的方式来操纵数据表中的数据，妈妈再不用担心我需要写原生 SQL 语句啦。
+例如，假定 Customer AR 类关联着 customer 表，且该类的 name 属性代表 customer 表的 name 列。...	</div>
+	<br>
+	<div class="nav">
+		<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
+		<a href="/post/index?PostSearch%5Btags%5D=Yii">Yii</a>, <a href="/post/index?PostSearch%5Btags%5D=ActiveRecord">ActiveRecord</a>		<br>
+		<a href="/post/detail?id=34&amp;title=ActiveRecord+%E8%AF%A6%E8%A7%A3%EF%BC%88%E4%B8%8A%EF%BC%89#comments">评论 (1)</a> | 最后修改于 2015-09-25 17:22:25	</div>
+</div>
+</div>
+<div data-key="33">
+<div class="post">
+	<div class="title">
+		<h2><a href="/post/detail?id=33&title=Yii2%E5%AE%89%E8%A3%85+">Yii2安装 </a></h2>
+		<div class="author">
+            <span>浏览量：0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></em>
+		    <span class="glyphicon glyphicon-time" aria-hidden="true"></span><em>2015-09-23 16:55:01&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</em>
+		    <span class="glyphicon glyphicon-user" aria-hidden="true"></span><em>chaolong</em>
+		</div>
+	</div>
+	<br>
+	<div class="content">
+	
+
+你可以通过两种方式安装 Yii：使用 Composer 或下载一个归档文件。推荐使用前者，这样只需执行一条简单的命令就可以安装新的扩展或更新 Yii 了。
+注意：和 Yii 1 不同，以标准方式安装 Yii 2 时会同时下载并安装框架本身和一个应用程序的基本骨架。
+
+通过 Composer 安装 
+如果还没有安装 Composer，你可以按 getcomposer.org 中的方法安装。在 Linux 和 Mac OS X 中可以运行如下命令：
+curl -sS https://getcomposer.org/installer | php
+mv c...	</div>
+	<br>
+	<div class="nav">
+		<span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
+		<a href="/post/index?PostSearch%5Btags%5D=%E5%AE%89%E8%A3%85">安装</a>, <a href="/post/index?PostSearch%5Btags%5D=Yii2">Yii2</a>, <a href="/post/index?PostSearch%5Btags%5D=Composer">Composer</a>		<br>
+		<a href="/post/detail?id=33&amp;title=Yii2%E5%AE%89%E8%A3%85+#comments">评论 (0)</a> | 最后修改于 2015-09-40 17:13:40	</div>
+</div>
+</div> <ul class="pagination"><li class="prev disabled"><span>上一页</span></li>
+<li class="active"><a href="/post/index?page=1&amp;per-page=10" data-page="0">1</a></li>
+<li><a href="/post/index?page=2&amp;per-page=10" data-page="1">2</a></li>
+<li class="next"><a href="/post/index?page=2&amp;per-page=10" data-page="1">下一页</a></li></ul></div>		
+		</div>
+
+		
+		<div class="col-md-3">
+			<div class="searchbox">
+				<ul class="list-group">
+				  <li class="list-group-item">
+				  <span class="glyphicon glyphicon-search" aria-hidden="true"></span> 查找文章（
+				  				  11				  ）
+				  </li>
+				  <li class="list-group-item">				  
+					  <form class="form-inline" action="/post/index" id="w0" method="get">
+						  <div class="form-group">
+						    <input type="text" class="form-control" name="PostSearch[title]" id="w0input" placeholder="按标题">
+						  </div>
+						  <button type="submit" class="btn btn-default">搜索</button>
+					</form>
+				  
+				  </li>
+				</ul>			
+			</div>
+			
+			<div class="tagcloudbox">
+				<ul class="list-group">
+				  <li class="list-group-item">
+				  <span class="glyphicon glyphicon-tags" aria-hidden="true"></span> 标签云
+				  </li>
+				  <li class="list-group-item">
+				  				  <a href="/post/index?PostSearch%5Btags%5D=ActiveRecord"> <h3 style="display:inline-block;"><span class="label label-primary">ActiveRecord</span></h3></a><a href="/post/index?PostSearch%5Btags%5D=Composer"> <h4 style="display:inline-block;"><span class="label label-warning">Composer</span></h4></a><a href="/post/index?PostSearch%5Btags%5D=GridView"> <h3 style="display:inline-block;"><span class="label label-primary">GridView</span></h3></a><a href="/post/index?PostSearch%5Btags%5D=ListView"> <h3 style="display:inline-block;"><span class="label label-primary">ListView</span></h3></a><a href="/post/index?PostSearch%5Btags%5D=RESTful+Web%E6%9C%8D%E5%8A%A1"> <h4 style="display:inline-block;"><span class="label label-warning">RESTful Web服务</span></h4></a><a href="/post/index?PostSearch%5Btags%5D=Yii"> <h2 style="display:inline-block;"><span class="label label-success">Yii</span></h2></a><a href="/post/index?PostSearch%5Btags%5D=Yii2"> <h2 style="display:inline-block;"><span class="label label-success">Yii2</span></h2></a><a href="/post/index?PostSearch%5Btags%5D=test"> <h2 style="display:inline-block;"><span class="label label-success">test</span></h2></a><a href="/post/index?PostSearch%5Btags%5D=widget"> <h5 style="display:inline-block;"><span class="label label-info">widget</span></h5></a><a href="/post/index?PostSearch%5Btags%5D=%E5%AE%89%E8%A3%85"> <h4 style="display:inline-block;"><span class="label label-warning">安装</span></h4></a><a href="/post/index?PostSearch%5Btags%5D=%E5%B0%8F%E9%83%A8%E4%BB%B6"> <h5 style="display:inline-block;"><span class="label label-info">小部件</span></h5></a>				   </li>
+				</ul>			
+			</div>
+			
+			<div class="commentbox">
+				<ul class="list-group">
+				  <li class="list-group-item">
+				  <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 最新回复
+				  </li>
+				  <li class="list-group-item">
+				  <div class="post"><div class="title"><p style="color:#777777;font-style:italic;">假设你想通过 RESTful 风格的 API 来展示用户数据。用户数据被存储在用户DB表， 你已经创建了 yii\db\ActiveRecord 类 app\models\User 来访问该用户数据.</p><p class="text"> <span class="glyphicon glyphicon-user" aria-hidden="ture">
+							</span> chaolong</p><p style="font-size:8pt;color:bule">
+							《<a href="">RESTful Web服务</a>》</p><hr></div></div><div class="post"><div class="title"><p style="color:#777777;font-style:italic;">传说中的沙发</p><p class="text"> <span class="glyphicon glyphicon-user" aria-hidden="ture">
+							</span> chaolong</p><p style="font-size:8pt;color:bule">
+							《<a href="">ActiveRecord 详解（上）</a>》</p><hr></div></div>				  </li>
+				</ul>			
+			</div>
+		</div>
+	</div>
+</div>
+    </div>
+</div>
+
+<div id="yii-debug-toolbar" data-url="/debug/default/toolbar?tag=5ace1b72cc433" style="display:none" class="yii-debug-toolbar-bottom"></div><style>
+#yii-debug-toolbar-logo {
+    position: fixed;
+    right: 31px;
+    bottom: 4px;
+}
+
+.yii-debug-toolbar {
+    font: 11px Verdana, Arial, sans-serif;
+    text-align: left;
+    width: 96px;
+    height: 42px;
+    transition: width .3s ease;
+    z-index: 1000000;
+}
+
+.yii-debug-toolbar_active {
+    width: 100%;
+    height: auto;
+}
+
+.yii-debug-toolbar_position_top {
+    margin: 0 0 20px 0;
+    width: 100%;
+}
+
+.yii-debug-toolbar_position_bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+}
+
+.yii-debug-toolbar__bar {
+    position: relative;
+    padding: 0;
+    font: 11px Verdana, Arial, sans-serif;
+    text-align: left;
+    height: 40px;
+    overflow: hidden;
+
+    background: rgb(255, 255, 255);
+    background: -moz-linear-gradient(top, rgb(255, 255, 255) 0%, rgb(247, 247, 247) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgb(255, 255, 255) 0%, rgb(247, 247, 247) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgb(255, 255, 255) 0%, rgb(247, 247, 247) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f7f7f7', GradientType=0); /* IE6-9 */
+
+    border: 1px solid rgba(0, 0, 0, 0.11);
+
+    /* ensure debug toolbar text is displayed ltr even on rtl pages */
+    direction: ltr;
+}
+
+.yii-debug-toolbar__bar:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.yii-debug-toolbar__view {
+    height: 0;
+    overflow: hidden;
+    background: white;
+    transition: height .3s ease;
+}
+
+.yii-debug-toolbar__view iframe {
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    height: 100%;
+    width: 100%;
+    border: 0;
+}
+
+.yii-debug-toolbar_iframe_active .yii-debug-toolbar__view {
+    height: 100%;
+}
+
+.yii-debug-toolbar__block {
+    float: left;
+    margin: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.11);
+    padding: 4px 8px;
+    line-height: 32px;
+    white-space: nowrap;
+}
+
+.yii-debug-toolbar__block_active {
+    background: rgb(247, 247, 247); /* Old browsers */
+    background: -moz-linear-gradient(top, rgb(247, 247, 247) 0%, rgb(224, 224, 224) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgb(247, 247, 247) 0%, rgb(224, 224, 224) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgb(247, 247, 247) 0%, rgb(224, 224, 224) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#e0e0e0', GradientType=0); /* IE6-9 */
+}
+
+.yii-debug-toolbar__block a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.yii-debug-toolbar__block img {
+    vertical-align: middle;
+}
+
+.yii-debug-toolbar__label {
+    display: inline-block;
+    padding: 2px 4px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 14px;
+    white-space: nowrap;
+    vertical-align: baseline;
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #999999;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+}
+
+.yii-debug-toolbar__label:empty {
+    display: none;
+}
+
+a.yii-debug-toolbar__label:hover,
+a.yii-debug-toolbar__label:focus {
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.yii-debug-toolbar__label_important {
+    background-color: #b94a48;
+}
+
+.yii-debug-toolbar__label_important[href] {
+    background-color: #953b39;
+}
+
+.yii-debug-toolbar__label_warning,
+.yii-debug-toolbar__badge_warning {
+    background-color: #f89406;
+}
+
+.yii-debug-toolbar__label_warning[href] {
+    background-color: #c67605;
+}
+
+.yii-debug-toolbar__label_success {
+    background-color: #468847;
+}
+
+.yii-debug-toolbar__label_success[href] {
+    background-color: #356635;
+}
+
+.yii-debug-toolbar__label_info {
+    background-color: #3a87ad;
+}
+
+.yii-debug-toolbar__label_info[href] {
+    background-color: #2d6987;
+}
+
+.yii-debug-toolbar__label_inverse,
+.yii-debug-toolbar__badge_inverse {
+    background-color: #333333;
+}
+
+.yii-debug-toolbar__label_inverse[href],
+.yii-debug-toolbar__badge_inverse[href] {
+    background-color: #1a1a1a;
+}
+
+.yii-debug-toolbar__title {
+    background: rgb(247, 247, 247); /* Old browsers */
+    background: -moz-linear-gradient(top, rgb(247, 247, 247) 0%, rgb(224, 224, 224) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgb(247, 247, 247) 0%, rgb(224, 224, 224) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgb(247, 247, 247) 0%, rgb(224, 224, 224) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f7f7f7', endColorstr='#e0e0e0', GradientType=0); /* IE6-9 */
+}
+
+.yii-debug-toolbar__toggle,
+.yii-debug-toolbar__external {
+    cursor: pointer;
+    position: absolute;
+
+    width: 30px;
+    height: 30px;
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 28px;
+    color: #ffffff;
+    text-align: center;
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+
+    transition: opacity .3s ease;
+}
+
+.yii-debug-toolbar__toggle:hover,
+.yii-debug-toolbar__toggle:focus,
+.yii-debug-toolbar__external:hover,
+.yii-debug-toolbar__external:focus {
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+}
+
+.yii-debug-toolbar__toggle-icon,
+.yii-debug-toolbar__external-icon {
+    display: inline-block;
+
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.yii-debug-toolbar__toggle {
+    right: 10px;
+    top: 4px;
+}
+
+.yii-debug-toolbar__toggle-icon {
+    padding: 7px 0;
+    width: 10px;
+    height: 16px;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDUwIDUwIj48cGF0aCBmaWxsPSIjNDQ0IiBkPSJNMTUuNTYzIDQwLjgzNmEuOTk3Ljk5NyAwIDAgMCAxLjQxNCAwbDE1LTE1YTEgMSAwIDAgMCAwLTEuNDE0bC0xNS0xNWExIDEgMCAwIDAtMS40MTQgMS40MTRMMjkuODU2IDI1LjEzIDE1LjU2MyAzOS40MmExIDEgMCAwIDAgMCAxLjQxNHoiLz48L3N2Zz4=');
+    transition: -webkit-transform .3s ease-out;
+    transition: transform .3s ease-out;
+}
+
+.yii-debug-toolbar_active .yii-debug-toolbar__toggle-icon {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.yii-debug-toolbar_iframe_active .yii-debug-toolbar__toggle-icon {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.yii-debug-toolbar__external {
+    display: none;
+    right: 50px;
+    top: 4px;
+}
+
+.yii-debug-toolbar_iframe_active .yii-debug-toolbar__external {
+    display: block;
+}
+
+.yii-debug-toolbar__external-icon {
+    padding: 8px 0;
+    width: 14px;
+    height: 14px;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNSIgaGVpZ2h0PSIxNSIgdmlld0JveD0iMCAwIDUwIDUwIj48cGF0aCBmaWxsPSIjNDQ0IiBkPSJNMzkuNjQyIDkuNzIyYTEuMDEgMS4wMSAwIDAgMC0uMzgyLS4wNzdIMjguMTAzYTEgMSAwIDAgMCAwIDJoOC43NDNMMjEuNyAyNi43OWExIDEgMCAwIDAgMS40MTQgMS40MTVMMzguMjYgMTMuMDZ2OC43NDNhMSAxIDAgMCAwIDIgMFYxMC42NDZhMS4wMDUgMS4wMDUgMCAwIDAtLjYxOC0uOTI0eiIvPjxwYXRoIGQ9Ik0zOS4yNiAyNy45ODVhMSAxIDAgMCAwLTEgMXYxMC42NmgtMjh2LTI4aDEwLjY4M2ExIDEgMCAwIDAgMC0ySDkuMjZhMSAxIDAgMCAwLTEgMXYzMGExIDEgMCAwIDAgMSAxaDMwYTEgMSAwIDAgMCAxLTF2LTExLjY2YTEgMSAwIDAgMC0xLTF6Ii8+PC9zdmc+');
+}
+</style><script>(function () {
+    'use strict';
+
+    var findToolbar = function () {
+            return document.querySelector('#yii-debug-toolbar');
+        },
+        ajax = function (url, settings) {
+            var xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP');
+            settings = settings || {};
+            xhr.open(settings.method || 'GET', url, true);
+            xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+            xhr.setRequestHeader('Accept', 'text/html');
+            xhr.onreadystatechange = function (state) {
+                if (xhr.readyState === 4) {
+                    if (xhr.status === 200 && settings.success) {
+                        settings.success(xhr);
+                    } else if (xhr.status != 200 && settings.error) {
+                        settings.error(xhr);
+                    }
+                }
+            };
+            xhr.send(settings.data || '');
+        },
+        url,
+        div,
+        toolbarEl = findToolbar(),
+        barSelector = '.yii-debug-toolbar__bar',
+        viewSelector = '.yii-debug-toolbar__view',
+        blockSelector = '.yii-debug-toolbar__block',
+        toggleSelector = '.yii-debug-toolbar__toggle',
+        externalSelector = '.yii-debug-toolbar__external',
+
+        CACHE_KEY = 'yii-debug-toolbar',
+        ACTIVE_STATE = 'active',
+
+        activeClass = 'yii-debug-toolbar_active',
+        iframeActiveClass = 'yii-debug-toolbar_iframe_active',
+        titleClass = 'yii-debug-toolbar__title',
+        blockClass = 'yii-debug-toolbar__block',
+        blockActiveClass = 'yii-debug-toolbar__block_active';
+
+    if (toolbarEl) {
+        url = toolbarEl.getAttribute('data-url');
+
+        ajax(url, {
+            success: function (xhr) {
+                div = document.createElement('div');
+                div.innerHTML = xhr.responseText;
+
+                toolbarEl.parentNode.replaceChild(div, toolbarEl);
+
+                showToolbar(findToolbar());
+            },
+            error: function (xhr) {
+                toolbarEl.innerHTML = xhr.responseText;
+            }
+        });
+    }
+
+    function showToolbar(toolbarEl) {
+        var barEl = toolbarEl.querySelector(barSelector),
+            viewEl = toolbarEl.querySelector(viewSelector),
+            toggleEl = toolbarEl.querySelector(toggleSelector),
+            externalEl = toolbarEl.querySelector(externalSelector),
+            blockEls = barEl.querySelectorAll(blockSelector),
+            iframeEl = viewEl.querySelector('iframe'),
+            iframeHeight = function () {
+                return (window.innerHeight * 0.7) + 'px';
+            },
+            isIframeActive = function () {
+                return toolbarEl.classList.contains(iframeActiveClass);
+            },
+            showIframe = function (href) {
+                toolbarEl.classList.add(iframeActiveClass);
+
+                iframeEl.src = externalEl.href = href;
+                viewEl.style.height = iframeHeight();
+            },
+            hideIframe = function () {
+                toolbarEl.classList.remove(iframeActiveClass);
+                removeActiveBlocksCls();
+
+                externalEl.href = '#';
+                viewEl.style.height = '';
+            },
+            removeActiveBlocksCls = function () {
+                [].forEach.call(blockEls, function (el) {
+                    el.classList.remove(blockActiveClass);
+                });
+            },
+            toggleToolbarClass = function (className) {
+                if (toolbarEl.classList.contains(className)) {
+                    toolbarEl.classList.remove(className);
+                } else {
+                    toolbarEl.classList.add(className);
+                }
+            },
+            toggleStorageState = function (key, value) {
+                if (window.localStorage) {
+                    var item = localStorage.getItem(key);
+
+                    if (item) {
+                        localStorage.removeItem(key);
+                    } else {
+                        localStorage.setItem(key, value);
+                    }
+                }
+            },
+            restoreStorageState = function (key) {
+                if (window.localStorage) {
+                    return localStorage.getItem(key);
+                }
+            },
+            togglePosition = function () {
+                if (isIframeActive()) {
+                    hideIframe();
+                } else {
+                    toggleToolbarClass(activeClass);
+                    toggleStorageState(CACHE_KEY, ACTIVE_STATE);
+                }
+            };
+
+        toolbarEl.style.display = 'block';
+
+        if (restoreStorageState(CACHE_KEY) == ACTIVE_STATE) {
+            toolbarEl.classList.add(activeClass);
+        }
+
+        window.onresize = function () {
+            if (toolbarEl.classList.contains(iframeActiveClass)) {
+                viewEl.style.height = iframeHeight();
+            }
+        };
+
+        barEl.onclick = function (e) {
+            var target = e.target,
+                block = findAncestor(target, blockClass);
+
+            if (block && !block.classList.contains(titleClass)) {
+                while (target !== this) {
+                    if (target.href) {
+                        removeActiveBlocksCls();
+                        block.classList.add(blockActiveClass);
+                        showIframe(target.href);
+                    }
+                    target = target.parentNode;
+                }
+
+                e.preventDefault();
+            }
+        };
+
+        toggleEl.onclick = togglePosition;
+    }
+
+    function findAncestor(el, cls) {
+        while ((el = el.parentElement) && !el.classList.contains(cls));
+        return el;
+    }
+})();
+</script><script src="/assets/99f4cdbc/jquery.js"></script>
+<script src="/assets/249c4d9d/yii.js"></script>
+<script src="/assets/5e629f08/js/bootstrap.js"></script></body>
+</html>
+";i:1;N;}i:1;O:24:"yii\caching\DbDependency":5:{s:2:"db";s:2:"db";s:3:"sql";s:26:"select count(id) from post";s:6:"params";a:0:{}s:4:"data";a:1:{s:9:"count(id)";s:2:"11";}s:8:"reusable";b:0;}}

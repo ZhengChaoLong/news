@@ -28,16 +28,26 @@ AppAsset::register($this);
 <div class="wrap">
     <?php
     NavBar::begin([
-        'brandLabel' => '简易的新闻网站',
-    	'brandOptions'=> ['style'=>'color:yellow;font-size:23px'],
+        'brandLabel' => '新闻资讯',
+    	'brandOptions'=> ['style'=>'color:blue;font-size:23px'],
         'brandUrl' => Yii::$app->homeUrl,
         'options' => [
-            'class' => 'navbar-inverse navbar-fixed-top',
+            'class' => 'navbar-fixed-top',
         ],
     ]);
-    $menuItems = [
-        //['label' => '关于我们', 'url' => ['/site/about']],
-    ];
+
+    $time = date('Y年m月d日 星期') . mb_substr("日一二三四五六",date("w"),1,"utf-8");
+    $menuItemsLeft[] = '<li style="line-height: 50px"><span class="glyphicon glyphicon-time" aria-hidden="false">'. $time .'</li>';
+
+    //获取天气预报信息
+    $weatherInfo = \frontend\controllers\PostController::getWeather();
+    $menuItemsLeft[] = '<li style="line-height: 50px">'. $weatherInfo .'</li>';
+
+    echo Nav::widget([
+        'options' => ['class' => 'navbar-nav navbar-left'],
+        'items' => $menuItemsLeft,
+    ]);
+
     if (Yii::$app->user->isGuest) {
         $menuItems[] = ['label' => '注册', 'url' => ['/site/signup']];
         $menuItems[] = ['label' => '登录', 'url' => ['/site/login']];

@@ -52,41 +52,37 @@ class PostSearch extends Post
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
-        	'pagination' => ['pageSize'=>10],
+        	'pagination' => [
+        	    'pageSize'=>8
+            ],
         	'sort'=>[
-        			'defaultOrder'=>[
-        					'id'=>SORT_DESC,        			
-        			],
-        			//'attributes'=>['id','title'],
+                'defaultOrder'=>[
+                    'id'=>SORT_DESC,
+                ],
+                'attributes'=>[
+                    'id' => [
+                        'label' => '主键ID'
+                    ],
+                    'title' => [
+                        'label' => '新闻标题'
+                    ],
+                    'view' => [
+                        'label' => '浏览量'
+                    ],
+                    'create_time' => [
+                        'label' => '创建时间'
+                    ],
+                ],
         	],
         ]);
 
-//         echo "<pre>";
-//         print_r($dataProvider->getPagination());
-        
-//         echo "<hr>";
-//         print_r($dataProvider->getSort());
-//         echo "<hr>";
-//         print_r($dataProvider->getCount());
-//         echo "<hr>";
-//         print_r($dataProvider->getTotalCount());
-        
-//         echo "</pre>";
-//         exit(0);
-        
-        
-        
         $this->load($params);
 
         if (!$this->validate()) {
-            // uncomment the following line if you do not want to return any records when validation fails
-             //$query->where('0=1');
             return $dataProvider;
         }
 
-        // grid filtering conditions
         $query->andFilterWhere([
-            //'id' => $this->id,
         	'post.id' => $this->id,
             'status' => $this->status,
             'author_id' => $this->author_id,
@@ -98,16 +94,7 @@ class PostSearch extends Post
 
         $query->join('INNER JOIN','Adminuser','post.author_id = Adminuser.id');
         $query->andFilterWhere(['like','Adminuser.nickname',$this->authorName]);
-        
-        $dataProvider->sort->attributes['authorName'] = 
-        [
-        	'asc'=>['Adminuser.nickname'=>SORT_ASC],
-        	'desc'=>['Adminuser.nickname'=>SORT_DESC],
-        ];
-        
-        
-        
-        
+
         return $dataProvider;
     }
 }

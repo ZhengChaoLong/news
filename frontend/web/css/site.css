@@ -109,3 +109,9 @@ a.desc:after {
 .nav > li > form > button:hover {
     text-decoration: none;
 }
+
+.navbar {
+    background-color: #ffffff;
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(224, 224, 224);
+}

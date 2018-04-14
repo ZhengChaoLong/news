@@ -17,6 +17,7 @@ class Nav extends Menu
     {
         $menuItems = [
             ['label' => '文章管理', 'url' => ['/post/index']],
+            ['label' => '分类管理', 'url' => ['/category/index']],
             [
                 'label' => '评论管理',
                 'url' => ['/comment/index']
