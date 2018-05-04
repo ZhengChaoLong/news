@@ -1,0 +1,211 @@
+a:8:{s:6:"config";a:5:{s:10:"phpVersion";s:5:"7.0.1";s:10:"yiiVersion";s:5:"2.0.8";s:11:"application";a:4:{s:3:"yii";s:5:"2.0.8";s:4:"name";s:12:"鏂伴椈缃戠珯";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:4:{s:7:"version";s:5:"7.0.1";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;}s:10:"extensions";a:11:{s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:52:"F:\大学毕业设计\news\vendor/yiisoft/yii2-swiftmailer";}}s:24:"yiisoft/yii2-codeception";a:3:{s:4:"name";s:24:"yiisoft/yii2-codeception";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:16:"@yii/codeception";s:52:"F:\大学毕业设计\news\vendor/yiisoft/yii2-codeception";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:50:"F:\大学毕业设计\news\vendor/yiisoft/yii2-bootstrap";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:7:"2.0.6.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:46:"F:\大学毕业设计\news\vendor/yiisoft/yii2-debug";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:44:"F:\大学毕业设计\news\vendor/yiisoft/yii2-gii";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.3.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:46:"F:\大学毕业设计\news\vendor/yiisoft/yii2-faker";}}s:20:"yiisoft/yii2-imagine";a:3:{s:4:"name";s:20:"yiisoft/yii2-imagine";s:7:"version";s:7:"2.1.1.0";s:5:"alias";a:1:{s:12:"@yii/imagine";s:52:"F:\大学毕业设计\news\vendor/yiisoft/yii2-imagine/src";}}s:20:"crazydb/yii2-ueditor";a:3:{s:4:"name";s:20:"crazydb/yii2-ueditor";s:7:"version";s:7:"1.6.4.0";s:5:"alias";a:1:{s:16:"@crazydb/ueditor";s:48:"F:\大学毕业设计\news\vendor/crazydb/yii2-ueditor";}}s:24:"rmrevin/yii2-fontawesome";a:3:{s:4:"name";s:24:"rmrevin/yii2-fontawesome";s:7:"version";s:8:"2.17.1.0";s:5:"alias";a:1:{s:24:"@rmrevin/yii/fontawesome";s:52:"F:\大学毕业设计\news\vendor/rmrevin/yii2-fontawesome";}}s:18:"cebe/yii2-gravatar";a:3:{s:4:"name";s:18:"cebe/yii2-gravatar";s:7:"version";s:7:"1.1.0.0";s:5:"alias";a:1:{s:14:"@cebe/gravatar";s:60:"F:\大学毕业设计\news\vendor/cebe/yii2-gravatar/cebe/gravatar";}}s:25:"dmstr/yii2-adminlte-asset";a:3:{s:4:"name";s:25:"dmstr/yii2-adminlte-asset";s:7:"version";s:7:"2.6.0.0";s:5:"alias";a:1:{s:6:"@dmstr";s:53:"F:\大学毕业设计\news\vendor/dmstr/yii2-adminlte-asset";}}}}s:7:"request";a:14:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:9:{s:4:"host";s:14:"localhost:8888";s:10:"connection";s:10:"keep-alive";s:13:"cache-control";s:9:"max-age=0";s:25:"upgrade-insecure-requests";s:1:"1";s:10:"user-agent";s:114:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36";s:6:"accept";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:15:"accept-encoding";s:23:"gzip, deflate, sdch, br";s:15:"accept-language";s:23:"zh-CN,zh;q=0.8,en;q=0.6";s:6:"cookie";s:1095:"_ga=GA1.1.1383451274.1493098929; ts_uid=8852925335; userNewsPort0=1; UM_distinctid=162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6; CNZZDATA1262608253=1884850789-1523501911-null%7C1523509751; Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b=1523504202,1523588551; Wa_lvt_1=1523504202,1523588552; _csrf=ee3c8a578dbf62ac8582af919e5aae77133576a4850f9f8bc8c592049a9a9702a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22b1jtoxWBlri8QyhfnqvhNHzZsBznmzgP%22%3B%7D; _adminCSRF=96234c97d25cb380f4380ad581246aa7e9de469bfc4be57e166e2227364fc90aa%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22HpzAJJHkVcgUGvizskyZoSzQ4PnhF2Gs%22%3B%7D; PHPBACKSESSION=rj1r82lllj64gq13uft7fucsd3; read_history_url=http://localhost:8888/post/; PHPSESSID=gjdtqvn7gtp2k54mnn97jua8u1; _identity=ed50a56aa591740ebc3a6b77305baf4128a08dd997b3a50e86271103c8bf7409a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B7%2C%22qckbi3mAzie74K6i7rww5_jf7kIMw9Ww%22%2C2592000%5D%22%3B%7D; Hm_lvt_fe310254e5af1a36c2033b8f07f22e08=1525358136; Hm_lpvt_fe310254e5af1a36c2033b8f07f22e08=1525364529";}s:15:"responseHeaders";a:5:{s:12:"X-Powered-By";s:9:"PHP/7.0.1";s:7:"Expires";s:29:"Thu, 19 Nov 1981 08:52:00 GMT";s:13:"Cache-Control";s:35:"no-store, no-cache, must-revalidate";s:6:"Pragma";s:8:"no-cache";s:12:"Content-type";s:24:"text/html; charset=UTF-8";}s:5:"route";s:16:"post/auto-jie-xi";s:6:"action";s:54:"frontend\controllers\PostController::actionAutoJieXi()";s:12:"actionParams";a:0:{}s:11:"requestBody";a:0:{}s:6:"SERVER";a:24:{s:13:"DOCUMENT_ROOT";s:33:"F:\大学毕业设计\news\frontend\web";s:11:"REMOTE_ADDR";s:3:"::1";s:11:"REMOTE_PORT";s:4:"4530";s:15:"SERVER_SOFTWARE";s:28:"PHP 7.0.1 Development Server";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:11:"SERVER_NAME";s:9:"localhost";s:11:"SERVER_PORT";s:4:"8888";s:11:"REQUEST_URI";s:17:"/post/auto-jie-xi";s:14:"REQUEST_METHOD";s:3:"GET";s:11:"SCRIPT_NAME";s:10:"/index.php";s:15:"SCRIPT_FILENAME";s:43:"F:\大学毕业设计\news\frontend\web\index.php";s:9:"PATH_INFO";s:17:"/post/auto-jie-xi";s:8:"PHP_SELF";s:27:"/index.php/post/auto-jie-xi";s:9:"HTTP_HOST";s:14:"localhost:8888";s:15:"HTTP_CONNECTION";s:10:"keep-alive";s:18:"HTTP_CACHE_CONTROL";s:9:"max-age=0";s:30:"HTTP_UPGRADE_INSECURE_REQUESTS";s:1:"1";s:15:"HTTP_USER_AGENT";s:114:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.81 Safari/537.36";s:11:"HTTP_ACCEPT";s:74:"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8";s:20:"HTTP_ACCEPT_ENCODING";s:23:"gzip, deflate, sdch, br";s:20:"HTTP_ACCEPT_LANGUAGE";s:23:"zh-CN,zh;q=0.8,en;q=0.6";s:11:"HTTP_COOKIE";s:1095:"_ga=GA1.1.1383451274.1493098929; ts_uid=8852925335; userNewsPort0=1; UM_distinctid=162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6; CNZZDATA1262608253=1884850789-1523501911-null%7C1523509751; Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b=1523504202,1523588551; Wa_lvt_1=1523504202,1523588552; _csrf=ee3c8a578dbf62ac8582af919e5aae77133576a4850f9f8bc8c592049a9a9702a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22b1jtoxWBlri8QyhfnqvhNHzZsBznmzgP%22%3B%7D; _adminCSRF=96234c97d25cb380f4380ad581246aa7e9de469bfc4be57e166e2227364fc90aa%3A2%3A%7Bi%3A0%3Bs%3A10%3A%22_adminCSRF%22%3Bi%3A1%3Bs%3A32%3A%22HpzAJJHkVcgUGvizskyZoSzQ4PnhF2Gs%22%3B%7D; PHPBACKSESSION=rj1r82lllj64gq13uft7fucsd3; read_history_url=http://localhost:8888/post/; PHPSESSID=gjdtqvn7gtp2k54mnn97jua8u1; _identity=ed50a56aa591740ebc3a6b77305baf4128a08dd997b3a50e86271103c8bf7409a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A46%3A%22%5B7%2C%22qckbi3mAzie74K6i7rww5_jf7kIMw9Ww%22%2C2592000%5D%22%3B%7D; Hm_lvt_fe310254e5af1a36c2033b8f07f22e08=1525358136; Hm_lpvt_fe310254e5af1a36c2033b8f07f22e08=1525364529";s:18:"REQUEST_TIME_FLOAT";d:1525364845.5843999;s:12:"REQUEST_TIME";i:1525364845;}s:3:"GET";a:0:{}s:4:"POST";a:0:{}s:6:"COOKIE";a:15:{s:3:"_ga";s:27:"GA1.1.1383451274.1493098929";s:6:"ts_uid";s:10:"8852925335";s:13:"userNewsPort0";s:1:"1";s:13:"UM_distinctid";s:58:"162b7ed3ff9427-0ebb2ad917da6-871123a-100200-162b7ed3ffa2a6";s:18:"CNZZDATA1262608253";s:37:"1884850789-1523501911-null|1523509751";s:39:"Hm_lvt_080dabacb001ad3dc8b9b9049b36d43b";s:21:"1523504202,1523588551";s:8:"Wa_lvt_1";s:21:"1523504202,1523588552";s:5:"_csrf";s:130:"ee3c8a578dbf62ac8582af919e5aae77133576a4850f9f8bc8c592049a9a9702a:2:{i:0;s:5:"_csrf";i:1;s:32:"b1jtoxWBlri8QyhfnqvhNHzZsBznmzgP";}";s:10:"_adminCSRF";s:136:"96234c97d25cb380f4380ad581246aa7e9de469bfc4be57e166e2227364fc90aa:2:{i:0;s:10:"_adminCSRF";i:1;s:32:"HpzAJJHkVcgUGvizskyZoSzQ4PnhF2Gs";}";s:14:"PHPBACKSESSION";s:26:"rj1r82lllj64gq13uft7fucsd3";s:16:"read_history_url";s:27:"http://localhost:8888/post/";s:9:"PHPSESSID";s:26:"gjdtqvn7gtp2k54mnn97jua8u1";s:9:"_identity";s:148:"ed50a56aa591740ebc3a6b77305baf4128a08dd997b3a50e86271103c8bf7409a:2:{i:0;s:9:"_identity";i:1;s:46:"[7,"qckbi3mAzie74K6i7rww5_jf7kIMw9Ww",2592000]";}";s:39:"Hm_lvt_fe310254e5af1a36c2033b8f07f22e08";s:10:"1525358136";s:40:"Hm_lpvt_fe310254e5af1a36c2033b8f07f22e08";s:10:"1525364529";}s:5:"FILES";a:0:{}s:7:"SESSION";a:3:{s:7:"__flash";a:0:{}s:11:"__returnUrl";s:169:"/post/detail?id=50&title=%E5%B7%B4%E5%A1%9E%E7%BD%97%E9%82%A3%E4%B9%8B%E5%90%8E%EF%BC%8C%E8%B4%B9%E7%BA%B3%E5%8F%88%E5%88%86%E4%BA%AB%E4%B8%A4%E9%A1%B9%E7%BA%AA%E5%BD%95";s:4:"__id";i:7;}}s:3:"log";a:1:{s:8:"messages";a:19:{i:0;a:5:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1525364845.5951641;i:4;a:0:{}}i:1;a:5:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1525364845.5952101;i:4;a:0:{}}i:2;a:5:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1525364845.61847;i:4;a:0:{}}i:3;a:5:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1525364845.6229789;i:4;a:0:{}}i:4;a:5:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1525364845.6240189;i:4;a:0:{}}i:5;a:5:{i:0;s:55:"No matching URL rules. Using default URL parsing logic.";i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1525364845.6278951;i:4;a:0:{}}i:6;a:5:{i:0;s:35:"Route requested: 'post/auto-jie-xi'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1525364845.6279299;i:4;a:0:{}}i:7;a:5:{i:0;s:30:"Route to run: post/auto-jie-xi";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1525364845.635514;i:4;a:0:{}}i:8;a:5:{i:0;s:15:"Session started";i:1;i:4;i:2;s:21:"yii\web\Session::open";i:3;d:1525364845.6447639;i:4;a:0:{}}i:9;a:5:{i:0;s:53:"SELECT * FROM `user` WHERE (`id`=7) AND (`status`=10)";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1525364845.6777599;i:4;a:1:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\User.php";s:4:"line";i:72;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:10;a:5:{i:0;s:64:"Opening DB connection: mysql:host=122.152.211.14;dbname=yii_blog";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1525364845.6779089;i:4;a:1:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\User.php";s:4:"line";i:72;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:15;a:5:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.125191;i:4;a:1:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\User.php";s:4:"line";i:72;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:18;a:5:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.2724061;i:4;a:1:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\User.php";s:4:"line";i:72;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:21;a:5:{i:0;s:70:"Running action: frontend\controllers\PostController::actionAutoJieXi()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1525364846.380512;i:4;a:0:{}}i:22;a:5:{i:0;s:54:"SELECT * FROM `post_collection` WHERE status=0 LIMIT 1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.3819709;i:4;a:2:{i:0;a:5:{s:4:"file";s:53:"F:\大学毕业设计\news\common\models\PostCollection.php";s:4:"line";i:111;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:278;s:8:"function";s:9:"needJieXe";s:5:"class";s:28:"common\models\PostCollection";s:4:"type";s:2:"->";}}}i:25;a:5:{i:0;s:40:"SHOW FULL COLUMNS FROM `post_collection`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.475126;i:4;a:2:{i:0;a:5:{s:4:"file";s:53:"F:\大学毕业设计\news\common\models\PostCollection.php";s:4:"line";i:111;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:278;s:8:"function";s:9:"needJieXe";s:5:"class";s:28:"common\models\PostCollection";s:4:"type";s:2:"->";}}}i:28;a:5:{i:0;s:617:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'post_collection' AND kcu.table_name = 'post_collection'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.6238389;i:4;a:2:{i:0;a:5:{s:4:"file";s:53:"F:\大学毕业设计\news\common\models\PostCollection.php";s:4:"line";i:111;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:278;s:8:"function";s:9:"needJieXe";s:5:"class";s:28:"common\models\PostCollection";s:4:"type";s:2:"->";}}}i:31;a:5:{i:0;s:29:"SHOW FULL COLUMNS FROM `post`";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1525364847.8008981;i:4;a:2:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\Post.php";s:4:"line";i:288;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:281;s:8:"function";s:14:"collectionData";s:5:"class";s:18:"common\models\Post";s:4:"type";s:2:"->";}}}i:34;a:5:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'post' AND kcu.table_name = 'post'";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1525364847.94419;i:4;a:2:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\Post.php";s:4:"line";i:288;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:281;s:8:"function";s:14:"collectionData";s:5:"class";s:18:"common\models\Post";s:4:"type";s:2:"->";}}}}}s:9:"profiling";a:3:{s:6:"memory";i:3876280;s:4:"time";d:2.4930579662322998;s:8:"messages";a:18:{i:11;a:5:{i:0;s:64:"Opening DB connection: mysql:host=122.152.211.14;dbname=yii_blog";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1525364845.6779799;i:4;a:1:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\User.php";s:4:"line";i:72;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:12;a:5:{i:0;s:64:"Opening DB connection: mysql:host=122.152.211.14;dbname=yii_blog";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1525364846.03844;i:4;a:1:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\User.php";s:4:"line";i:72;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:13;a:5:{i:0;s:53:"SELECT * FROM `user` WHERE (`id`=7) AND (`status`=10)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.0385051;i:4;a:1:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\User.php";s:4:"line";i:72;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:14;a:5:{i:0;s:53:"SELECT * FROM `user` WHERE (`id`=7) AND (`status`=10)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.122565;i:4;a:1:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\User.php";s:4:"line";i:72;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:16;a:5:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.1252489;i:4;a:1:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\User.php";s:4:"line";i:72;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:17;a:5:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.2708781;i:4;a:1:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\User.php";s:4:"line";i:72;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:19;a:5:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.27248;i:4;a:1:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\User.php";s:4:"line";i:72;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:20;a:5:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.3719411;i:4;a:1:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\User.php";s:4:"line";i:72;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:23;a:5:{i:0;s:54:"SELECT * FROM `post_collection` WHERE status=0 LIMIT 1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.3820231;i:4;a:2:{i:0;a:5:{s:4:"file";s:53:"F:\大学毕业设计\news\common\models\PostCollection.php";s:4:"line";i:111;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:278;s:8:"function";s:9:"needJieXe";s:5:"class";s:28:"common\models\PostCollection";s:4:"type";s:2:"->";}}}i:24;a:5:{i:0;s:54:"SELECT * FROM `post_collection` WHERE status=0 LIMIT 1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.47504;i:4;a:2:{i:0;a:5:{s:4:"file";s:53:"F:\大学毕业设计\news\common\models\PostCollection.php";s:4:"line";i:111;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:278;s:8:"function";s:9:"needJieXe";s:5:"class";s:28:"common\models\PostCollection";s:4:"type";s:2:"->";}}}i:26;a:5:{i:0;s:40:"SHOW FULL COLUMNS FROM `post_collection`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.475157;i:4;a:2:{i:0;a:5:{s:4:"file";s:53:"F:\大学毕业设计\news\common\models\PostCollection.php";s:4:"line";i:111;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:278;s:8:"function";s:9:"needJieXe";s:5:"class";s:28:"common\models\PostCollection";s:4:"type";s:2:"->";}}}i:27;a:5:{i:0;s:40:"SHOW FULL COLUMNS FROM `post_collection`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.6235499;i:4;a:2:{i:0;a:5:{s:4:"file";s:53:"F:\大学毕业设计\news\common\models\PostCollection.php";s:4:"line";i:111;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:278;s:8:"function";s:9:"needJieXe";s:5:"class";s:28:"common\models\PostCollection";s:4:"type";s:2:"->";}}}i:29;a:5:{i:0;s:617:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'post_collection' AND kcu.table_name = 'post_collection'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.6238739;i:4;a:2:{i:0;a:5:{s:4:"file";s:53:"F:\大学毕业设计\news\common\models\PostCollection.php";s:4:"line";i:111;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:278;s:8:"function";s:9:"needJieXe";s:5:"class";s:28:"common\models\PostCollection";s:4:"type";s:2:"->";}}}i:30;a:5:{i:0;s:617:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'post_collection' AND kcu.table_name = 'post_collection'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.7178121;i:4;a:2:{i:0;a:5:{s:4:"file";s:53:"F:\大学毕业设计\news\common\models\PostCollection.php";s:4:"line";i:111;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:278;s:8:"function";s:9:"needJieXe";s:5:"class";s:28:"common\models\PostCollection";s:4:"type";s:2:"->";}}}i:32;a:5:{i:0;s:29:"SHOW FULL COLUMNS FROM `post`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1525364847.8009911;i:4;a:2:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\Post.php";s:4:"line";i:288;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:281;s:8:"function";s:14:"collectionData";s:5:"class";s:18:"common\models\Post";s:4:"type";s:2:"->";}}}i:33;a:5:{i:0;s:29:"SHOW FULL COLUMNS FROM `post`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1525364847.9435639;i:4;a:2:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\Post.php";s:4:"line";i:288;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:281;s:8:"function";s:14:"collectionData";s:5:"class";s:18:"common\models\Post";s:4:"type";s:2:"->";}}}i:35;a:5:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'post' AND kcu.table_name = 'post'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1525364847.9442389;i:4;a:2:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\Post.php";s:4:"line";i:288;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:281;s:8:"function";s:14:"collectionData";s:5:"class";s:18:"common\models\Post";s:4:"type";s:2:"->";}}}i:36;a:5:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'post' AND kcu.table_name = 'post'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1525364848.035826;i:4;a:2:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\Post.php";s:4:"line";i:288;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:281;s:8:"function";s:14:"collectionData";s:5:"class";s:18:"common\models\Post";s:4:"type";s:2:"->";}}}}}s:2:"db";a:1:{s:8:"messages";a:16:{i:13;a:5:{i:0;s:53:"SELECT * FROM `user` WHERE (`id`=7) AND (`status`=10)";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.0385051;i:4;a:1:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\User.php";s:4:"line";i:72;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:14;a:5:{i:0;s:53:"SELECT * FROM `user` WHERE (`id`=7) AND (`status`=10)";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.122565;i:4;a:1:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\User.php";s:4:"line";i:72;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:16;a:5:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.1252489;i:4;a:1:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\User.php";s:4:"line";i:72;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:17;a:5:{i:0;s:29:"SHOW FULL COLUMNS FROM `user`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.2708781;i:4;a:1:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\User.php";s:4:"line";i:72;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:19;a:5:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.27248;i:4;a:1:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\User.php";s:4:"line";i:72;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:20;a:5:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'user' AND kcu.table_name = 'user'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.3719411;i:4;a:1:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\User.php";s:4:"line";i:72;s:8:"function";s:7:"findOne";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"::";}}}i:23;a:5:{i:0;s:54:"SELECT * FROM `post_collection` WHERE status=0 LIMIT 1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.3820231;i:4;a:2:{i:0;a:5:{s:4:"file";s:53:"F:\大学毕业设计\news\common\models\PostCollection.php";s:4:"line";i:111;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:278;s:8:"function";s:9:"needJieXe";s:5:"class";s:28:"common\models\PostCollection";s:4:"type";s:2:"->";}}}i:24;a:5:{i:0;s:54:"SELECT * FROM `post_collection` WHERE status=0 LIMIT 1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.47504;i:4;a:2:{i:0;a:5:{s:4:"file";s:53:"F:\大学毕业设计\news\common\models\PostCollection.php";s:4:"line";i:111;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:278;s:8:"function";s:9:"needJieXe";s:5:"class";s:28:"common\models\PostCollection";s:4:"type";s:2:"->";}}}i:26;a:5:{i:0;s:40:"SHOW FULL COLUMNS FROM `post_collection`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.475157;i:4;a:2:{i:0;a:5:{s:4:"file";s:53:"F:\大学毕业设计\news\common\models\PostCollection.php";s:4:"line";i:111;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:278;s:8:"function";s:9:"needJieXe";s:5:"class";s:28:"common\models\PostCollection";s:4:"type";s:2:"->";}}}i:27;a:5:{i:0;s:40:"SHOW FULL COLUMNS FROM `post_collection`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.6235499;i:4;a:2:{i:0;a:5:{s:4:"file";s:53:"F:\大学毕业设计\news\common\models\PostCollection.php";s:4:"line";i:111;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:278;s:8:"function";s:9:"needJieXe";s:5:"class";s:28:"common\models\PostCollection";s:4:"type";s:2:"->";}}}i:29;a:5:{i:0;s:617:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'post_collection' AND kcu.table_name = 'post_collection'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.6238739;i:4;a:2:{i:0;a:5:{s:4:"file";s:53:"F:\大学毕业设计\news\common\models\PostCollection.php";s:4:"line";i:111;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:278;s:8:"function";s:9:"needJieXe";s:5:"class";s:28:"common\models\PostCollection";s:4:"type";s:2:"->";}}}i:30;a:5:{i:0;s:617:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'post_collection' AND kcu.table_name = 'post_collection'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1525364846.7178121;i:4;a:2:{i:0;a:5:{s:4:"file";s:53:"F:\大学毕业设计\news\common\models\PostCollection.php";s:4:"line";i:111;s:8:"function";s:3:"all";s:5:"class";s:18:"yii\db\ActiveQuery";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:278;s:8:"function";s:9:"needJieXe";s:5:"class";s:28:"common\models\PostCollection";s:4:"type";s:2:"->";}}}i:32;a:5:{i:0;s:29:"SHOW FULL COLUMNS FROM `post`";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1525364847.8009911;i:4;a:2:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\Post.php";s:4:"line";i:288;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:281;s:8:"function";s:14:"collectionData";s:5:"class";s:18:"common\models\Post";s:4:"type";s:2:"->";}}}i:33;a:5:{i:0;s:29:"SHOW FULL COLUMNS FROM `post`";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1525364847.9435639;i:4;a:2:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\Post.php";s:4:"line";i:288;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:281;s:8:"function";s:14:"collectionData";s:5:"class";s:18:"common\models\Post";s:4:"type";s:2:"->";}}}i:35;a:5:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'post' AND kcu.table_name = 'post'";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1525364847.9442389;i:4;a:2:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\Post.php";s:4:"line";i:288;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:281;s:8:"function";s:14:"collectionData";s:5:"class";s:18:"common\models\Post";s:4:"type";s:2:"->";}}}i:36;a:5:{i:0;s:595:"SELECT
+    kcu.constraint_name,
+    kcu.column_name,
+    kcu.referenced_table_name,
+    kcu.referenced_column_name
+FROM information_schema.referential_constraints AS rc
+JOIN information_schema.key_column_usage AS kcu ON
+    (
+        kcu.constraint_catalog = rc.constraint_catalog OR
+        (kcu.constraint_catalog IS NULL AND rc.constraint_catalog IS NULL)
+    ) AND
+    kcu.constraint_schema = rc.constraint_schema AND
+    kcu.constraint_name = rc.constraint_name
+WHERE rc.constraint_schema = database() AND kcu.table_schema = database()
+AND rc.table_name = 'post' AND kcu.table_name = 'post'";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1525364848.035826;i:4;a:2:{i:0;a:5:{s:4:"file";s:43:"F:\大学毕业设计\news\common\models\Post.php";s:4:"line";i:288;s:8:"function";s:5:"__set";s:5:"class";s:23:"yii\db\BaseActiveRecord";s:4:"type";s:2:"->";}i:1;a:5:{s:4:"file";s:60:"F:\大学毕业设计\news\frontend\controllers\PostController.php";s:4:"line";i:281;s:8:"function";s:14:"collectionData";s:5:"class";s:18:"common\models\Post";s:4:"type";s:2:"->";}}}}}s:6:"assets";a:0:{}s:4:"mail";a:0:{}s:7:"summary";a:9:{s:3:"tag";s:13:"5aeb386d973be";s:3:"url";s:38:"http://localhost:8888/post/auto-jie-xi";s:4:"ajax";i:0;s:6:"method";s:3:"GET";s:2:"ip";s:3:"::1";s:4:"time";i:1525364848;s:10:"statusCode";i:200;s:8:"sqlCount";i:8;s:9:"mailCount";i:0;}}

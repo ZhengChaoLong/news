@@ -27,24 +27,27 @@ $this->params['breadcrumbs'][] = $this->title;
         'attributes' => [
             'id',
             'title',
+            [
+                'attribute' => 'cat_id',
+                'value' => $model->category->name,
+            ],
             'content:ntext',
             'tags:ntext',
        		[
-       		'label'=>'状态',
-       		'value'=>$model->status0->name,		
-    		],
-        	//'create_time:datetime',
-        	[
-        	'attribute'=>'create_time',
-        	'value'=>date("Y-m-d H:i:s",$model->create_time),
+                'label'=>'状态',
+                'value'=>$model->status0->name,
     		],
         	[
-        	'attribute'=>'update_time',
-        	'value'=>date("Y-m-d H:i:s",$model->update_time),
+                'attribute'=>'create_time',
+                'value'=>date("Y-m-d H:i:s",$model->create_time),
+    		],
+        	[
+                'attribute'=>'update_time',
+                'value'=>date("Y-m-d H:i:s",$model->update_time),
     		],
        		[
-       		'attribute'=>'author_id',
-       		'value'=>$model->author->nickname,		
+                'attribute'=>'author_id',
+                'value'=>$model->author->nickname,
     		],
         ],
     	'template'=>'<tr><th style="width:120px;">{label}</th><td>{value}</td></tr>',

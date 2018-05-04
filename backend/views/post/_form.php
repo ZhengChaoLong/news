@@ -4,7 +4,6 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 use common\models\Poststatus;
 use common\models\Adminuser;
-use crazydb\ueditor\UEditor;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Post */
@@ -39,23 +38,31 @@ use crazydb\ueditor\UEditor;
 	->column();
 	*/
 	?>
-    
+
+    <?= $form->field($model,'cat_id')
+    ->dropDownList(\common\models\NewsCategory::find()
+        ->select(['name','id'])
+        ->orderBy('id')
+        ->indexBy('id')
+        ->column(),
+        ['prompt'=>'请选择分类']);?>
+
     <?= $form->field($model,'status')
-         ->dropDownList(Poststatus::find()
-						->select(['name','id'])
-						->orderBy('position')
-						->indexBy('id')
-						->column(),
-    		   ['prompt'=>'请选择状态']);?>
-     		   
+     ->dropDownList(Poststatus::find()
+                    ->select(['name','id'])
+                    ->orderBy('position')
+                    ->indexBy('id')
+                    ->column(),
+           ['prompt'=>'请选择状态']);?>
 
 
-        <?= $form->field($model,'author_id')
-         ->dropDownList(Adminuser::find()
-						->select(['nickname','id'])
-						->indexBy('id')
-						->column(),
-    		   ['prompt'=>'请选择作者']);?>
+
+    <?= $form->field($model,'author_id')
+     ->dropDownList(Adminuser::find()
+                    ->select(['nickname','id'])
+                    ->indexBy('id')
+                    ->column(),
+           ['prompt'=>'请选择作者']);?>
 
     <?= $form->field($model, 'content')->widget(\crazydb\ueditor\UEditor::className()) ?>
     <div class="form-group">

@@ -33,54 +33,8 @@ use yii\caching;
                 ]
             ]
 		])?>
-		
 		</div>
 		<div class="col-md-3">
-			<div class="searchbox">
-				<ul class="list-group">
-				  <li class="list-group-item">
-				  <span class="glyphicon glyphicon-search" aria-hidden="true"></span> 查找文章（
-				  <?php 
-				  //数据缓存示例代码
-				  /*
-				  $data = Yii::$app->cache->get('postCount');
-				  $dependency = new DbDependency(['sql'=>'select count(id) from post']);
-				  
-				  if ($data === false)
-				  {
-				  	$data = Post::find()->count();  sleep(5);
-				  	Yii::$app->cache->set('postCount',$data,600,$dependency); //设置缓存60秒后过期
-				  }
-				  
-				  echo $data;
-				  */
-				  ?>
-				  <?= Post::find()->count();?>
-				  ）
-				  </li>
-				  <li class="list-group-item">				  
-					  <form class="form-inline" action="<?= Yii::$app->urlManager->createUrl(['post/index']);?>" id="w0" method="get">
-						  <div class="form-group">
-						    <input type="text" class="form-control" name="PostSearch[title]" id="w0input" placeholder="按标题">
-						  </div>
-						  <button type="submit" class="btn btn-default">搜索</button>
-					</form>
-				  
-				  </li>
-				</ul>			
-			</div>
-			
-			<div class="commentbox">
-				<ul class="list-group">
-				  <li class="list-group-item">
-				  <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 最新回复
-				  </li>
-				  <li class="list-group-item">
-				  <?= RctReplyWidget::widget(['recentComments'=>$recentComments])?>
-				  </li>
-				</ul>			
-			</div>
-
             <div class="tagcloudbox">
                 <ul class="list-group">
                     <li class="list-group-item">
@@ -103,6 +57,17 @@ use yii\caching;
                     </li>
                 </ul>
             </div>
+			
+			<div class="commentbox">
+				<ul class="list-group">
+				  <li class="list-group-item">
+				  <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> 最新回复
+				  </li>
+				  <li class="list-group-item">
+				  <?= RctReplyWidget::widget(['recentComments'=>$recentComments])?>
+				  </li>
+				</ul>			
+			</div>
 		</div>
 	</div>
 </div>

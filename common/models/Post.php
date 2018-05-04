@@ -18,9 +18,12 @@ use yii\helpers\Html;
  * @property integer $update_time
  * @property integer $author_id
  * @property integer $view
+ * @property integer $cat_id
  * @property Comment[] $comments
  * @property Adminuser $author
  * @property Poststatus $status0
+ * @property NewsCategory $category
+ * @property string $pic
  */
 class Post extends \yii\db\ActiveRecord
 {
@@ -40,9 +43,9 @@ class Post extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
-            [['title', 'content', 'status', 'author_id'], 'required'],
+            [['title', 'content', 'status', 'author_id', 'cat_id'], 'required'],
             [['content', 'tags'], 'string'],
-            [['status', 'create_time', 'update_time', 'author_id'], 'integer'],
+            [['status', 'create_time', 'update_time', 'author_id', 'cat_id'], 'integer'],
             [['title'], 'string', 'max' => 128],
             [['author_id'], 'exist', 'skipOnError' => true, 'targetClass' => Adminuser::className(), 'targetAttribute' => ['author_id' => 'id']],
             [['status'], 'exist', 'skipOnError' => true, 'targetClass' => Poststatus::className(), 'targetAttribute' => ['status' => 'id']],
@@ -63,6 +66,8 @@ class Post extends \yii\db\ActiveRecord
             'create_time' => '创建时间',
             'update_time' => '修改时间',
             'author_id' => '作者',
+            'cat_id' => '分类',
+            'pic' => '图片地址',
         ];
     }
 
@@ -95,6 +100,11 @@ class Post extends \yii\db\ActiveRecord
     {
         return $this->hasOne(Poststatus::className(), ['id' => 'status']);
     }
+
+    public function getCategory()
+    {
+        return $this->hasOne(NewsCategory::className(), ['id' => 'cat_id']);
+    }
     
     public function beforeSave($insert)
     {
@@ -102,7 +112,9 @@ class Post extends \yii\db\ActiveRecord
     	{
     		if($insert)
     		{
-    			$this->create_time = time();
+    			if (empty($this->create_time)) {
+    			    $this->create_time = time();
+                }
     			$this->update_time = time();
     		}
     		else 
@@ -241,5 +253,59 @@ class Post extends \yii\db\ActiveRecord
     public static function getTagPostNumber($tag)
     {
         return static::find()->andFilterWhere(['like', 'tags', $tag])->count();
+    }
+
+    /**
+     * @param $url
+     * @return string
+     */
+    public function jieXiUrlData($url)
+    {
+        $regArray = [
+            '/(\<meta).*?(\>)/',
+            '/(\<link).*?(\>)/',
+            '/\\r\\n/',
+            '/(\<!DOCTYPE).*?(\<\/head\>)/',
+        ];
+        $content = file_get_contents($url);
+        foreach ($regArray as $v) {
+            $content = preg_replace($v, '', $content);
+        }
+        return $content;
+    }
+
+    /**
+     * @param $needJieXi 对象数组
+     * @param $category 新闻分类
+     * 默认文章为已归档，作者为超级管理员
+     */
+    public function collectionData($needJieXi, $category)
+    {
+        if (is_array($needJieXi)) {
+            $postCollection = new PostCollection();
+            foreach ($needJieXi as $v) {
+                $model = new Post();
+                $model->content = $this->jieXiUrlData($v->url);
+                //var_dump($model->content);exit;
+                //如果采集长度过长，不予采集，直接标记失败.
+                if (empty($model->content) || (strlen($model->content) >= 20480)) {
+                    //记录采集失败
+                    $postCollection->changeFail($v->url);
+                    continue;
+                }
+                $model->title = $v->title;
+                $model->status = 2;
+                $model->author_id = 1;
+                $model->create_time = strtotime($v->date);
+                $model->pic = $v->thumbnail_pic_s;
+                $model->cat_id = array_search($v->category, $category);
+                $model->tags = $v->category;
+                //如果存进文章库中，将该状态修改为已处理
+                if ($model->save()) {
+                    //记录采集成功
+                    $postCollection->changeStatus($v->url);
+                }
+            }
+        }
     }
 }

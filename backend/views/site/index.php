@@ -228,7 +228,7 @@ $this->title = '可视化数据统计';
                 label    : tagPostData[i]['name']
             };
         }
-        console.log(PieData);
+        //console.log(PieData);
         
         var pieOptions     = {
             //Boolean - Whether we should show a stroke on each segment

@@ -12,6 +12,8 @@ use yii\db\ActiveRecord;
 
 /**
  * Class NewsCategory
+ * @property integer $parent_id
+ * @property string $name
  * @property integer $create_time
  * @property integer $update_time
  * @package common\models
@@ -59,6 +61,4 @@ class NewsCategory extends ActiveRecord
             return false;
         }
     }
-
-
 }

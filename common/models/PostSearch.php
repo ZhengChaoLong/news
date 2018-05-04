@@ -46,7 +46,11 @@ class PostSearch extends Post
      */
     public function search($params)
     {
-        $query = Post::find();
+        if (!empty($params['catId'])) {
+            $query = Post::find()->where('cat_id=:id', [':id' => $params['catId']]);
+        } else {
+            $query = Post::find();
+        }
 
         // add conditions that should always apply here
 

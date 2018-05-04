@@ -115,3 +115,25 @@ a.desc:after {
     border-bottom-width: 2px;
     border-bottom-color: rgb(224, 224, 224);
 }
+
+.indexPost {
+    display: block;
+    padding: 0px 0px 0px 330px;
+    border-bottom: 1px solid #dddddd;
+    background-color: #fafafa;
+}
+
+.indexPostB {
+    display: block;
+    padding: 0px 0px 2px 7px;
+    border-bottom: 1px solid #dddddd;
+    background-color: #fafafa;
+}
+
+.indexPost a {
+    color: black;
+}
+
+.indexPostB a {
+    color: black;
+}

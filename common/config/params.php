@@ -9,5 +9,6 @@ return [
     'redisPass' => '',
     //redisKey
     'weatherDataKey' => 'weatherData',
-
+    'categoryApi' => 'http://122.152.211.14/newsapi/news/category',
+    //'categoryApi' => 'http://localhost:8081/news/category',
 ];

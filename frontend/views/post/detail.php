@@ -19,11 +19,6 @@ use yii\helpers\Url;
 <div class="container">
 	<div class="row">
 		<div class="col-md-9">
-			<ol class="breadcrumb">
-			<li><a href="<?= Yii::$app->homeUrl;?>">首页</a></li>
-			<li><a href="<?= Url::to(['post/index']);?>">文章列表</a></li>
-			<li class="active"><?= $model->title?></li>
-			</ol>
 			<div class="post">
 				<div class="title">
 					<h2><a href="<?= $model->url;?>"><?= Html::encode($model->title);?></a></h2>				
@@ -36,7 +31,7 @@ use yii\helpers\Url;
 			<br>
 			
 			<div class="content">
-			<?= HTMLPurifier::process($model->content)?>
+			<?= $model->content ?>
 			</div>
 			
 			<br>

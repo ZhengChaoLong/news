@@ -5,12 +5,12 @@ namespace frontend\controllers;
 use Yii;
 use common\models\Post;
 use common\models\PostSearch;
+use common\models\PostCollection;
 use yii\db\Exception;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
-use yii\db\Query;
 use common\models\Tag;
 use common\models\Comment;
 use common\models\User;
@@ -40,12 +40,12 @@ class PostController extends Controller
                     'rules' =>
                     [
                             [
-                                    'actions' => ['index'],
+                                    'actions' => ['index', 'auto-collection', 'auto-jie-xi'],
                                     'allow' => true,
                                     'roles' => ['?'],
                                     ],
                                     [
-                                            'actions' => ['index', 'detail'],
+                                            'actions' => ['index', 'detail', 'auto-collection', 'auto-jie-xi'],
                                             'allow' => true,
                                             'roles' => ['@'],
 
@@ -87,7 +87,6 @@ class PostController extends Controller
     public function actionIndex()
     {
     	$tags = Tag::findTagWeights();
-    	//var_dump($tags);exit;
     	$recentComments = Comment::findRecentComments();
     	
         $searchModel = new PostSearch();
@@ -236,5 +235,52 @@ class PostController extends Controller
         $redis->set(Yii::$app->params['weatherDataKey'], $cacheData, ($lastTime - time()));
         $redis->close();
         return $cacheData;
+    }
+
+    //这里的类型参照分类表
+    public $allType = [
+        '1' => 'shehui',
+        '2' => 'keji',
+        '3' => 'tiyu',
+        '4' => 'top',
+        '5' => 'caijing',
+    ];
+
+    //http://localhost:8888/post/auto-collection
+    //定时任务，采集今天的新闻数据到数据库中，调用的是聚合数据的新闻接口,保存每个要抓取的新闻url
+    public function actionAutoCollection()
+    {
+        ignore_user_abort(); //浏览器关闭，程序继续执行
+        set_time_limit(0);  //忽略到默认30秒超时
+        $appKey = '5dea4f0512274d5045165fb8bcfc7d9a';
+        foreach ($this->allType as $v) {
+            $url = 'http://v.juhe.cn/toutiao/index?type='. $v .'&key='.$appKey;
+            //将数据保存到post_collection表中
+            $data = json_decode(file_get_contents($url), true);
+            PostCollection::collectionData($data["result"]["data"]);
+        }
+    }
+
+
+    public $category = [
+        '1' => '社会',
+        '2' => '科技',
+        '3' => '体育',
+        '4' => '头条',
+        '5' => '财经',
+    ];
+    /**
+     * http://localhost:8888/post/auto-jie-xi
+     * 到post_collection表中解析未处理过的新闻url
+     */
+    public function actionAutoJieXi()
+    {
+        ignore_user_abort(); //浏览器关闭，程序继续执行
+        set_time_limit(0);  //忽略到默认30秒超时
+        $needJieXi = (new PostCollection())->needJieXe($this->category);
+        //var_dump($needJieXi);exit;
+        if (!empty($needJieXi)) {
+            (new Post())->collectionData($needJieXi, $this->category);
+        }
     }
 }
